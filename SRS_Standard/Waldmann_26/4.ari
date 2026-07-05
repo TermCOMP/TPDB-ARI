@@ -1,0 +1,4 @@
+(format TRS)
+(fun b 1)
+(fun a 1)
+(rule (b (a (b (a (b (b (a (b (a (b (a (b (a (b (a (b (a (b x)))))))))))))))))) (b (a (b (a (b (a (b (a (b (a (b (a (b (b (a (b (a (b (b (a (b (a (b (a (b x))))))))))))))))))))))))))

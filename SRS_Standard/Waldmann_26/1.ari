@@ -1,0 +1,5 @@
+(format TRS)
+(fun c 1)
+(fun a 1)
+(rule (c (a (c (a (a x))))) (c (a (c (a (c (a (c (a x)))))))))
+(rule (a (c (c (c x)))) (c (c (c (c (c (a x)))))))
