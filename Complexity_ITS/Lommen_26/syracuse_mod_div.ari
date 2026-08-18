@@ -1,4 +1,4 @@
-; Syracuse variant of the Collatz function (see, e.g., https://arxiv.org/pdf/2105.14697)
+; Syracuse variant of the Collatz function with mod and div (see, e.g., https://arxiv.org/pdf/2105.14697)
 
 (format LCTRS)
 (theory Ints)
@@ -6,6 +6,6 @@
 (fun syracuse (-> Int Int))
 (entrypoint start)
 (rule (start n) (syracuse n))
-(rule (syracuse n) (syracuse (div (+ (* 3 n) 1) 4)) :guard (= (mod n 8) 1))
-(rule (syracuse n) (syracuse (div (- n 1) 4)) :guard (= (mod n 8) 5))
-(rule (syracuse n) (syracuse (div (+ (* 3 n) 1) 2)) :guard (= (mod n 4) 3))
+(rule (syracuse n) (syracuse (div (+ (* 3 n) 1) 4)) :guard (and (> n 1) (= (mod n 8) 1)))
+(rule (syracuse n) (syracuse (div (- n 1) 4)) :guard (and (> n 1) (= (mod n 8) 5)))
+(rule (syracuse n) (syracuse (div (+ (* 3 n) 1) 2)) :guard (and (> n 1) (= (mod n 4) 3)))

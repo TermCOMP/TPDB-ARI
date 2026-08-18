@@ -6,5 +6,5 @@
 (fun collatz (-> Int Int))
 (entrypoint start)
 (rule (start n) (collatz n))
-(rule (collatz n) (collatz (div n 2)) :guard (= (mod n 2) 0))
-(rule (collatz n) (collatz (+ (* 3 n) 1)) :guard (= (mod n 2) 1))
+(rule (collatz n) (collatz (div n 2)) :guard (and (> n 1) (= (mod n 2) 0)))
+(rule (collatz n) (collatz (+ (* 3 n) 1)) :guard (and (> n 1) (= (mod n 2) 1)))
