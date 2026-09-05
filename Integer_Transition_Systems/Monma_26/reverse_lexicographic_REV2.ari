@@ -63,7 +63,7 @@
     (>= y 0)
     (>= s 0)
     (>= t 0)
-    (or (> p 0) (< p 1))
+    (or (> p 0) (< p 0))
     (= m_post m)
     (= x_post x)
     (= y_post y)
