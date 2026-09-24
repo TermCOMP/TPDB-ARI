@@ -13,10 +13,11 @@
 (fun seq (-> trm trm trm))
 (fun par (-> trm trm trm))
 (fun id (-> Int trm))
+(fun gen (-> Int Int Int trm))
 (fun swap (-> Int Int trm))
 (fun toboggan (-> Int Int Int trm)) ; toboggan layers
 ; auxiliary functions
-(fun def (-> Int Int Int))
+(fun def (-> trm Int))
 (fun dom (-> trm Int))
 (fun cod (-> trm Int))
 
@@ -71,7 +72,7 @@
 ; R13
 (rule (swap n 0) (id n))
 ; R14
-(rule (swap n m) (seq (par (swap n (- m 1)) (id 1)) (par (id (- m 1) (swap n 1)))) :guard (and (<= n 1) (<= m 2)))
+(rule (swap n m) (seq (par (swap n (- m 1)) (id 1)) (par (id (- m 1)) (swap n 1))) :guard (and (<= n 1) (<= m 2)))
 ; R15
 (rule (seq (par (id k1) (par (swap d1 1) (id l1))) (par (id k2) (par (swap d2 1) (id l2)))) (seq (toboggan k2 l2 (+ d2 1)) (toboggan (+ k1 1) (- l1 1) (+ d1 1))) :guard (and (>= d1 1) (>= d2 1) (<= k2 k1) (< k1 (+ k2 (- d2 d1)))))
 ; R16
@@ -81,9 +82,9 @@
 ; R18
 (rule (seq (par (id k1) (par (swap d1 1) (id l1))) (seq (par (id k2) (par (swap d2 1) (id l2))) t)) (seq (toboggan k2 (+ l2 1) d2) (seq (toboggan (+ k1 1) l1 d1) t)) :guard (and (>= d1 1) (>= d2 1) (<= k2 k1) (<= (+ k2 (- d2 d1)) k1) (< k1 (+ k2 d2))))
 ; R19
-(rule (seq (par (id k1) (par (swap d1 1) (id l1))) (par (id k2) (par (swap d2 1) (id l2)))) (toboggan k2 l1 (+ d1 (+ d2 1))) :guard (and (>= d1 1) (>= d2 1) (= k1 (+ k2 d2))))
+(rule (seq (par (id k1) (par (swap d1 1) (id l1))) (par (id k2) (par (swap d2 1) (id l2)))) (toboggan k2 l1 (+ d1 (+ d2 1))) :guard (and (>= d1 1) (>= d2 1) (= k1 (+ k2 d2))) :var ((k1 Int)))
 ; R20
-(rule (seq (par (id k1) (par (swap d1 1) (id l1))) (seq (par (id k2) (par (swap d2 1) (id l2))) t)) (seq (toboggan k2 l1 (+ d1 (+ d2 1))) t) :guard (and (>= d1 1) (>= d2 1) (= k1 (+ k2 d2))))
+(rule (seq (par (id k1) (par (swap d1 1) (id l1))) (seq (par (id k2) (par (swap d2 1) (id l2))) t)) (seq (toboggan k2 l1 (+ d1 (+ d2 1))) t) :guard (and (>= d1 1) (>= d2 1) (= k1 (+ k2 d2))) :var ((k1 Int)))
 ; R21
 (rule (seq (par (id k1) (par (swap d1 1) (id l1))) (par (id k2) (par (swap d2 1) (id l2)))) (seq (toboggan k2 l2 (+ d2 1)) (toboggan k1 l1 (+ d1 1))):guard (and (>= d1 1) (>= d2 1) (> k1 (+ k2 d2))))
 ; R22

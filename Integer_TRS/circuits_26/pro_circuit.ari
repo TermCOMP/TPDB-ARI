@@ -18,7 +18,7 @@
 (fun gen (-> Sigma Int Int trm))
 (fun layer (-> Int Int Sigma Int Int trm))
 ; auxiliary functions
-(fun def (-> Int Int Int))
+(fun def (-> trm Int))
 (fun dom (-> trm Int))
 (fun cod (-> trm Int))
 
@@ -68,6 +68,6 @@
 ; R9
 (rule (par (seq u v) (id n)) (seq (par u (id n)) (par v (id n))))
 ; R10
-(rule (seq (par (id k1) (par (gen g1 ni1 no1) (id l1))) (par (id k2) (par (gen g2 ni2 no2) (id l2)))) (seq (layer k2 (+ l2 (def (gen g1 ni1 no1))) g2 ni2 no2) (layer (- k1 (def (gen g2 ni2 no2))) l1 g1 ni1 no1)) :guard (>= k1 (+ k2 (dom (gen g2 ni2 no2)))) :var ((k1 Int) (k2 Int)))
+(rule (seq (par (id k1) (par (gen g1 ni1 no1) (id l1))) (par (id k2) (par (gen g2 ni2 no2) (id l2)))) (seq (layer k2 (+ l2 (def (gen g1 ni1 no1))) g2 ni2 no2) (layer (- k1 (def (gen g2 ni2 no2))) l1 g1 ni1 no1)) :guard (>= k1 (+ k2 ni2)) :var ((k1 Int) (k2 Int)))
 ; R11
-(rule (seq (par (id k1) (par (gen g1 ni1 no1) (id l1))) (seq (par (id k2) (par (gen g2 ni2 no2) (id l2))) t)) (seq (layer k2 (+ l2 (def (gen g1 ni1 no1))) g2 ni2 no2) (seq (layer (- k1 (def (gen g2 ni2 no2))) l1 g1 ni1 no1) t)) :guard (>= k1 (+ k2 (dom (gen g2 ni2 no2)))) :var ((k1 Int) (k2 Int)))
+(rule (seq (par (id k1) (par (gen g1 ni1 no1) (id l1))) (seq (par (id k2) (par (gen g2 ni2 no2) (id l2))) t)) (seq (layer k2 (+ l2 (def (gen g1 ni1 no1))) g2 ni2 no2) (seq (layer (- k1 (def (gen g2 ni2 no2))) l1 g1 ni1 no1) t)) :guard (>= k1 (+ k2 ni2)) :var ((k1 Int) (k2 Int)))
