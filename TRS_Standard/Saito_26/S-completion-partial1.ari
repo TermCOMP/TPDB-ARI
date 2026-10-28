@@ -1,0 +1,8 @@
+; first four rules generated when completing S x y z = x z (y z)
+(format TRS)
+(fun a 2)
+(fun s 0)
+(rule (a (a X Y) (a Z Y)) (a (a (a s X) Z) Y))
+(rule (a (a (a (a s X) Y) Z) (a W (a Y Z))) (a (a (a s (a X Z)) W) (a Y Z)))
+(rule (a (a X (a Y Z)) (a (a (a s W) Y) Z)) (a (a (a s X) (a W Z)) (a Y Z)))
+(rule (a (a (a s (a X W)) (a Z W)) (a Y W)) (a (a (a s (a (a s X) Y)) (a (a s Z) Y)) W))
