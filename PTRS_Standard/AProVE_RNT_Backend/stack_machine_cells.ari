@@ -1,0 +1,18 @@
+; A stack machine executes a list of instructions (push, pop, fork). The fork instruction starts a
+; two-component cell process. The rules of the core have different probabilities, and its moment
+; matrix is critical with Perron vector (aa, ab, ba, bb) = (2, 1, 1, 2).
+; Expected: WORST_CASE(Non-SAST,AST). Class: not RNT, decided via the RNT backend of the ADP framework.
+
+(format PTRS)
+
+(fun exec 2) (fun nil 0) (fun cons 2) (fun push 0) (fun pop 0) (fun fork 0) (fun one 0)
+(fun par 2) (fun par3 3) (fun cell 1) (fun pair 2) (fun a 0) (fun b 0) (fun e 0)
+
+(prule (exec nil st) ((st :prob 1)))
+(prule (exec (cons push is) st) (((exec is (cons one st)) :prob 1)))
+(prule (exec (cons pop is) (cons x st)) (((exec is st) :prob 1)))
+(prule (exec (cons fork is) st) (((par (cell (pair a a)) (exec is st)) :prob 1)))
+(prule (cell (pair a a)) ((e :prob 1) ((par (cell (pair a a)) (cell (pair a b))) :prob 2)))
+(prule (cell (pair a b)) ((e :prob 1) ((cell (pair b b)) :prob 1)))
+(prule (cell (pair b a)) ((e :prob 1) ((cell (pair a a)) :prob 1)))
+(prule (cell (pair b b)) ((e :prob 1) ((par3 (cell (pair b a)) (cell (pair a b)) (cell (pair a a))) :prob 1)))

@@ -1,0 +1,19 @@
+; A grid is a list of rows (lists). Every row is processed in chunks of two adjacent entries, and
+; every chunk starts a two-component cell process. Cells die with probability 2/3; the core is
+; critical with Perron vector (aa, ab, ba, bb) = (1, 2, 2, 1).
+; Expected: WORST_CASE(Non-SAST,AST). Class: not RNT, decided via the RNT backend of the ADP framework.
+
+(format PTRS)
+
+(fun grid 1) (fun row 1) (fun nil 0) (fun cons 2) (fun done 0) (fun par 2) (fun par3 3) (fun par4 4)
+(fun cell 1) (fun pair 2) (fun a 0) (fun b 0) (fun e 0)
+
+(prule (grid nil) ((done :prob 1)))
+(prule (grid (cons r rs)) (((par (row r) (grid rs)) :prob 1)))
+(prule (row nil) ((done :prob 1)))
+(prule (row (cons x nil)) ((done :prob 1)))
+(prule (row (cons x (cons y r))) (((par (cell (pair x y)) (row r)) :prob 1)))
+(prule (cell (pair a a)) ((e :prob 2) ((par (cell (pair a b)) (cell (pair a a))) :prob 1)))
+(prule (cell (pair a b)) ((e :prob 2) ((par3 (cell (pair a b)) (cell (pair b a)) (cell (pair a b))) :prob 1)))
+(prule (cell (pair b a)) ((e :prob 2) ((par4 (cell (pair a b)) (cell (pair b a)) (cell (pair a a)) (cell (pair b b))) :prob 1)))
+(prule (cell (pair b b)) ((e :prob 2) ((par (cell (pair b a)) (cell (pair b b))) :prob 1)))
