@@ -1,0 +1,8 @@
+(format PTRS)
+(fun addNum 2)
+(fun cons 2)
+(fun s 1)
+(fun createL 1)
+(fun |0| 0)
+(prule (addNum x xs) (((cons x xs) :prob 1 ) ((addNum (s x) xs) :prob 1 )))
+(prule (createL xs) ((xs :prob 1 ) ((createL (addNum |0| xs)) :prob 1 )))

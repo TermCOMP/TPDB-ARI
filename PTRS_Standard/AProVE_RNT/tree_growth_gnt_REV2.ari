@@ -1,0 +1,14 @@
+; Random binary tree builder over two leaf types.
+; grow(alpha)/grow(beta) recursively extends into a node(left, label, right) or collapses to a leaf;
+; flip probabilistically picks alpha or beta as the centre label.
+; Expected: WORST_CASE(Non-AST,?). Class: Ground, Non-overlapping, Tail-recursive.
+
+(format PTRS)
+
+(fun grow 1) (fun flip 0) (fun alpha 0) (fun beta 0)
+(fun node 3) (fun match 0) (fun miss 0)
+
+(prule (grow alpha) (((node (grow alpha) flip (grow beta)) :prob 3) (alpha :prob 1)))
+(prule (grow beta) (((node (grow beta) flip (grow alpha)) :prob 3) (beta :prob 1)))
+(prule flip ((alpha :prob 1) (beta :prob 1)))
+
