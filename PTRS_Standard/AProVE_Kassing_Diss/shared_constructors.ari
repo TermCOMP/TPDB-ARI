@@ -1,0 +1,14 @@
+; PTRS P_10, the union of P_10^(1) and P_10^(2) (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 5)
+
+(format PTRS)
+
+(fun f 1)
+(fun c 2)
+(fun |0| 0)
+(fun g 1)
+(fun d 1)
+
+(prule (f (c x y)) (((c (f x) (f y)) :prob 1 )))
+(prule (f |0|) ((|0| :prob 1 )))
+(prule (g x) (((g (d x)) :prob 1 ) (x :prob 1 )))
+(prule (d x) (((c x x) :prob 1 )))

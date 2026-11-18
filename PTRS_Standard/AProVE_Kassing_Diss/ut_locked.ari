@@ -1,0 +1,13 @@
+; AST, but not terminating (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 7).
+; Witness for the usable terms processor for full rewriting: without it,
+; the dependency graph and reduction pair processors do not suffice to prove AST.
+(format PTRS)
+(fun f 1)
+(fun b 0)
+(fun c 2)
+(fun g 1)
+(fun a 0)
+(fun p 1)
+(prule (f b) (((c (f (g a)) (f b)) :prob 1) ((c (f (g a)) (f (g a))) :prob 1)))
+(prule a (((p (g b)) :prob 1)))
+(prule (p (g x)) ((x :prob 1)))

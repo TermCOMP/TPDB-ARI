@@ -1,0 +1,18 @@
+; PTRS P_3 (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 4)
+
+(format PTRS)
+
+(fun f 1)
+(fun g 1)
+(fun h 1)
+(fun b 0)
+(fun a 0)
+(fun c 0)
+(fun d 0)
+
+(prule (f x) (((g x) :prob 1 ) ((h x) :prob 1 )))
+(prule (g b) (((f a) :prob 1 )))
+(prule (h c) (((f a) :prob 1 )))
+(prule d (((f a) :prob 1 )))
+(prule a ((b :prob 1 )))
+(prule a ((c :prob 1 )))

@@ -1,0 +1,14 @@
+; PTRS P_8, the union of P_8^(1) and P_8^(2) (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 5)
+
+(format PTRS)
+
+(fun f 2)
+(fun s 1)
+(fun a 0)
+(fun |0| 0)
+(fun g 1)
+
+(prule (f (s x) y) (((f x y) :prob 1 )))
+(prule (f x (s y)) (((f x y) :prob 1 )))
+(prule a ((|0| :prob 1 ) ((s a) :prob 1 )))
+(prule (g x) ((x :prob 1 )))
