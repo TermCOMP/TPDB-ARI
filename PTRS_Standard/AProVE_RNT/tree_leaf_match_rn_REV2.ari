@@ -1,7 +1,7 @@
 ; Random binary tree builder with leaf matching.
 ; grow(alpha)/grow(beta) either extends into a node(left, label, right) or collapses to a leaf;
 ; flip probabilistically picks alpha or beta as the centre label.
-; Expected: WORST_CASE(Non-SAST,AST). Class: Right-Ground, Non-overlapping, (Non-tail) recursive.
+; Expected: WORST_CASE(Non-AST,?). Class: Right-Ground, Non-overlapping, (Non-tail) recursive.
 
 (format PTRS)
 
