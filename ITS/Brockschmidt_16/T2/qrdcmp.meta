@@ -1,0 +1,7 @@
+{
+  "sha256": "7acf6eeb3172fbe5c9cb5a40aabae913f96d66c74cff10507127cb660a04ceaf",
+  "termination": null,
+  "upper_bound": "O(n^1)",
+  "lower_bound": "Omega(n^1)",
+  "temporal": {}
+}

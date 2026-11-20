@@ -1,0 +1,28 @@
+# Fails if a benchmark in ITS has no meta file, a meta file is malformed or contains contradicting results, or a stored result is for an older version of its benchmark.
+# Run .github/update_its_meta.py --sync to create missing meta files and drop stale results.
+name: ITS meta files
+
+on:
+  push:
+    paths:
+      - 'ITS/**'
+      - '.github/update_its_meta.py'
+      - '.github/workflows/its-meta.yml'
+  pull_request:
+    paths:
+      - 'ITS/**'
+      - '.github/update_its_meta.py'
+      - '.github/workflows/its-meta.yml'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check the meta files
+        run: python3 .github/update_its_meta.py --check
