@@ -1,6 +1,0 @@
-(format LCTRS)
-(theory Ints)
-(fun f2 (-> Int Int))
-(fun f5 (-> Int Int))
-(entrypoint f2)
-(rule (f2 A) (f5 B))
