@@ -1,0 +1,176 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1096_0_append_NONNULL (-> Int Int Int Int Int))
+(fun f1225_0_reverse_InvokeMethod (-> Int Int Int Int Int))
+(fun f1_0_main_New (-> Int Int Int Int Int))
+(fun f230_0_alternate_NONNULL (-> Int Int Int Int Int))
+(fun f565_0_iter_NULL (-> Int Int Int Int Int))
+(fun f717_0_reverseAcc_NONNULL (-> Int Int Int Int Int))
+(fun f845_0_reverse_NONNULL (-> Int Int Int Int Int))
+(fun f991_0_reverse_Return (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_New arg1 arg2 arg3 arg4)
+(f230_0_alternate_NONNULL arg1 arg2 arg3 arg4)
+:guard
+(and (and (and (> arg1 3) (> arg2 3)) (> arg4 3)) (> arg3 3)))
+(rule
+(f230_0_alternate_NONNULL arg1 arg2 arg3 arg4)
+(f230_0_alternate_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 1) arg2) (<= arg2P arg1)) (<= arg2P arg3))
+(<= arg2P arg4))
+(>= arg2 (+ arg3P 1)))
+(>= arg2 (+ arg4P 1)))
+(> arg1 0))
+(> arg2 0))
+(> arg3 0))
+(> arg4 0))
+(> arg1P (- 1)))
+(> arg2P 0))
+(> arg3P (- 1)))
+(> arg4P (- 1)))
+)
+(rule
+(f1_0_main_New arg1 arg2 arg3 arg4)
+(f1096_0_append_NONNULL arg1 arg2 arg3 arg4)
+:guard
+(and (and (> arg1 3) (> arg3 (- 1))) (> arg2 4)))
+(rule
+(f1096_0_append_NONNULL arg1 arg2 arg3 arg4)
+(f1096_0_append_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg2P arg2) (> arg1 2)) (> arg2 0)) (> arg3 0))
+(> arg1P 0))
+(> arg2P 0))
+(> arg3P (- 1)))
+)
+(rule
+(f1_0_main_New arg1 arg2 arg3 arg4)
+(f565_0_iter_NULL arg1 arg2 arg3 arg4)
+:guard
+(and (> arg2 1) (> arg1 3)))
+(rule
+(f565_0_iter_NULL arg1 arg2 arg3 arg4)
+(f565_0_iter_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 2) arg1) (<= arg1P arg2)) (<= (+ arg2P 3) arg1))
+(<= (+ arg2P 1) arg2))
+(> arg1 2))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P (- 1)))
+)
+(rule
+(f1_0_main_New arg1 arg2 arg3 arg4)
+(f717_0_reverseAcc_NONNULL arg1 arg2 arg3 arg4)
+:guard
+(and (> arg2 1) (> arg1 3)))
+(rule
+(f717_0_reverseAcc_NONNULL arg1 arg2 arg3 arg4)
+(f717_0_reverseAcc_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 2) arg1) (<= arg1P arg2)) (<= (+ arg2P 3) arg1))
+(<= (+ arg2P 1) arg2))
+(> arg1 2))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P (- 1)))
+)
+(rule
+(f1_0_main_New arg1 arg2 arg3 arg4)
+(f845_0_reverse_NONNULL arg1 arg2 arg3 arg4)
+:guard
+(and (> arg2 1) (> arg1 3)))
+(rule
+(f845_0_reverse_NONNULL arg1 arg2 arg3 arg4)
+(f845_0_reverse_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 2) arg1) (<= arg1P arg2)) (<= (+ arg2P 3) arg1))
+(<= (+ arg2P 1) arg2))
+(> arg1 2))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P (- 1)))
+)
+(rule
+(f845_0_reverse_NONNULL arg1 arg2 arg3 arg4)
+(f1096_0_append_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ arg1P 1) arg1) (<= (- arg1P 1) arg2))
+(<= (+ arg2P 1) arg1))
+(<= (- arg2P 1) arg2))
+(> arg1 2))
+(> arg2 0))
+(> arg1P 1))
+(> arg2P 1))
+(> arg3P (- 1)))
+)
+(rule
+(f845_0_reverse_NONNULL arg1 arg2 arg3 arg4)
+(f1225_0_reverse_InvokeMethod arg1P arg2P arg3P arg4P)
+:guard
+(and (and (> arg1 2) (> arg2 0)) (> arg1P 4)))
+(rule
+(f845_0_reverse_NONNULL arg1 arg2 arg3 arg4)
+(f1225_0_reverse_InvokeMethod arg1P arg2P arg3P arg4P)
+:guard
+(and (and (> arg1 2) (> arg2 0)) (> arg1P 2)))
+(rule
+(f991_0_reverse_Return arg1 arg2 arg3 arg4)
+(f1225_0_reverse_InvokeMethod arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and (and (<= arg1P arg1) (> arg1 2)) (> arg1P 2))
+(<= (+ arg2 4) arg1))
+)
+(rule
+(f1225_0_reverse_InvokeMethod arg1 arg2 arg3 arg4)
+(f1096_0_append_NONNULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (<= (+ arg2P 1) arg1)) (> arg1 2))
+(> arg1P 2))
+(> arg2P 1))
+(> arg3P (- 1)))
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_New arg1 arg2 arg3 arg4))

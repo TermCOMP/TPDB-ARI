@@ -1,0 +1,305 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int Int Int))
+(fun l8 (-> Int Int Int Int Int Int Int Int))
+(fun l9 (-> Int Int Int Int Int Int Int Int))
+(entrypoint l9)
+(rule
+(l0 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l1
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= __const_5^0 __const_5^post) (= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l2 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l3
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= __const_5^0 __const_5^post) (= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l4 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l5
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= __const_5^0 __const_5^post) (= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l5 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l4
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= __const_5^0 __const_5^post) (= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l6 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l0
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 __rho_1_^0) 0) (<= (+ 1 c^0) (+ 0 curr_serv^0)))
+(= curr_serv^post (+ (- 1) curr_serv^0)))
+(= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l6 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l0
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 __rho_1_^0)) (= c^post (+ (- 1) c^0)))
+(= curr_serv^post (+ (- 1) curr_serv^0)))
+(= resp^post (+ 1 resp^0)))
+(= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= servers^0 servers^post))
+)
+(rule
+(l1 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l6
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 curr_serv^0)) (= __rho_1_^post __rho_1_^post))
+(= __const_5^0 __const_5^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l1 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l4
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 curr_serv^0) 0) (= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l7 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l4
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 __const_5^0) (+ 0 c^0)) (= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l7 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l0
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 c^0) (+ 0 __const_5^0)) (= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)
+(rule
+(l8 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l7
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^0
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __rho_2_^post __rho_2_^post) (= c^0 (+ 0 __rho_2_^post)))
+(<= 1 (+ 0 c^0)))
+(= servers^post 4))
+(= resp^post 0))
+(= curr_serv^post (+ 0 servers^post)))
+(= __const_5^0 __const_5^post))
+(= __rho_1_^0 __rho_1_^post))
+)
+(rule
+(l9 __const_5^0 __rho_1_^0 __rho_2_^0 c^0 curr_serv^0 resp^0 servers^0)
+(l8
+__const_5^post
+__rho_1_^post
+__rho_2_^post
+c^post
+curr_serv^post
+resp^post
+servers^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (= __const_5^0 __const_5^post) (= __rho_1_^0 __rho_1_^post))
+(= __rho_2_^0 __rho_2_^post))
+(= c^0 c^post))
+(= curr_serv^0 curr_serv^post))
+(= resp^0 resp^post))
+(= servers^0 servers^post))
+)

@@ -1,0 +1,28 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int))
+(entrypoint l0)
+(rule (l0 X1 X2 X3 X4 Y1 Y2) (l1 X1 X2 X3 X4 Y1 Y2))
+(rule
+  (l1 X1 X2 X3 X4 Y1 Y2)
+  (l1 (+ X1 1) X2 X3 X4 Y1 Y2)
+  :guard
+  (exists ((V Int)) (and (and (<= 1 X1) (<= X1 3)) (= V 0))))
+(rule (l2 X1 X2 X3 X4 Y1 Y2) (l1 X1 (- X2 1) X3 X4 Y1 Y2))
+(rule
+  (l1 X1 X2 X3 X4 Y1 Y2)
+  (l2 X1 X2 X3 X4 Y1 Y2)
+  :guard
+  (exists ((V Int)) (and (> X2 0) (= V 1))))
+(rule (l2 X1 X2 X3 X4 Y1 Y2) (l3 X1 X2 X3 X4 Y1 Y2))
+(rule
+  (l3 X1 X2 X3 X4 Y1 Y2)
+  (l3 X1 X2 X3 X4 (* 2 Y1) (* 3 Y2))
+  :guard
+  (and (< Y2 Y1) (> Y2 0)))
+(rule (l3 X1 X2 X3 X4 Y1 Y2) (l4 X1 X2 X3 X4 Y1 Y2))
+(rule (l4 X1 X2 X3 X4 Y1 Y2) (l4 X1 X2 X3 X4 (- Y1 1) Y2) :guard (> Y1 0))

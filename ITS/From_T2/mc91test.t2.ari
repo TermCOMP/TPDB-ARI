@@ -1,0 +1,321 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint l7)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l1
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 copied^0)) (<= (+ 0 olde^0) (+ 0 e^0)))
+(<= (+ 0 n^0) (+ 0 oldn^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l2
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 copied^0) 0) (= copied^post 1))
+(= oldn^post (+ 0 n^0)))
+(= olde^post (+ 0 e^0)))
+(<= 1 (+ 0 e^0)))
+(<= (+ 0 n^0) (+ 0 __const_100^0)))
+(= n^post (+ (+ 0 __const_11^0) n^0)))
+(= e^post (+ 1 e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+)
+(rule
+(l2 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l0
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l3
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 copied^0) 0) (= copied^post 1))
+(= oldn^post (+ 0 n^0)))
+(= olde^post (+ 0 e^0)))
+(<= 1 (+ 0 e^0)))
+(<= (+ 1 __const_100^0) (+ 0 n^0)))
+(= n^post (+ (+ 0 (* (- 1) __const_10^0)) n^0)))
+(= e^post (+ (- 1) e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+)
+(rule
+(l3 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l0
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l4
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 e^0)) (<= (+ 0 n^0) (+ 0 __const_100^0)))
+(= n^post (+ (+ 0 __const_11^0) n^0)))
+(= e^post (+ 1 e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l4 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l0
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l5
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 e^0)) (<= (+ 1 __const_100^0) (+ 0 n^0)))
+(= n^post (+ (+ 0 (* (- 1) __const_10^0)) n^0)))
+(= e^post (+ (- 1) e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l5 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l0
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l6 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l0
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^0
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (= n^0 n^0) (= e^post 1)) (= copied^post 0))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)
+(rule
+(l7 __const_100^0 __const_10^0 __const_11^0 copied^0 e^0 n^0 olde^0 oldn^0)
+(l6
+__const_100^post
+__const_10^post
+__const_11^post
+copied^post
+e^post
+n^post
+olde^post
+oldn^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= copied^0 copied^post))
+(= e^0 e^post))
+(= n^0 n^post))
+(= olde^0 olde^post))
+(= oldn^0 oldn^post))
+)

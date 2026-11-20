@@ -1,0 +1,40 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun f91_0_divBy_LE (-> Int Int Int))
+(fun |f91_0_divBy_LE'| (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f91_0_divBy_LE arg1P arg2)
+:guard
+(and (and (and (> arg2 (- 1)) (> arg2_old 0)) (> arg1 0)) (= 0 arg1P)))
+(rule
+(f91_0_divBy_LE arg1 arg2)
+(|f91_0_divBy_LE'| arg1P arg2P)
+:guard
+(exists
+((x7 Int))
+(and
+(and
+(and (and (and (> arg2 0) (> arg2 x7)) (> x7 (- 1))) (> arg1 (- 1)))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f91_0_divBy_LE'| arg1 arg2)
+(f91_0_divBy_LE arg1P arg2P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (> arg2 0) (> arg2 arg2P)) (> arg1 (- 1)))
+(> arg2P (- 1)))
+(< (- arg2 (* 2 arg2P)) 2))
+(>= (- arg2 (* 2 arg2P)) 0))
+(= (+ arg1 arg2P) arg1P))
+)
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))

@@ -1,0 +1,33 @@
+# Fails if the integer transition systems in ITS contain duplicates (also
+# modulo renaming and other syntactic differences, see .github/its_dedup.py) or
+# files that cannot be analysed.  Duplicates are annotated on the files, and
+# the full report is added to the job summary.
+name: ITS duplicates
+
+on:
+  push:
+    paths:
+      - 'ITS/**'
+      - '.github/its_dedup.py'
+      - '.github/workflows/its-duplicates.yml'
+  pull_request:
+    paths:
+      - 'ITS/**'
+      - '.github/its_dedup.py'
+      - '.github/workflows/its-duplicates.yml'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check for duplicate benchmarks
+        run: python3 .github/its_dedup.py ITS --check -o its-duplicates.md
+      - name: Add the report to the job summary
+        if: failure()
+        run: cat its-duplicates.md >> "$GITHUB_STEP_SUMMARY"

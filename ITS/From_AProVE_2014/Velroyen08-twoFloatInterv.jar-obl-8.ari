@@ -1,0 +1,46 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f131_0_loop_LE (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun f89_0_loop_LE (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f89_0_loop_LE arg1P arg2P)
+:guard
+(and (and (> arg1 0) (> arg2 (- 1))) (= arg2 arg1P)))
+(rule
+(f89_0_loop_LE arg1 arg2)
+(f131_0_loop_LE arg1P arg2P)
+:guard
+(and (and (< arg1 50) (> arg1 19)) (= arg1 arg1P)))
+(rule
+(f89_0_loop_LE arg1 arg2)
+(f131_0_loop_LE arg1P arg2P)
+:guard
+(and
+(and (and (< arg1 20) (< arg1 50)) (> arg1 0))
+(= (- arg1 1) arg1P))
+)
+(rule
+(f131_0_loop_LE arg1 arg2)
+(f89_0_loop_LE arg1P arg2P)
+:guard
+(and (and (< arg1 30) (< arg1 11)) (= arg1 arg1P)))
+(rule
+(f131_0_loop_LE arg1 arg2)
+(f89_0_loop_LE arg1P arg2P)
+:guard
+(and (and (< arg1 29) (> arg1 10)) (= (+ arg1 1) arg1P)))
+(rule
+(f131_0_loop_LE arg1 arg2)
+(f89_0_loop_LE arg1P arg2P)
+:guard
+(and (> arg1 39) (= (+ arg1 1) arg1P)))
+(rule
+(f131_0_loop_LE arg1 arg2)
+(f89_0_loop_LE arg1P arg2P)
+:guard
+(and (and (< arg1 40) (> arg1 28)) (= arg1 arg1P)))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))

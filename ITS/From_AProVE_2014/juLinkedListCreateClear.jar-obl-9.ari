@@ -1,0 +1,1033 @@
+(format LCTRS)
+(theory Ints)
+(fun
+__init
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f1264_0_createList_LE
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f1293_0_clear_FieldAccess
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f1543_0_clear_EQ
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f1_0_main_Load
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f337_0_createList_Load
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f349_0_createList_Return
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+f716_0_createList_Load
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(entrypoint __init)
+(rule
+(f337_0_createList_Load
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f716_0_createList_Load
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11
+arg12
+arg13
+arg14
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg2P arg2) (> arg2 9)) (> arg2P 9))
+(<= (+ arg7 3) arg2))
+(<= (+ arg6 5) arg2))
+(= arg1 arg1P))
+(= 0 arg3P))
+(= 0 arg4P))
+(= arg4 arg5P))
+(= arg6P arg7P))
+(= 0 arg8P))
+(= 0 arg9P))
+(= 0 arg10P))
+(= arg3 arg15P))
+(= arg3 arg16P))
+(= arg4 arg17P))
+(= arg5 arg19P))
+(= arg6 arg20P))
+(= arg7 arg21P))
+)
+(rule
+(f1_0_main_Load
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1293_0_clear_FieldAccess
+arg1
+arg2
+arg3P
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21P
+arg22
+arg23)
+:guard
+(exists
+((x18 Int) (x19 Int) (x20 Int))
+(and
+(and
+(and
+(and (and (and (> x18 (- 1)) (> arg2_old 0)) (> x19 (- 1))) (> x19 arg1))
+(> x20 (- 1)))
+(> x20 arg2))
+(> arg1_old 0))
+)
+)
+(rule
+(f349_0_createList_Return
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1293_0_clear_FieldAccess
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11P
+arg12P
+arg13P
+arg14P
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(and
+(and (and (< arg1P arg1) (> arg1 (- 1))) (< arg2P arg2))
+(> arg2 (- 1)))
+)
+(rule
+(f1293_0_clear_FieldAccess
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1543_0_clear_EQ
+arg1P
+arg2P
+arg3P
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21P
+arg22
+arg23)
+:guard
+(and
+(and (and (and (> arg1 0) (> arg2 0)) (= 0 arg1P)) (= 0 arg2P))
+(= arg1 arg3P))
+)
+(rule
+(f1293_0_clear_FieldAccess
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1543_0_clear_EQ
+arg1P
+arg2P
+arg3P
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21P
+arg22
+arg23)
+:guard
+(and (and (> arg1 0) (= 1 arg1P)) (= arg1 arg3P)))
+(rule
+(f1543_0_clear_EQ
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1543_0_clear_EQ
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11P
+arg12P
+arg13P
+arg14P
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(and
+(and
+(and (and (and (> arg2 0) (> arg3 0)) (> arg1 0)) (< arg3P arg3))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+(rule
+(f1_0_main_Load
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f337_0_createList_Load
+arg1
+arg2P
+arg3
+arg4
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11
+arg12
+arg13
+arg14
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 (- 1)) (> arg2 0)) (<= (- arg2P 7) arg1_old))
+(> arg1_old 0))
+(> arg2P 7))
+(= 1 arg5P))
+(= 0 arg6P))
+(= 0 arg7P))
+)
+(rule
+(f716_0_createList_Load
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1264_0_createList_LE
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11P
+arg12P
+arg13P
+arg14P
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg2 11) (> arg1P 11)) (<= (+ arg21 3) arg2))
+(<= (+ arg20 5) arg2))
+(= arg1 arg2P))
+(= arg13 arg3P))
+(= arg11 arg4P))
+(= arg7 arg5P))
+(= arg12 arg6P))
+(= arg6 arg7P))
+(= arg3 arg9P))
+(= arg14 arg10P))
+(= arg5 arg11P))
+(= 0 arg12P))
+(= arg4 arg13P))
+(= arg8 arg14P))
+(= arg9 arg15P))
+(= arg10 arg16P))
+(= arg15 arg17P))
+(= arg16 arg18P))
+(= arg17 arg19P))
+(= arg19 arg20P))
+(= arg20 arg22P))
+(= arg21 arg23P))
+)
+(rule
+(f1264_0_createList_LE
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1264_0_createList_LE
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11P
+arg12P
+arg13P
+arg14P
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(exists
+((x64 Int) (x101 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg2 0) (> x64 (- 1))) (> arg6 0)) (> arg3 0))
+(> arg20 (- 1)))
+(< arg20 x64))
+(> arg10 0))
+(> arg4 0))
+(> arg13 0))
+(> arg11 0))
+(> arg12 0))
+(> x101 (- 1)))
+(> arg9 0))
+(> arg5 0))
+(> arg18 0))
+(> arg14 0))
+(> arg19 0))
+(> arg17 0))
+(> arg15 0))
+(> arg16 0))
+(> arg23 (- 1)))
+(> arg22 (- 1)))
+(> arg1 9))
+(> arg1P 9))
+(<= (+ arg21 9) arg1))
+(<= (+ arg23 3) arg1))
+(<= (+ arg22 5) arg1))
+(= (- arg2 1) arg2P))
+(= arg3 arg3P))
+(= arg6 arg6P))
+(= arg7 arg7P))
+(= arg8 arg8P))
+(= arg10 arg10P))
+(= arg12 arg12P))
+(= (+ arg20 1) arg20P))
+(= (+ arg22 1) arg22P))
+(= (+ arg23 1) arg23P))
+)
+)
+(rule
+(f1264_0_createList_LE
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1264_0_createList_LE
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P
+arg8P
+arg9P
+arg10P
+arg11P
+arg12P
+arg13P
+arg14P
+arg15P
+arg16P
+arg17P
+arg18P
+arg19P
+arg20P
+arg21P
+arg22P
+arg23P)
+:guard
+(exists
+((x102 Int) (x133 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg2 0) (> x102 (- 1))) (> arg6 0)) (> arg3 0))
+(> arg20 (- 1)))
+(< arg20 x102))
+(> arg10 0))
+(> arg12 0))
+(> x133 (- 1)))
+(> arg18 0))
+(> arg19 0))
+(> arg17 0))
+(> arg8 0))
+(> arg23 (- 1)))
+(> arg22 (- 1)))
+(> arg1 11))
+(> arg1P 13))
+(<= (+ arg21 9) arg1))
+(<= (+ arg23 3) arg1))
+(<= (+ arg22 5) arg1))
+(= arg8 arg9))
+(= arg10 arg11))
+(= arg12 arg13))
+(= arg7 arg16))
+(= (- arg2 1) arg2P))
+(= 0 arg3P))
+(= 1 arg4P))
+(= 1 arg5P))
+(= arg8 arg8P))
+(= arg10 arg10P))
+(= arg12 arg12P))
+(= 0 arg13P))
+(= 2 arg14P))
+(= (+ arg20 1) arg20P))
+(= (+ arg22 1) arg22P))
+(= (+ arg23 1) arg23P))
+)
+)
+(rule
+(__init
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
+arg22
+arg23)
+(f1_0_main_Load
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21P
+arg22
+arg23)
+)

@@ -1,0 +1,160 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun f303_0_createIntList_Return (-> Int Int Int Int Int))
+(fun f517_0_random_ArrayAccess (-> Int Int Int Int Int))
+(fun f673_0_createIntList_LE (-> Int Int Int Int Int))
+(fun f704_0_nth_LE (-> Int Int Int Int Int))
+(fun f754_0_main_LE (-> Int Int Int Int Int))
+(fun f964_0_nth_LE (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f303_0_createIntList_Return arg1 arg2 arg3 arg4)
+(f517_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+:guard
+(and (and (<= arg1P arg1) (> arg1 (- 1))) (> arg1P (- 1))))
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(f517_0_random_ArrayAccess arg1 arg2 arg3 arg4)
+:guard
+(and (> arg1_old 0) (> arg1 (- 1))))
+(rule
+(f517_0_random_ArrayAccess arg1 arg2 arg3 arg4)
+(f704_0_nth_LE arg1P arg2 arg3 arg4)
+:guard
+(exists
+((x7 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (> x7 0) (> arg3 (- 1))) (<= arg1P arg1))
+(>= arg1 arg2))
+(> arg1 (- 1)))
+(> arg1P (- 1)))
+(> arg2 (- 1)))
+(= (+ x7 1) arg4))
+)
+)
+(rule
+(f704_0_nth_LE arg1 arg2 arg3 arg4)
+(f754_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (< arg3 2)) (> arg1 (- 1))) (> arg2 0))
+(> arg1P (- 1)))
+(<= (+ arg2P 2) arg2))
+(= arg4 arg3P))
+)
+(rule
+(f704_0_nth_LE arg1 arg2 arg3 arg4)
+(f704_0_nth_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (> arg3 1)) (<= (+ arg2P 1) arg2))
+(> arg1 (- 1)))
+(> arg2 0))
+(> arg1P (- 1)))
+(> arg2P (- 1)))
+(= (- arg3 1) arg3P))
+(= arg4 arg4P))
+)
+(rule
+(f754_0_main_LE arg1 arg2 arg3 arg4)
+(f964_0_nth_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3P (- 1)) (> arg3 0)) (> arg2 0))
+(<= (+ arg1P 1) arg1))
+(<= (+ arg2P 1) arg1))
+(> arg1 0))
+(> arg1P (- 1)))
+(> arg2P (- 1)))
+(= (+ arg3 1) arg4P))
+)
+(rule
+(f964_0_nth_LE arg1 arg2 arg3 arg4)
+(f754_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (< arg3 2)) (> arg1 (- 1))) (> arg2 0))
+(> arg1P (- 1)))
+(<= (+ arg2P 2) arg2))
+(= arg4 arg3P))
+)
+(rule
+(f964_0_nth_LE arg1 arg2 arg3 arg4)
+(f964_0_nth_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (> arg3 1)) (<= (+ arg2P 1) arg2))
+(> arg1 (- 1)))
+(> arg2 0))
+(> arg1P (- 1)))
+(> arg2P (- 1)))
+(= (- arg3 1) arg3P))
+(= arg4 arg4P))
+)
+(rule
+(f964_0_nth_LE arg1 arg2 arg3 arg4)
+(f754_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (< arg3 2)) (> arg1 (- 1)))
+(> arg2 (- 1)))
+(> arg1P (- 1)))
+(= 0 arg2P))
+(= arg4 arg3P))
+)
+(rule
+(f964_0_nth_LE arg1 arg2 arg3 arg4)
+(f754_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (> arg3 1)) (> arg1 (- 1)))
+(> arg2 (- 1)))
+(> arg1P (- 1)))
+(= 0 arg2P))
+(= arg4 arg3P))
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(f673_0_createIntList_LE arg1 arg2P arg3 arg4)
+:guard
+(and (and (and (> arg2 (- 1)) (> arg1 (- 1))) (> arg1_old 0)) (= 1 arg2P)))
+(rule
+(f673_0_createIntList_LE arg1 arg2 arg3 arg4)
+(f673_0_createIntList_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and (and (> arg1 0) (> arg2 0)) (= (- arg1 1) arg1P))
+(= (+ arg2 1) arg2P))
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

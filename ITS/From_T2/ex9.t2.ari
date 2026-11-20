@@ -1,0 +1,269 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int Int))
+(fun l10 (-> Int Int Int Int Int Int Int))
+(fun l11 (-> Int Int Int Int Int Int Int))
+(fun l12 (-> Int Int Int Int Int Int Int))
+(fun l13 (-> Int Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int Int))
+(fun l5 (-> Int Int Int Int Int Int Int))
+(fun l6 (-> Int Int Int Int Int Int Int))
+(fun l7 (-> Int Int Int Int Int Int Int))
+(fun l8 (-> Int Int Int Int Int Int Int))
+(fun l9 (-> Int Int Int Int Int Int Int))
+(entrypoint l13)
+(rule
+(l0 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l1 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l2 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l0 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l2 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l3 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l2 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l0 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l4 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l5 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l6 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l7 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l8 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l6 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l8 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l6 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l8 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l1 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l9 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l10 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l7 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l8 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l11 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l9 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= tmp15^post tmp15^post) (= i6^0 i6^post))
+(= length5^0 length5^post))
+(= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l10 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l11 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l10 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l7 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l10 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l11 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l1 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l2 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l5 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l9 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 length5^0) (+ 0 i6^0)) (= i6^0 i6^post))
+(= length5^0 length5^post))
+(= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l5 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l4 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 i6^0) (+ 0 length5^0)) (= tmp___09^post tmp___09^post))
+(= i6^post (+ 1 i6^0)))
+(= length5^0 length5^post))
+(= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+)
+(rule
+(l12 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l4 i6^post length5^0 s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and
+(and (= tmp^post tmp^post) (= s^post (+ 0 tmp^post)))
+(= length5^0 (+ 0 s^post)))
+(= i6^post 0))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)
+(rule
+(l13 i6^0 length5^0 s^0 tmp15^0 tmp^0 tmp___09^0)
+(l12 i6^post length5^post s^post tmp15^post tmp^post tmp___09^post)
+:guard
+(and
+(and
+(and
+(and (and (= i6^0 i6^post) (= length5^0 length5^post)) (= s^0 s^post))
+(= tmp^0 tmp^post))
+(= tmp15^0 tmp15^post))
+(= tmp___09^0 tmp___09^post))
+)

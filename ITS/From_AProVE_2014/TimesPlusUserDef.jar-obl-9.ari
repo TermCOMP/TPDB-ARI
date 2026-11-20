@@ -1,0 +1,86 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f127_0_times_NE (-> Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int))
+(fun f218_0_times_Return (-> Int Int Int Int))
+(fun f469_0_times_InvokeMethod (-> Int Int Int Int))
+(fun f484_0_plus_LE (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f127_0_times_NE arg1 arg2 arg3P)
+:guard
+(and (and (and (> arg2 (- 1)) (> arg2_old 1)) (> arg1 (- 1))) (> arg1_old 0)))
+(rule
+(f127_0_times_NE arg1 arg2 arg3)
+(f127_0_times_NE arg1P arg2P arg3P)
+:guard
+(and
+(and (and (> arg2 0) (< (- arg2 1) arg2)) (= arg1 arg1P))
+(= (- arg2 1) arg2P))
+)
+(rule
+(f127_0_times_NE arg1 arg2 arg3)
+(f469_0_times_InvokeMethod arg1P arg2P arg3P)
+:guard
+(and (and (and (= 1 arg2) (= 1 arg1P)) (= 0 arg2P)) (= arg1 arg3P)))
+(rule
+(f127_0_times_NE arg1 arg2 arg3)
+(f469_0_times_InvokeMethod arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and
+(and (and (> arg2 0) (< (- arg2 1) arg2)) (= 0 arg1))
+(= arg2 arg1P))
+(= 0 arg2P))
+(= 0 arg3P))
+)
+(rule
+(f127_0_times_NE arg1 arg2 arg3)
+(f469_0_times_InvokeMethod arg1P arg2P arg3P)
+:guard
+(and
+(and (and (> arg2 0) (< (- arg2 1) arg2)) (= arg2 arg1P))
+(= arg1 arg3P))
+)
+(rule
+(f127_0_times_NE arg1 arg2 arg3)
+(f469_0_times_InvokeMethod arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and (and (> arg2 0) (< (- arg2 1) arg2)) (= 0 arg1))
+(= arg2 arg1P))
+(= 0 arg3P))
+)
+(rule
+(f218_0_times_Return arg1 arg2 arg3)
+(f469_0_times_InvokeMethod arg1P arg2P arg3P)
+:guard
+(and (and (= arg1 arg1P) (= arg3 arg2P)) (= arg2 arg3P)))
+(rule
+(f469_0_times_InvokeMethod arg1 arg2 arg3)
+(f484_0_plus_LE arg1P arg2P arg3P)
+:guard
+(and (and (> arg1 0) (= arg2 arg1P)) (= arg3 arg2P)))
+(rule
+(f484_0_plus_LE arg1 arg2 arg3)
+(f484_0_plus_LE arg1P arg2P arg3P)
+:guard
+(and
+(and (and (> arg2 0) (< (- arg2 1) arg2)) (= arg1 arg1P))
+(= (- arg2 1) arg2P))
+)
+(rule
+(f484_0_plus_LE arg1 arg2 arg3)
+(f484_0_plus_LE arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and (and (< arg2 1) (< (- arg1 1) arg1)) (> arg1 0))
+(= (- arg1 1) arg1P))
+(= arg2 arg2P))
+)
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2 arg3P))

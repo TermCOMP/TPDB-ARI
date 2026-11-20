@@ -1,0 +1,20 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f156_0_main_LE (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f156_0_main_LE arg1 arg2)
+:guard
+(and (and (and (> arg2 (- 1)) (> arg1 0)) (> arg2_old (- 1))) (> arg1_old 0)))
+(rule
+(f156_0_main_LE arg1 arg2)
+(f156_0_main_LE arg1P arg2P)
+:guard
+(and
+(and (and (and (< arg2 arg1) (> arg1 0)) (> arg2 (- 1))) (= arg1 arg1P))
+(= (+ arg1 arg2) arg2P))
+)
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2))

@@ -1,0 +1,95 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun |f1_0_main_Load'| (-> Int Int Int Int Int))
+(fun f474_0_rec_GE (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(|f1_0_main_Load'| arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and (and (> arg1 0) (> arg2 (- 1))) (= arg1 arg1P))
+(= arg2 arg2P))
+)
+(rule
+(|f1_0_main_Load'| arg1 arg2 arg3 arg4)
+(f474_0_rec_GE arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x16 Int) (x17 Int) (x18 Int) (x19 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 0) (> arg2 (- 1))) (>= (- arg2 (* 5 x16)) 0))
+(< (- arg2 (* 5 x16)) 5))
+(>= (- arg2 (* 4 x17)) 0))
+(< (- arg2 (* 4 x17)) 4))
+(>= (- arg2 (* 5 x18)) 0))
+(< (- arg2 (* 5 x18)) 5))
+(< (- arg2 (* 4 x19)) 4))
+(>= (- arg2 (* 4 x19)) 0))
+(= arg2 arg1P))
+(= (- arg2 (* 5 x16)) arg2P))
+(= (- arg2 (* 4 x17)) arg3P))
+(= (+ (+ arg2 (- arg2 (* 5 x18))) (- (* 3 arg2) (* 12 x19))) arg4P))
+)
+)
+(rule
+(f474_0_rec_GE arg1 arg2 arg3 arg4)
+(f474_0_rec_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (< arg2 arg1) (<= arg2 (- arg1 1))) (> arg4 (- 1)))
+(< (- arg1 1) arg1))
+(= (- arg1 1) arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= (+ (+ (- arg1 1) arg2) (* 3 arg3)) arg4P))
+)
+(rule
+(f474_0_rec_GE arg1 arg2 arg3 arg4)
+(f474_0_rec_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg4 (- 1)) (>= arg2 arg1)) (< (- arg3 1) arg3))
+(>= arg3 arg2))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= (- arg3 1) arg3P))
+(= (+ (+ arg1 arg2) (- (* 3 arg3) 3)) arg4P))
+)
+(rule
+(f474_0_rec_GE arg1 arg2 arg3 arg4)
+(f474_0_rec_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg4 (- 1)) (>= arg2 arg1)) (< (- arg2 2) arg2))
+(< arg3 arg2))
+(= arg1 arg1P))
+(= (- arg2 2) arg2P))
+(= arg3 arg3P))
+(= (+ (+ arg1 (- arg2 2)) (* 3 arg3)) arg4P))
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2 arg3P arg4P))

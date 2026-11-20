@@ -1,0 +1,199 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1037_0_imprimer_GE (-> Int Int Int Int Int))
+(fun f1074_0_imprimer_GE (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun |f1_0_main_Load'| (-> Int Int Int Int Int))
+(fun f723_0_init_GE (-> Int Int Int Int Int))
+(fun |f723_0_init_GE'| (-> Int Int Int Int Int))
+(fun f873_0_init_GE (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(|f1_0_main_Load'| arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x39 Int) (x40 Int) (x41 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (> (* 2 x39) 0) (> arg2 0))
+(= (- (+ (* 2 x39) 1) (* 2 x40)) 1))
+(> x39 (- 1)))
+(> arg1 0))
+(> x41 2))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1_0_main_Load'| arg1 arg2 arg3 arg4)
+(f723_0_init_GE arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x45 Int) (x46 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (> (* 2 x45) 0) (> arg2 0))
+(= (- (+ (* 2 x45) 1) (* 2 x46)) 1))
+(> x45 (- 1)))
+(> arg1 0))
+(> arg1P 2))
+(< (- (+ (* 2 x45) 1) (* 2 x46)) 2))
+(>= (- (+ (* 2 x45) 1) (* 2 x46)) 0))
+(= 0 arg2P))
+(= (+ (* 2 x45) 1) arg3P))
+)
+)
+(rule
+(f723_0_init_GE arg1 arg2 arg3 arg4)
+(f873_0_init_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (< arg2 3)) (> arg1 2)) (> arg1P 2))
+(<= (+ arg3 4) arg1))
+(= arg2 arg2P))
+(= 0 arg3P))
+(= arg3 arg4P))
+)
+(rule
+(f873_0_init_GE arg1 arg2 arg3 arg4)
+(f723_0_init_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (>= arg1 arg1P) (> arg3 2)) (> arg1 2)) (> arg1P 2))
+(>= arg1 (+ arg4 4)))
+(= (+ arg2 1) arg2P))
+(= arg4 arg3P))
+)
+(rule
+(f873_0_init_GE arg1 arg2 arg3 arg4)
+(f873_0_init_GE arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x18 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg4 arg2) (< arg3 3)) (> x18 arg3)) (> x18 (- 1)))
+(<= arg1P arg1))
+(> arg1 2))
+(> arg1P 2))
+(<= (+ arg4 4) arg1))
+(= arg2 arg2P))
+(= (+ arg3 1) arg3P))
+(= arg4 arg4P))
+)
+)
+(rule
+(f723_0_init_GE arg1 arg2 arg3 arg4)
+(|f723_0_init_GE'| arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x50 Int) (x51 Int) (x52 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 1) (> arg2 2)) (> arg3 x50)) (> arg3 x51))
+(<= x52 arg1))
+(> arg1 2))
+(> x52 2))
+(<= (+ arg3 4) arg1))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+)
+(rule
+(|f723_0_init_GE'| arg1 arg2 arg3 arg4)
+(f1037_0_imprimer_GE arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x57 Int) (x58 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 1) (> arg2 2)) (> arg3 x57)) (> arg3 x58))
+(<= arg1P arg1))
+(> arg1 2))
+(> arg1P 2))
+(<= (+ arg3 4) arg1))
+(>= (- arg3 (* 2 x57)) 0))
+(< (- arg3 (* 2 x57)) 2))
+(< (- arg3 (* 2 x58)) 2))
+(>= (- arg3 (* 2 x58)) 0))
+(= 0 arg2P))
+(= arg3 arg3P))
+)
+)
+(rule
+(f1037_0_imprimer_GE arg1 arg2 arg3 arg4)
+(f1074_0_imprimer_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (> arg3 arg2)) (> arg1 2)) (> arg1P 2))
+(<= (+ arg3 4) arg1))
+(= arg2 arg2P))
+(= 0 arg3P))
+(= arg3 arg4P))
+)
+(rule
+(f1074_0_imprimer_GE arg1 arg2 arg3 arg4)
+(f1037_0_imprimer_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (<= arg4 arg3)) (> arg1 2)) (> arg1P 2))
+(<= (+ arg4 4) arg1))
+(= (+ arg2 1) arg2P))
+(= arg4 arg3P))
+)
+(rule
+(f1074_0_imprimer_GE arg1 arg2 arg3 arg4)
+(f1074_0_imprimer_GE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (> arg4 arg3)) (> arg1 2)) (> arg1P 2))
+(<= (+ arg4 4) arg1))
+(= arg2 arg2P))
+(= (+ arg3 1) arg3P))
+(= arg4 arg4P))
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2P arg3P arg4P))

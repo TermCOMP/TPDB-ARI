@@ -1,8 +1,0 @@
-(format LCTRS)
-(theory Ints)
-(fun l0 (-> Int Int))
-(fun l1 (-> Int Int))
-(fun l2 (-> Int Int))
-(entrypoint l2)
-(rule (l0 x^0) (l1 x^post) :guard (= x^post 1))
-(rule (l2 x^0) (l0 x^post) :guard (= x^0 x^post))

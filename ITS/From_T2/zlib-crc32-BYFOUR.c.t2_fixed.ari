@@ -1,0 +1,6979 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l10
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l11
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l12
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l13
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l14
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l15
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l16
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l17
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l18
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l19
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l20
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l21
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l22
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l23
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l24
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l25
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l26
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l27
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l28
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l29
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l30
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l8
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l9
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(entrypoint l30)
+(rule
+(l0
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l1
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(<= (+ 0 oldX4^post) 3))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l0
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l2
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(<= 4 (+ 0 oldX4^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l3
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l4
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ (- 32) oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l4
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l0
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(<= (+ 0 oldX3^post) 31))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX3^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l4
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l3
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(<= 32 (+ 0 oldX3^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l5
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l6
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ (- 1) oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l7
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l8
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(<= (+ 0 oldX11^post) 0))
+(<= 0 (+ 0 oldX11^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l7
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l5
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(<= 1 (+ 0 oldX11^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l7
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l5
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(<= (+ 1 oldX11^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l8
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l4
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX2^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l6
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l7
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(<= 1 (+ 0 oldX2^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l6
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l8
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(<= (+ 0 oldX2^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l9
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l10
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(= oldX12^post oldX12^post))
+(= oldX13^post oldX13^post))
+(= x0^post (+ 0 oldX7^post)))
+(= x1^post (+ 0 oldX8^post)))
+(= x2^post (+ 0 oldX9^post)))
+(= x3^post (+ 0 oldX10^post)))
+(= x4^post (+ 0 oldX11^post)))
+(= x5^post (+ 0 oldX12^post)))
+(= x6^post (+ 0 oldX13^post)))
+)
+(rule
+(l11
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l9
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(<= (+ (- 1) oldX6^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX6^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l11
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l12
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(<= 1 (+ (- 1) oldX6^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ (- 1) oldX6^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l12
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l11
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l13
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l9
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= (+ 0 oldX5^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l13
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l11
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(<= 1 (+ 0 oldX5^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX5^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l14
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l15
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ (- 4) oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l15
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l13
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= (+ 0 oldX5^post) 3))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l15
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l14
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= 4 (+ 0 oldX5^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l16
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l17
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ (- 32) oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l17
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l15
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= (+ 0 oldX4^post) 31))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX4^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l17
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l16
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(<= 32 (+ 0 oldX4^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l18
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l19
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX7^post)))
+(= x3^post (+ (- 1) oldX3^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l20
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l6
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX1^post)))
+(= x3^post (+ 0 oldX7^post)))
+(= x4^post (+ 0 oldX8^post)))
+(= x5^post (+ 0 oldX9^post)))
+(= x6^post (+ 0 oldX10^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l21
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l22
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(<= (+ 0 oldX10^post) 0))
+(<= 0 (+ 0 oldX10^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l21
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l18
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(<= 1 (+ 0 oldX10^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l21
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l18
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(<= (+ 1 oldX10^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l22
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l17
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX3^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l19
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l21
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(<= 1 (+ 0 oldX3^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l19
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l22
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(<= (+ 0 oldX3^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX7^post)))
+(= x5^post (+ 0 oldX8^post)))
+(= x6^post (+ 0 oldX9^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l23
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l19
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^0
+oldX13^0
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(= oldX12^0 oldX12^0))
+(= oldX13^0 oldX13^0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(=
+x2^post
+(+
+(+
+(+ (+ (- 1) (* (- 1) oldX10^post)) (* (- 1) oldX7^post))
+(* (- 1) oldX8^post))
+(* (- 1) oldX9^post))
+)
+)
+(= x3^post (+ 0 oldX1^post)))
+(= x4^post (+ 0 oldX11^post)))
+(= x5^post (+ 0 oldX12^0)))
+(= x6^post (+ 0 oldX13^0)))
+)
+(rule
+(l24
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l25
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(= oldX12^post oldX12^post))
+(= oldX13^post oldX13^post))
+(= x0^post (+ 0 oldX7^post)))
+(= x1^post (+ 0 oldX8^post)))
+(= x2^post (+ 0 oldX9^post)))
+(= x3^post (+ 0 oldX10^post)))
+(= x4^post (+ 0 oldX11^post)))
+(= x5^post (+ 0 oldX12^post)))
+(= x6^post (+ 0 oldX13^post)))
+)
+(rule
+(l26
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l24
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= (+ (- 1) oldX5^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l26
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l27
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= 1 (+ (- 1) oldX5^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ (- 1) oldX5^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l27
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l26
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l1
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l24
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(<= (+ 0 oldX4^post) 0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l1
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l26
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(<= 1 (+ 0 oldX4^post)))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ 0 oldX4^post)))
+(= x5^post (+ 0 oldX4^post)))
+(= x6^post (+ 0 oldX7^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l2
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l0
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX2^post)))
+(= x3^post (+ 0 oldX3^post)))
+(= x4^post (+ (- 4) oldX4^post)))
+(= x5^post (+ 0 oldX7^post)))
+(= x6^post (+ 0 oldX8^post)))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX9^0 oldX9^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l29
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^post oldX7^post))
+(= oldX8^post oldX8^post))
+(= oldX9^post oldX9^post))
+(= oldX10^post oldX10^post))
+(= oldX11^post oldX11^post))
+(= oldX12^post oldX12^post))
+(= oldX13^post oldX13^post))
+(= x0^post (+ 0 oldX7^post)))
+(= x1^post (+ 0 oldX8^post)))
+(= x2^post (+ 0 oldX9^post)))
+(= x3^post (+ 0 oldX10^post)))
+(= x4^post (+ 0 oldX11^post)))
+(= x5^post (+ 0 oldX12^post)))
+(= x6^post (+ 0 oldX13^post)))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l23
+oldX0^post
+oldX10^0
+oldX11^0
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^0
+oldX8^post
+oldX9^0
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^0 oldX7^0))
+(= oldX8^post oldX8^post))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
+(= oldX11^0 oldX11^0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX7^0)))
+(= x3^post (+ 0 oldX8^post)))
+(= x4^post (+ 0 oldX9^0)))
+(= x5^post (+ 0 oldX10^0)))
+(= x6^post (+ 0 oldX11^0)))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l20
+oldX0^post
+oldX10^0
+oldX11^0
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^0
+oldX8^0
+oldX9^0
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
+(= oldX2^post (+ 0 x2^0)))
+(= oldX3^post (+ 0 x3^0)))
+(= oldX4^post (+ 0 x4^0)))
+(= oldX5^post (+ 0 x5^0)))
+(= oldX6^post (+ 0 x6^0)))
+(= oldX7^0 oldX7^0))
+(= oldX8^0 oldX8^0))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
+(= oldX11^0 oldX11^0))
+(= x0^post (+ 0 oldX0^post)))
+(= x1^post (+ 0 oldX1^post)))
+(= x2^post (+ 0 oldX7^0)))
+(= x3^post (+ 0 oldX8^0)))
+(= x4^post (+ 0 oldX9^0)))
+(= x5^post (+ 0 oldX10^0)))
+(= x6^post (+ 0 oldX11^0)))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l0
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l3
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l4
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l5
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l7
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l8
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l29
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l6
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l10
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l9
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l11
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l13
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l14
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l15
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l16
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l17
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l18
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l20
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l21
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l22
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l19
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l23
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l25
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l24
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l26
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l1
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l28
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l2
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)
+(rule
+(l30
+oldX0^0
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
+oldX1^0
+oldX2^0
+oldX3^0
+oldX4^0
+oldX5^0
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
+x0^0
+x1^0
+x2^0
+x3^0
+x4^0
+x5^0
+x6^0)
+(l28
+oldX0^post
+oldX10^post
+oldX11^post
+oldX12^post
+oldX13^post
+oldX1^post
+oldX2^post
+oldX3^post
+oldX4^post
+oldX5^post
+oldX6^post
+oldX7^post
+oldX8^post
+oldX9^post
+x0^post
+x1^post
+x2^post
+x3^post
+x4^post
+x5^post
+x6^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= oldX0^0 oldX0^post) (= oldX1^0 oldX1^post))
+(= oldX10^0 oldX10^post))
+(= oldX11^0 oldX11^post))
+(= oldX12^0 oldX12^post))
+(= oldX13^0 oldX13^post))
+(= oldX2^0 oldX2^post))
+(= oldX3^0 oldX3^post))
+(= oldX4^0 oldX4^post))
+(= oldX5^0 oldX5^post))
+(= oldX6^0 oldX6^post))
+(= oldX7^0 oldX7^post))
+(= oldX8^0 oldX8^post))
+(= oldX9^0 oldX9^post))
+(= x0^0 x0^post))
+(= x1^0 x1^post))
+(= x2^0 x2^post))
+(= x3^0 x3^post))
+(= x4^0 x4^post))
+(= x5^0 x5^post))
+(= x6^0 x6^post))
+)

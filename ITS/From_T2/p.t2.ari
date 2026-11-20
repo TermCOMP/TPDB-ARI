@@ -1,0 +1,3058 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l10
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l11
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l8
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l9
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(entrypoint l11)
+(rule
+(l0
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l1
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 e!18^0) 0) (<= (+ 1 e!18^0) 0)) (<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= (+ 1 e!18^0) 0))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 1 e!18^0) 0))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l0
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l2
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 e!18^0)) (= result!12^post (+ 0 temp0!19^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l3
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^0
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^0
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^0
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^0
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^0
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(exists
+((nondet!13^1 Int)
+(nondet!13^2 Int)
+(nondet!13^3 Int)
+(nondet!13^4 Int)
+(nondet!13^5 Int)
+(nondet!13^6 Int)
+(nondet!13^7 Int)
+(nondet!13^8 Int)
+(nondet!13^9 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= nondet!13^1 nondet!13^1) (= a!14^0 (+ 0 nondet!13^1)))
+(= nondet!13^2 nondet!13^2))
+(= nondet!13^3 nondet!13^3))
+(= b!15^0 (+ 0 nondet!13^3)))
+(= nondet!13^4 nondet!13^4))
+(= nondet!13^5 nondet!13^5))
+(= c!16^0 (+ 0 nondet!13^5)))
+(= nondet!13^6 nondet!13^6))
+(= nondet!13^7 nondet!13^7))
+(= d!17^0 (+ 0 nondet!13^7)))
+(= nondet!13^8 nondet!13^8))
+(= nondet!13^9 nondet!13^9))
+(= e!18^0 (+ 0 nondet!13^9)))
+(= nondet!13^post nondet!13^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+)
+(rule
+(l1
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l5
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 c!16^0)) (<= (+ 1 e!18^0) 0)) (<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l1
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c!16^0) 0) (= c!16^post (+ 0 (* (- 1) c!16^0))))
+(= b!15^post (+ (+ 0 b!15^0) (* (- 1) c!16^post))))
+(= d!17^post (+ (+ 0 (* (- 1) c!16^post)) d!17^0)))
+(<= (+ 0 b!15^post) (+ (+ 0 b!45^0) c!44^0)))
+(<= (+ (+ 0 b!45^0) c!44^0) (+ 0 b!15^post)))
+(<= (+ 0 b!15^post) (+ (+ 0 b!45^0) (* (- 1) c!16^post))))
+(<= (+ (+ 0 b!45^0) (* (- 1) c!16^post)) (+ 0 b!15^post)))
+(<= (+ 0 c!16^post) (+ 0 (* (- 1) c!44^0))))
+(<= (+ 0 (* (- 1) c!44^0)) (+ 0 c!16^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 c!44^0) d!46^0)))
+(<= (+ (+ 0 c!44^0) d!46^0) (+ 0 d!17^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 (* (- 1) c!16^post)) d!46^0)))
+(<= (+ (+ 0 (* (- 1) c!16^post)) d!46^0) (+ 0 d!17^post)))
+(<= (+ 0 c!44^0) (+ 0 (* (- 1) c!16^post))))
+(<= (+ 0 (* (- 1) c!16^post)) (+ 0 c!44^0)))
+(<= (+ 1 e!18^0) 0))
+(<= (+ 1 c!44^0) 0))
+(<= 0 (+ 0 a!14^0)))
+(<= (+ 0 d!46^0) (+ 0 c!44^0)))
+(<= 0 (+ 0 b!45^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l6
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l7
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 c!16^0)) (<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= 0 (+ 0 d!17^0)))
+(<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= 0 (+ 0 d!17^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l6
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c!16^0) 0) (= c!16^post (+ 0 (* (- 1) c!16^0))))
+(= b!15^post (+ (+ 0 b!15^0) (* (- 1) c!16^post))))
+(= d!17^post (+ (+ 0 (* (- 1) c!16^post)) d!17^0)))
+(<= (+ 0 b!15^post) (+ (+ 0 b!39^0) c!38^0)))
+(<= (+ (+ 0 b!39^0) c!38^0) (+ 0 b!15^post)))
+(<= (+ 0 b!15^post) (+ (+ 0 b!39^0) (* (- 1) c!16^post))))
+(<= (+ (+ 0 b!39^0) (* (- 1) c!16^post)) (+ 0 b!15^post)))
+(<= (+ 0 c!16^post) (+ 0 (* (- 1) c!38^0))))
+(<= (+ 0 (* (- 1) c!38^0)) (+ 0 c!16^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 c!38^0) d!40^0)))
+(<= (+ (+ 0 c!38^0) d!40^0) (+ 0 d!17^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 (* (- 1) c!16^post)) d!40^0)))
+(<= (+ (+ 0 (* (- 1) c!16^post)) d!40^0) (+ 0 d!17^post)))
+(<= (+ 0 c!38^0) (+ 0 (* (- 1) c!16^post))))
+(<= (+ 0 (* (- 1) c!16^post)) (+ 0 c!38^0)))
+(<= (+ 1 c!38^0) 0))
+(<= (+ 1 c!38^0) (+ 0 d!40^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!39^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l4
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l8
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 a!14^0) 0) (<= (+ 1 a!14^0) 0)) (<= (+ 1 a!14^0) 0))
+(= a!14^post (+ 0 (* (- 1) a!14^0))))
+(= b!15^post (+ (+ 0 (* (- 1) a!14^post)) b!15^0)))
+(= e!18^post (+ (+ 0 (* (- 1) a!14^post)) e!18^0)))
+(<= (+ 0 a!14^post) (+ 0 (* (- 1) a!32^0))))
+(<= (+ 0 (* (- 1) a!32^0)) (+ 0 a!14^post)))
+(<= (+ 0 b!15^post) (+ (+ 0 a!32^0) b!33^0)))
+(<= (+ (+ 0 a!32^0) b!33^0) (+ 0 b!15^post)))
+(<= (+ 0 b!15^post) (+ (+ 0 (* (- 1) a!14^post)) b!33^0)))
+(<= (+ (+ 0 (* (- 1) a!14^post)) b!33^0) (+ 0 b!15^post)))
+(<= (+ 0 e!18^post) (+ (+ 0 a!32^0) e!34^0)))
+(<= (+ (+ 0 a!32^0) e!34^0) (+ 0 e!18^post)))
+(<= (+ 0 e!18^post) (+ (+ 0 (* (- 1) a!14^post)) e!34^0)))
+(<= (+ (+ 0 (* (- 1) a!14^post)) e!34^0) (+ 0 e!18^post)))
+(<= (+ 0 a!32^0) (+ 0 (* (- 1) a!14^post))))
+(<= (+ 0 (* (- 1) a!14^post)) (+ 0 a!32^0)))
+(<= (+ 1 a!32^0) 0))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l8
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= a!14^0 a!14^post) (= a!32^0 a!32^post)) (= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l4
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l9
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 a!14^0)) (<= 0 (+ 0 a!14^0))) (= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l5
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 d!17^0)) (<= (+ 1 e!18^0) 0)) (<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(<= 0 (+ 0 d!17^0)))
+(<= (+ 1 e!18^0) 0))
+(= e!18^post (+ 0 (* (- 1) e!18^0))))
+(= d!17^post (+ (+ 0 d!17^0) (* (- 1) e!18^post))))
+(= a!14^post (+ (+ 0 a!14^0) (* (- 1) e!18^post))))
+(<= (+ 0 a!14^post) (+ (+ 0 a!52^0) e!50^0)))
+(<= (+ (+ 0 a!52^0) e!50^0) (+ 0 a!14^post)))
+(<= (+ 0 a!14^post) (+ (+ 0 a!52^0) (* (- 1) e!18^post))))
+(<= (+ (+ 0 a!52^0) (* (- 1) e!18^post)) (+ 0 a!14^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 d!51^0) e!50^0)))
+(<= (+ (+ 0 d!51^0) e!50^0) (+ 0 d!17^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 d!51^0) (* (- 1) e!18^post))))
+(<= (+ (+ 0 d!51^0) (* (- 1) e!18^post)) (+ 0 d!17^post)))
+(<= (+ 0 e!18^post) (+ 0 (* (- 1) e!50^0))))
+(<= (+ 0 (* (- 1) e!50^0)) (+ 0 e!18^post)))
+(<= (+ 0 e!50^0) (+ 0 (* (- 1) e!18^post))))
+(<= (+ 0 (* (- 1) e!18^post)) (+ 0 e!50^0)))
+(<= (+ 1 e!50^0) 0))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= (+ 0 d!51^0) (+ 0 c!16^0)))
+(<= 0 (+ 0 d!51^0)))
+(<= 0 (+ 0 a!52^0)))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l5
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 d!17^0) 0) (= d!17^post (+ 0 (* (- 1) d!17^0))))
+(= c!16^post (+ (+ 0 c!16^0) (* (- 1) d!17^post))))
+(= e!18^post (+ (+ 0 (* (- 1) d!17^post)) e!18^0)))
+(<= (+ 0 c!16^post) (+ (+ 0 c!48^0) d!47^0)))
+(<= (+ (+ 0 c!48^0) d!47^0) (+ 0 c!16^post)))
+(<= (+ 0 c!16^post) (+ (+ 0 c!48^0) (* (- 1) d!17^post))))
+(<= (+ (+ 0 c!48^0) (* (- 1) d!17^post)) (+ 0 c!16^post)))
+(<= (+ 0 d!17^post) (+ 0 (* (- 1) d!47^0))))
+(<= (+ 0 (* (- 1) d!47^0)) (+ 0 d!17^post)))
+(<= (+ 0 e!18^post) (+ (+ 0 d!47^0) e!49^0)))
+(<= (+ (+ 0 d!47^0) e!49^0) (+ 0 e!18^post)))
+(<= (+ 0 e!18^post) (+ (+ 0 (* (- 1) d!17^post)) e!49^0)))
+(<= (+ (+ 0 (* (- 1) d!17^post)) e!49^0) (+ 0 e!18^post)))
+(<= (+ 0 d!47^0) (+ 0 (* (- 1) d!17^post))))
+(<= (+ 0 (* (- 1) d!17^post)) (+ 0 d!47^0)))
+(<= (+ 1 d!47^0) 0))
+(<= (+ 1 e!49^0) 0))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!48^0)))
+(<= (+ 0 d!47^0) (+ 0 c!48^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l9
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 b!15^0) 0) (<= (+ 1 b!15^0) 0)) (<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= (+ 1 b!15^0) 0))
+(<= 0 (+ 0 a!14^0)))
+(<= (+ 1 b!15^0) 0))
+(= b!15^post (+ 0 (* (- 1) b!15^0))))
+(= a!14^post (+ (+ 0 a!14^0) (* (- 1) b!15^post))))
+(= c!16^post (+ (+ 0 (* (- 1) b!15^post)) c!16^0)))
+(<= (+ 0 a!14^post) (+ (+ 0 a!36^0) b!35^0)))
+(<= (+ (+ 0 a!36^0) b!35^0) (+ 0 a!14^post)))
+(<= (+ 0 a!14^post) (+ (+ 0 a!36^0) (* (- 1) b!15^post))))
+(<= (+ (+ 0 a!36^0) (* (- 1) b!15^post)) (+ 0 a!14^post)))
+(<= (+ 0 b!15^post) (+ 0 (* (- 1) b!35^0))))
+(<= (+ 0 (* (- 1) b!35^0)) (+ 0 b!15^post)))
+(<= (+ 0 c!16^post) (+ (+ 0 b!35^0) c!37^0)))
+(<= (+ (+ 0 b!35^0) c!37^0) (+ 0 c!16^post)))
+(<= (+ 0 c!16^post) (+ (+ 0 (* (- 1) b!15^post)) c!37^0)))
+(<= (+ (+ 0 (* (- 1) b!15^post)) c!37^0) (+ 0 c!16^post)))
+(<= (+ 0 b!35^0) (+ 0 (* (- 1) b!15^post))))
+(<= (+ 0 (* (- 1) b!15^post)) (+ 0 b!35^0)))
+(<= (+ 1 b!35^0) 0))
+(<= 0 (+ 0 a!36^0)))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l9
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l10
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 0 (+ 0 b!15^0)) (<= 0 (+ 0 a!14^0))) (<= 0 (+ 0 b!15^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l10
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l6
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 c!16^0) (+ 0 d!17^0)) (<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l10
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l0
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 d!17^0) (+ 0 c!16^0)) (<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= (+ 0 d!17^0) (+ 0 c!16^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l7
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 0 (+ 0 e!18^0)) (<= (+ 1 c!16^0) (+ 0 d!17^0)))
+(<= 0 (+ 0 a!14^0)))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= 0 (+ 0 d!17^0)))
+(<= 0 (+ 0 e!18^0)))
+(= a!14^0 a!14^post))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l7
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l4
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 e!18^0) 0) (= e!18^post (+ 0 (* (- 1) e!18^0))))
+(= d!17^post (+ (+ 0 d!17^0) (* (- 1) e!18^post))))
+(= a!14^post (+ (+ 0 a!14^0) (* (- 1) e!18^post))))
+(<= (+ 0 a!14^post) (+ (+ 0 a!43^0) e!41^0)))
+(<= (+ (+ 0 a!43^0) e!41^0) (+ 0 a!14^post)))
+(<= (+ 0 a!14^post) (+ (+ 0 a!43^0) (* (- 1) e!18^post))))
+(<= (+ (+ 0 a!43^0) (* (- 1) e!18^post)) (+ 0 a!14^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 d!42^0) e!41^0)))
+(<= (+ (+ 0 d!42^0) e!41^0) (+ 0 d!17^post)))
+(<= (+ 0 d!17^post) (+ (+ 0 d!42^0) (* (- 1) e!18^post))))
+(<= (+ (+ 0 d!42^0) (* (- 1) e!18^post)) (+ 0 d!17^post)))
+(<= (+ 0 e!18^post) (+ 0 (* (- 1) e!41^0))))
+(<= (+ 0 (* (- 1) e!41^0)) (+ 0 e!18^post)))
+(<= (+ 0 e!41^0) (+ 0 (* (- 1) e!18^post))))
+(<= (+ 0 (* (- 1) e!18^post)) (+ 0 e!41^0)))
+(<= (+ 1 c!16^0) (+ 0 d!42^0)))
+(<= (+ 1 e!41^0) 0))
+(<= 0 (+ 0 b!15^0)))
+(<= 0 (+ 0 c!16^0)))
+(<= 0 (+ 0 d!42^0)))
+(<= 0 (+ 0 a!43^0)))
+(= a!32^0 a!32^post))
+(= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)
+(rule
+(l11
+a!14^0
+a!32^0
+a!36^0
+a!43^0
+a!52^0
+b!15^0
+b!33^0
+b!35^0
+b!39^0
+b!45^0
+c!16^0
+c!37^0
+c!38^0
+c!44^0
+c!48^0
+d!17^0
+d!40^0
+d!42^0
+d!46^0
+d!47^0
+d!51^0
+e!18^0
+e!34^0
+e!41^0
+e!49^0
+e!50^0
+nondet!13^0
+result!12^0
+temp0!19^0)
+(l3
+a!14^post
+a!32^post
+a!36^post
+a!43^post
+a!52^post
+b!15^post
+b!33^post
+b!35^post
+b!39^post
+b!45^post
+c!16^post
+c!37^post
+c!38^post
+c!44^post
+c!48^post
+d!17^post
+d!40^post
+d!42^post
+d!46^post
+d!47^post
+d!51^post
+e!18^post
+e!34^post
+e!41^post
+e!49^post
+e!50^post
+nondet!13^post
+result!12^post
+temp0!19^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= a!14^0 a!14^post) (= a!32^0 a!32^post)) (= a!36^0 a!36^post))
+(= a!43^0 a!43^post))
+(= a!52^0 a!52^post))
+(= b!15^0 b!15^post))
+(= b!33^0 b!33^post))
+(= b!35^0 b!35^post))
+(= b!39^0 b!39^post))
+(= b!45^0 b!45^post))
+(= c!16^0 c!16^post))
+(= c!37^0 c!37^post))
+(= c!38^0 c!38^post))
+(= c!44^0 c!44^post))
+(= c!48^0 c!48^post))
+(= d!17^0 d!17^post))
+(= d!40^0 d!40^post))
+(= d!42^0 d!42^post))
+(= d!46^0 d!46^post))
+(= d!47^0 d!47^post))
+(= d!51^0 d!51^post))
+(= e!18^0 e!18^post))
+(= e!34^0 e!34^post))
+(= e!41^0 e!41^post))
+(= e!49^0 e!49^post))
+(= e!50^0 e!50^post))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!19^0 temp0!19^post))
+)

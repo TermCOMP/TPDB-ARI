@@ -1,0 +1,10979 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l10
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l11
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l12
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l13
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l14
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l15
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l16
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l17
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l18
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l19
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l20
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l21
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l22
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l23
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l24
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l25
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l26
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l27
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l28
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l29
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l30
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l31
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l32
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l33
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l34
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l35
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l36
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l37
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l38
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l39
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l40
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l41
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l42
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l43
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l44
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l45
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l46
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l47
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l48
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l49
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l50
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l51
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l52
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l53
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l54
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l55
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l56
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l57
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l8
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l9
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(entrypoint l57)
+(rule
+(l0
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l1
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___4^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l1
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l2
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSum^post (+ 0 tmp___4^0)) (= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l3
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l0
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSum^0) (+ 0 nSumRow^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l3
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l0
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSumRow^0) (+ 0 nSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l3
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l1
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nSumRow^0) (+ 0 nSum^0)) (<= (+ 0 nSum^0) (+ 0 nSumRow^0)))
+(= tmp___4^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l4
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l1
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bSum^0) 0) (<= 0 (+ 0 bSum^0))) (= tmp___4^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l4
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l3
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l4
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l3
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSum^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l5
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l6
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l7
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l4
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 nj^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l7
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l8
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 nDim^0)) (= nSumRow^post nSumRow^post))
+(= nj^post (+ 1 nj^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l9
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l10
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 ni^0)) (= nj^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l9
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l8
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 ni^0) (+ 0 nDim^0)) (= nSumRow^post 0)) (= nj^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l11
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l12
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___3^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l12
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l2
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSum^post (+ 0 tmp___3^0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l13
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l14
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l15
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l11
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSum^0) (+ 0 nSumDiag2^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l15
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l11
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSumDiag2^0) (+ 0 nSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l15
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l12
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 0 nSumDiag2^0) (+ 0 nSum^0))
+(<= (+ 0 nSum^0) (+ 0 nSumDiag2^0)))
+(= tmp___3^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l16
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l12
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bSum^0) 0) (<= 0 (+ 0 bSum^0))) (= tmp___3^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l16
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l15
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l16
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l15
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSum^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l17
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l16
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 ni^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l17
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l18
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nDim^0)) (= nSumDiag2^post nSumDiag2^post))
+(= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l19
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l20
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l21
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l22
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___2^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l22
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l18
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSum^post (+ 0 tmp___2^0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l23
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l21
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSum^0) (+ 0 nSumDiag1^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l23
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l21
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSumDiag1^0) (+ 0 nSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l23
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l22
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(<= (+ 0 nSumDiag1^0) (+ 0 nSum^0))
+(<= (+ 0 nSum^0) (+ 0 nSumDiag1^0)))
+(= tmp___2^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l24
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l22
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bSum^0) 0) (<= 0 (+ 0 bSum^0))) (= tmp___2^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l24
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l23
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l24
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l23
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSum^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l20
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l24
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 ni^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l20
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l19
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nDim^0)) (= nSumDiag1^post nSumDiag1^post))
+(= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l18
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l17
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l25
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l13
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^post (+ 0 tmp___1^0)) (= nj^post (+ 1 nj^0)))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l26
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l25
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___1^post 1) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l27
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l26
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l27
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l25
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___1^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l27
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l26
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l2
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l9
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l28
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l25
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDistinct^0) 0) (<= 0 (+ 0 bDistinct^0)))
+(= tmp___1^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l28
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l27
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDistinct^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l28
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l27
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDistinct^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l14
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l5
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nN^0) (+ 0 nj^0)) (= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l14
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l28
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 nN^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l6
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l19
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nN^0) (+ 0 ni^0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l6
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l13
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nN^0)) (= nj^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l8
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l7
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l29
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l30
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDomain^post (+ 0 tmp___0^0)) (= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l31
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l29
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___0^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l31
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l29
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___0^post 1) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l32
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l29
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___0^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l32
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l31
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l33
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l29
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDomain^0) 0) (<= 0 (+ 0 bDomain^0)))
+(= tmp___0^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l33
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l32
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDomain^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l33
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l32
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDomain^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l34
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l5
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nN^0) (+ 0 ni^0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l34
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l33
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nN^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l10
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l35
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l36
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l30
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nN^0) (+ 0 ni^0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l36
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l37
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nN^0)) (= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l38
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l39
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l40
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l41
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l42
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l40
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___7^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+)
+(rule
+(l43
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l40
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bSymmetry^0) 0) (<= 0 (+ 0 bSymmetry^0)))
+(= tmp___7^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+)
+(rule
+(l43
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l42
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSymmetry^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l43
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l42
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSymmetry^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l44
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l40
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bSum^0) 0) (<= 0 (+ 0 bSum^0))) (= tmp___7^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+)
+(rule
+(l44
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l43
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l44
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l43
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSum^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l45
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l40
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDistinct^0) 0) (<= 0 (+ 0 bDistinct^0)))
+(= tmp___7^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+)
+(rule
+(l45
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l44
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDistinct^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l45
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l44
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDistinct^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l46
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l40
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDomain^0) 0) (<= 0 (+ 0 bDomain^0)))
+(= tmp___7^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+)
+(rule
+(l46
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l45
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDomain^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l46
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l45
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDomain^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l47
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l46
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSymmetry^post (+ 0 tmp___6^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l48
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l47
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___6^post 1) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l48
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l47
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___6^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l49
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l48
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l49
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l47
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___6^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l50
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l49
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l50
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l47
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___6^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l51
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l50
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l51
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l47
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___6^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l52
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l53
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___5^post 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l53
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l10
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSum^post (+ 0 tmp___5^0)) (= nj^post (+ 1 nj^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l54
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l52
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSum^0) (+ 0 nSumCol^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l54
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l52
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nSumCol^0) (+ 0 nSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l54
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l53
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nSumCol^0) (+ 0 nSum^0)) (<= (+ 0 nSum^0) (+ 0 nSumCol^0)))
+(= tmp___5^post 1))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l55
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l53
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bSum^0) 0) (<= 0 (+ 0 bSum^0))) (= tmp___5^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l55
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l54
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSum^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l55
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l54
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSum^0) 0) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l37
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l36
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l39
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l55
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 ni^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l39
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l38
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 nDim^0)) (= nSumCol^post nSumCol^post))
+(= ni^post (+ 1 ni^0)))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l35
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l51
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 nDim^0) (+ 0 nj^0)) (= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l35
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l38
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 nj^0) (+ 0 nDim^0)) (= nSumCol^post 0)) (= ni^post 0))
+(= bDistinct^0 bDistinct^post))
+(= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l30
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l34
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l56
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l37
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^0
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^0
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= nDim^post 4) (= nN^0 nN^0)) (= nSum^0 nSum^0))
+(= bDomain^post 1))
+(= bDistinct^post 1))
+(= bSum^post 1))
+(= bSymmetry^post 0))
+(= nSumDiag1^post 0))
+(= nSumDiag2^post 0))
+(= nSumRow^post 0))
+(= nSumCol^post 0))
+(= tmp^post tmp^post))
+(= ni^post 0))
+(= nj^0 nj^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)
+(rule
+(l57
+bDistinct^0
+bDomain^0
+bSum^0
+bSymmetry^0
+nDim^0
+nN^0
+nSumCol^0
+nSumDiag1^0
+nSumDiag2^0
+nSumRow^0
+nSum^0
+ni^0
+nj^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0
+tmp___6^0
+tmp___7^0)
+(l56
+bDistinct^post
+bDomain^post
+bSum^post
+bSymmetry^post
+nDim^post
+nN^post
+nSumCol^post
+nSumDiag1^post
+nSumDiag2^post
+nSumRow^post
+nSum^post
+ni^post
+nj^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post
+tmp___6^post
+tmp___7^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDistinct^0 bDistinct^post) (= bDomain^0 bDomain^post))
+(= bSum^0 bSum^post))
+(= bSymmetry^0 bSymmetry^post))
+(= nDim^0 nDim^post))
+(= nN^0 nN^post))
+(= nSum^0 nSum^post))
+(= nSumCol^0 nSumCol^post))
+(= nSumDiag1^0 nSumDiag1^post))
+(= nSumDiag2^0 nSumDiag2^post))
+(= nSumRow^0 nSumRow^post))
+(= ni^0 ni^post))
+(= nj^0 nj^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+(= tmp___6^0 tmp___6^post))
+(= tmp___7^0 tmp___7^post))
+)

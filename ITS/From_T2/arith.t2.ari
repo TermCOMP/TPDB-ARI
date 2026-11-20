@@ -1,0 +1,83 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int))
+(entrypoint l4)
+(rule
+(l0 nondet!13^0 result!12^0 temp0!15^0 x!14^0 x!20^0)
+(l1 nondet!13^post result!12^post temp0!15^post x!14^0 x!20^post)
+:guard
+(exists
+((nondet!13^1 Int))
+(and
+(and
+(and
+(and
+(and (= nondet!13^1 nondet!13^1) (= x!14^0 (+ 0 nondet!13^1)))
+(= nondet!13^post nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!15^0 temp0!15^post))
+(= x!20^0 x!20^post))
+)
+)
+(rule
+(l1 nondet!13^0 result!12^0 temp0!15^0 x!14^0 x!20^0)
+(l2 nondet!13^post result!12^post temp0!15^post x!14^post x!20^post)
+:guard
+(and
+(and
+(and
+(and
+(and (<= (+ 0 x!14^0) 0) (= result!12^post (+ 0 temp0!15^0)))
+(= nondet!13^0 nondet!13^post))
+(= temp0!15^0 temp0!15^post))
+(= x!14^0 x!14^post))
+(= x!20^0 x!20^post))
+)
+(rule
+(l1 nondet!13^0 result!12^0 temp0!15^0 x!14^0 x!20^0)
+(l3 nondet!13^post result!12^post temp0!15^post x!14^post x!20^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 x!14^0)) (= x!14^post (+ (- 1) x!14^0)))
+(<= (+ 0 x!14^post) (+ (- 1) x!20^0)))
+(<= (+ (- 1) x!20^0) (+ 0 x!14^post)))
+(<= 1 (+ 0 x!20^0)))
+(= nondet!13^0 nondet!13^post))
+(= result!12^0 result!12^post))
+(= temp0!15^0 temp0!15^post))
+(= x!20^0 x!20^post))
+)
+(rule
+(l3 nondet!13^0 result!12^0 temp0!15^0 x!14^0 x!20^0)
+(l1 nondet!13^post result!12^post temp0!15^post x!14^post x!20^post)
+:guard
+(and
+(and
+(and
+(and (= nondet!13^0 nondet!13^post) (= result!12^0 result!12^post))
+(= temp0!15^0 temp0!15^post))
+(= x!14^0 x!14^post))
+(= x!20^0 x!20^post))
+)
+(rule
+(l4 nondet!13^0 result!12^0 temp0!15^0 x!14^0 x!20^0)
+(l0 nondet!13^post result!12^post temp0!15^post x!14^post x!20^post)
+:guard
+(and
+(and
+(and
+(and (= nondet!13^0 nondet!13^post) (= result!12^0 result!12^post))
+(= temp0!15^0 temp0!15^post))
+(= x!14^0 x!14^post))
+(= x!20^0 x!20^post))
+)

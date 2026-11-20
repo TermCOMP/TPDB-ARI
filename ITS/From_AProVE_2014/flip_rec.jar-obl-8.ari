@@ -1,0 +1,22 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun f61_0_flip_EQ (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f61_0_flip_EQ arg1P arg2P)
+:guard
+(and
+(and
+(and (and (> (+ arg2 5) arg2) (> arg2 (- 1))) (> arg1 0))
+(= (+ arg2 5) arg1P))
+(= arg2 arg2P))
+)
+(rule
+(f61_0_flip_EQ arg1 arg2)
+(f61_0_flip_EQ arg1P arg2P)
+:guard
+(and (and (and (> arg1 0) (> arg2 0)) (= arg2 arg1P)) (= arg1 arg2P)))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))

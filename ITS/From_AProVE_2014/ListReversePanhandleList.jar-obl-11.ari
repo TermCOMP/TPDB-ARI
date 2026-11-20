@@ -1,0 +1,257 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun f231_0_createList_LE (-> Int Int Int Int Int))
+(fun f266_0_createList_LE (-> Int Int Int Int Int))
+(fun f458_0_reverse_NULL (-> Int Int Int Int Int))
+(fun f473_0_reverse_FieldAccess (-> Int Int Int Int Int))
+(fun f488_0_reverse_FieldAccess (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
+:guard
+(exists
+((x5 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 (- 1)) (> arg2_old 1)) (> x5 (- 1)))
+(<= (- arg2 1) arg1_old))
+(<= (- arg3 1) arg1_old))
+(> arg1_old 0))
+(> arg2 1))
+(> arg3 1))
+(= (- x5 2) arg4))
+)
+)
+(rule
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
+(f266_0_createList_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and (and (and (> arg2 1) (< arg4 1)) (> arg3 0)) (> arg1P 0))
+(= (- arg1 1) arg2P))
+)
+(rule
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
+(f231_0_createList_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg2P arg2) (> arg4 0)) (<= (- arg3P 2) arg3))
+(> arg2 0))
+(> arg3 0))
+(> arg2P 0))
+(> arg3P 2))
+(= arg1 arg1P))
+(= (- arg4 1) arg4P))
+)
+(rule
+(f266_0_createList_LE arg1 arg2 arg3 arg4)
+(f266_0_createList_LE arg1P arg2P arg3P arg4P)
+:guard
+(and (and (and (> arg1 0) (> arg2 0)) (> arg1P 2)) (= (- arg2 1) arg2P)))
+(rule
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
+(f266_0_createList_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 1) (< arg4 1)) (<= (- arg1P 3) arg2))
+(<= (- arg1P 3) arg3))
+(> arg2 1))
+(> arg3 1))
+(> arg1P 4))
+(= (- arg1 2) arg2P))
+)
+(rule
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg1 2) (< arg4 1)) (<= arg1P arg2)) (<= arg1P arg3))
+(<= arg2P arg2))
+(<= arg2P arg3))
+(> arg2 1))
+(> arg3 1))
+(> arg1P 1))
+(> arg2P 1))
+)
+(rule
+(f266_0_createList_LE arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (<= (- arg1P 1) arg1) (< arg2 1)) (> arg1 0))
+(> arg1P 1))
+(> arg2P (- 1)))
+)
+(rule
+(f266_0_createList_LE arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (<= (+ arg1P 1) arg1) (< arg2 1)) (> arg1 2))
+(> arg1P 1))
+(> arg2P 0))
+)
+(rule
+(f266_0_createList_LE arg1 arg2 arg3 arg4)
+(f473_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (<= (+ arg1P 1) arg1) (< arg2 1)) (> arg1 2))
+(> arg1P 1))
+(> arg2P 0))
+)
+(rule
+(f458_0_reverse_NULL arg1 arg2 arg3 arg4)
+(f488_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 1) arg2) (<= arg2P arg2)) (<= arg3P arg1))
+(<= (+ arg4P 1) arg2))
+(> arg1 0))
+(> arg2 0))
+(> arg1P (- 1)))
+(> arg2P 0))
+(> arg3P 0))
+(> arg4P (- 1)))
+)
+(rule
+(f488_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg2P arg1) (<= (+ arg2P 1) arg2)) (<= arg2P arg4))
+(> arg1 (- 1)))
+(> arg2 0))
+(> arg3 0))
+(> arg4 (- 1)))
+(> arg1P 2))
+(> arg2P (- 1)))
+)
+(rule
+(f488_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (- arg1P 3) arg1) (<= (- arg1P 2) arg2))
+(<= (- arg1P 2) arg3))
+(<= (- arg1P 3) arg4))
+(<= arg2P arg1))
+(<= (+ arg2P 1) arg2))
+(<= (+ arg2P 1) arg3))
+(<= arg2P arg4))
+(> arg1 (- 1)))
+(> arg2 0))
+(> arg3 0))
+(> arg4 (- 1)))
+(> arg1P 2))
+(> arg2P (- 1)))
+)
+(rule
+(f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
+(f473_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 0) (> arg4 0)) (< arg4P arg4))
+(<= (- arg1P 2) arg1))
+(> arg1 0))
+(> arg2 2))
+(> arg1P 2))
+(> arg2P 0))
+(= arg3 arg3P))
+)
+(rule
+(f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
+(f488_0_reverse_FieldAccess arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x79 Int) (x78 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> x79 0) (> x78 (- 1))) (< x79 x78))
+(<= (- arg3P 2) arg1))
+(> arg1 0))
+(> arg2 2))
+(> arg1P (- 1)))
+(> arg2P 0))
+(> arg3P 2))
+(> arg4P (- 1)))
+)
+)
+(rule
+(f473_0_reverse_FieldAccess arg1 arg2 arg3 arg4)
+(f458_0_reverse_NULL arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x86 Int) (x87 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> x86 (- 1)) (< x87 x86)) (<= (- arg1P 2) arg1))
+(<= arg1P arg2))
+(<= arg2P arg1))
+(> arg1 0))
+(> arg2 2))
+(> arg1P 2))
+(> arg2P 0))
+)
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

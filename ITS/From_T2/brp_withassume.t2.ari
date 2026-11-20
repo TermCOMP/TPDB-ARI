@@ -1,0 +1,3910 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l1
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l10
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l11
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l12
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l13
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l14
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l15
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l16
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l17
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l18
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l19
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l2
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l20
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l21
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l22
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l23
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l24
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l25
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l26
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l27
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l28
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l29
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l3
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l30
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l4
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l5
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l6
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l7
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l8
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(fun
+l9
+(-> Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int))
+(entrypoint l30)
+(rule
+(l0
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l1
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= N^0 N^post) (= br^0 br^post)) (= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l2
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l3
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 next^0) (+ 1 N^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l4
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l0
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= i^post (+ 1 i^0)) (<= (+ 1 next^0) (+ 1 N^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l5
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l4
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 s_ab^0) 1) (= s_ab^post 1)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= z^0 z^post))
+)
+(rule
+(l5
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l4
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 s_ab^0)) (= s_ab^post 0)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= z^0 z^post))
+)
+(rule
+(l6
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l7
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 2 (+ 0 pos^0)) (= next^post (+ 1 next^0)))
+(= z^post z^post))
+(<= 0 (+ 0 z^post)))
+(= pos^post 0))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+)
+(rule
+(l6
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l7
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 1) (<= 1 (+ 0 c2^0)))
+(= pos^post (+ 1 pos^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l7
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l2
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 2 (+ 0 c2^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l7
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l2
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 c2^0) 1) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l7
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l5
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 c2^0) 1) (<= 1 (+ 0 c2^0))) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l8
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l6
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 pos^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l8
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l7
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 0) (<= 1 (+ 0 c2^0)))
+(= pos^post (+ 1 pos^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l9
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l7
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+)
+(rule
+(l9
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l8
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 z^0) 0) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l10
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l9
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c2^post c2^post) (<= 0 (+ 0 c2^post))) (<= (+ 0 c2^post) 1))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l11
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l12
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 lr^0) 1) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l11
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l12
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 lr^0)) (= rrep^post 3)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l13
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 lr^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l13
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l12
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 lr^0) 0) (= rrep^post 2)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l14
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l11
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 fr^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l14
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l13
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 fr^0) 0) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l15
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l14
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= N^0 N^post) (= br^0 br^post)) (= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l12
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 r_ab^0) 1) (= r_ab^post 1)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l12
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 r_ab^0)) (= r_ab^post 0)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l15
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 lr^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l15
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 lr^0) 0) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l16
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l12
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 lr^0) 0) (<= 0 (+ 0 lr^0))) (= rrep^post 1))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l14
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 fr^0) 0) (<= 0 (+ 0 fr^0))) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l16
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 fr^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l17
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l16
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 fr^0) 0) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l18
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 br^0) (+ 0 r_ab^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l18
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l10
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 r_ab^0) (+ 0 br^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l18
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l17
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 r_ab^0) (+ 0 br^0)) (<= (+ 0 br^0) (+ 0 r_ab^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l19
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l18
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= recv^post 1) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l20
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l19
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 recv^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l20
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l19
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 recv^0) 0) (= r_ab^post (+ 0 br^0))) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l21
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l22
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 2 (+ 0 pos^0)) (= next^post (+ 1 next^0)))
+(= z^post z^post))
+(<= 0 (+ 0 z^post)))
+(= pos^post 0))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+)
+(rule
+(l21
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l22
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 1) (<= 1 (+ 0 c1^0)))
+(= pos^post (+ 1 pos^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l22
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l2
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 c1^0) 1) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l22
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l20
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 c1^0)) (= fr^post (+ 0 fs^0)))
+(= lr^post (+ 0 ls^0)))
+(= br^post (+ 0 bs^0)))
+(= N^0 N^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l23
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l21
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 pos^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l23
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l22
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 pos^0) 0) (<= 1 (+ 0 c1^0)))
+(= pos^post (+ 1 pos^0)))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l24
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l22
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 z^0)) (= z^post (+ (- 1) z^0))) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+)
+(rule
+(l24
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l23
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 z^0) 0) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l25
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l0
+N^0
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^0)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= N^0 N^0) (= z^0 z^0)) (<= 0 (+ 0 z^0)))
+(= pos^post 0))
+(= next^post 1))
+(<= 1 (+ 0 N^0)))
+(= i^post 0))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+)
+(rule
+(l3
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l24
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= c1^post c1^post) (<= 0 (+ 0 c1^post))) (<= (+ 0 c1^post) 1))
+(= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l26
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l3
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= bs^post (+ 0 s_ab^0)) (= N^0 N^post)) (= br^0 br^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l27
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l26
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 i^0) (+ (- 1) N^0)) (= ls^post 0)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l27
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l26
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ (- 1) N^0) (+ 0 i^0)) (= ls^post 1)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l28
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l27
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= 1 (+ 0 i^0)) (= fs^post 0)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l28
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l27
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 i^0) 0) (= fs^post 1)) (= N^0 N^post))
+(= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l1
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l29
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 N^0) (+ 0 i^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l1
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l28
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 1 i^0) (+ 0 N^0)) (= N^0 N^post)) (= br^0 br^post))
+(= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)
+(rule
+(l30
+N^0
+br^0
+bs^0
+c1^0
+c2^0
+fr^0
+fs^0
+i^0
+lr^0
+ls^0
+next^0
+pos^0
+r_ab^0
+recv^0
+rrep^0
+s_ab^0
+z^0)
+(l25
+N^post
+br^post
+bs^post
+c1^post
+c2^post
+fr^post
+fs^post
+i^post
+lr^post
+ls^post
+next^post
+pos^post
+r_ab^post
+recv^post
+rrep^post
+s_ab^post
+z^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= N^0 N^post) (= br^0 br^post)) (= bs^0 bs^post))
+(= c1^0 c1^post))
+(= c2^0 c2^post))
+(= fr^0 fr^post))
+(= fs^0 fs^post))
+(= i^0 i^post))
+(= lr^0 lr^post))
+(= ls^0 ls^post))
+(= next^0 next^post))
+(= pos^0 pos^post))
+(= r_ab^0 r_ab^post))
+(= recv^0 recv^post))
+(= rrep^0 rrep^post))
+(= s_ab^0 s_ab^post))
+(= z^0 z^post))
+)

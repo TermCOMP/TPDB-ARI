@@ -1,0 +1,215 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f196_0_create_LE (-> Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int))
+(fun f234_0_slide95_FieldAccess (-> Int Int Int Int))
+(fun f411_0_slide95_EQ (-> Int Int Int Int))
+(fun |f411_0_slide95_EQ'| (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f234_0_slide95_FieldAccess arg1 arg2 arg3P)
+:guard
+(exists
+((x4 Int) (x5 Int))
+(and
+(and
+(and (and (and (> x4 (- 1)) (> arg2_old 1)) (> arg1 (- 1))) (> x5 arg2))
+(> x5 (- 1)))
+(> arg1_old 0))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f234_0_slide95_FieldAccess arg1 arg2 arg3P)
+:guard
+(exists
+((x10 Int))
+(and
+(and (and (and (> x10 (- 1)) (> arg2_old 1)) (< arg2 1)) (> arg1 (- 1)))
+(> arg1_old 0))
+)
+)
+(rule
+(f234_0_slide95_FieldAccess arg1 arg2 arg3)
+(f411_0_slide95_EQ arg1P arg2P arg3P)
+:guard
+(and (and (and (> arg2 0) (= arg1 arg1P)) (= arg2 arg2P)) (= arg2 arg3P)))
+(rule
+(f411_0_slide95_EQ arg1 arg2 arg3)
+(|f411_0_slide95_EQ'| arg1P arg2P arg3P)
+:guard
+(exists
+((x39 Int) (x40 Int) (x41 Int) (x42 Int) (x43 Int) (x44 Int) (x45 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> x39 (- 1)) (> arg2 0)) (< x39 x40)) (> arg3 (- 1)))
+(< x39 arg3))
+(> x41 x39))
+(< x42 arg2))
+(< x39 x42))
+(> x43 x39))
+(>= arg1 x44))
+(= (- arg1 (* 2 x45)) 0))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+)
+(rule
+(|f411_0_slide95_EQ'| arg1 arg2 arg3)
+(f411_0_slide95_EQ arg1P arg2P arg3P)
+:guard
+(exists
+((x52 Int) (x53 Int) (x54 Int) (x55 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> x52 (- 1)) (> arg2 0)) (< x52 arg3P)) (> arg3 (- 1)))
+(< x52 arg3))
+(> x53 x52))
+(< arg2P arg2))
+(< x52 arg2P))
+(> x54 x52))
+(= (- arg1 (* 2 x55)) 0))
+(>= arg1 arg1P))
+(>= (- arg1 (* 2 x55)) 0))
+(< (- arg1 (* 2 x55)) 2))
+(< (- arg1 (* 2 arg1P)) 2))
+(>= (- arg1 (* 2 arg1P)) 0))
+)
+)
+(rule
+(f411_0_slide95_EQ arg1 arg2 arg3)
+(|f411_0_slide95_EQ'| arg1P arg2P arg3P)
+:guard
+(exists
+((x59 Int) (x60 Int) (x61 Int) (x62 Int) (x63 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 (- 1)) (> arg2 0)) (< x59 arg3)) (< x60 arg2))
+(= (- arg1 (* 2 x61)) 1))
+(>= arg1 x62))
+(> x60 (- 1)))
+(>= x60 x63))
+(> x59 0))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+)
+(rule
+(|f411_0_slide95_EQ'| arg1 arg2 arg3)
+(f411_0_slide95_EQ arg1P arg2P arg3P)
+:guard
+(exists
+((x70 Int) (x71 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 (- 1)) (> arg2 0)) (< arg3P arg3)) (< x70 arg2))
+(= (- arg1 (* 2 x71)) 1))
+(>= arg1 arg1P))
+(> x70 (- 1)))
+(> arg3P 0))
+(>= x70 arg2P))
+(>= (- arg1 (* 2 x71)) 0))
+(< (- arg1 (* 2 x71)) 2))
+(< (- arg1 (* 2 arg1P)) 2))
+(>= (- arg1 (* 2 arg1P)) 0))
+)
+)
+(rule
+(f411_0_slide95_EQ arg1 arg2 arg3)
+(|f411_0_slide95_EQ'| arg1P arg2P arg3P)
+:guard
+(exists
+((x75 Int) (x76 Int) (x77 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg3 (- 1)) (> arg2 0)) (< x75 arg3)) (< x75 arg2))
+(= (- arg1 (* 2 x76)) 1))
+(> x75 0))
+(>= arg1 x77))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+)
+(rule
+(|f411_0_slide95_EQ'| arg1 arg2 arg3)
+(f411_0_slide95_EQ arg1P arg2P arg3P)
+:guard
+(exists
+((x83 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 (- 1)) (> arg2 0)) (< arg2P arg3))
+(< arg2P arg2))
+(= (- arg1 (* 2 x83)) 1))
+(>= arg1 arg1P))
+(> arg2P 0))
+(>= (- arg1 (* 2 x83)) 0))
+(< (- arg1 (* 2 x83)) 2))
+(< (- arg1 (* 2 arg1P)) 2))
+(>= (- arg1 (* 2 arg1P)) 0))
+(= arg2P arg3P))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f196_0_create_LE arg1 arg2 arg3)
+:guard
+(exists
+((x37 Int) (x36 Int))
+(and
+(and (and (and (> x37 (- 1)) (> arg2_old 1)) (> x36 (- 1))) (> arg1_old 0))
+(= (- x36 1) arg1))
+)
+)
+(rule
+(f196_0_create_LE arg1 arg2 arg3)
+(f196_0_create_LE arg1P arg2P arg3P)
+:guard
+(and (> arg1 0) (= (- arg1 1) arg1P)))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2 arg3))

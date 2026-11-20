@@ -1,0 +1,17 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int))
+(fun f1_0_main_New (-> Int Int))
+(fun f81_0_loop_InvokeMethod (-> Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_New arg1)
+(f81_0_loop_InvokeMethod arg1)
+:guard
+(> arg1 (- 1)))
+(rule
+(f81_0_loop_InvokeMethod arg1)
+(f81_0_loop_InvokeMethod arg1P)
+:guard
+(and (> arg1 0) (> arg1P (- 1))))
+(rule (__init arg1) (f1_0_main_New arg1))

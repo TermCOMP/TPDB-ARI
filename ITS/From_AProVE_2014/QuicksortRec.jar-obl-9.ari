@@ -1,0 +1,520 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1000_0_quicksort_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f1022_0_sortedLow_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f1140_0_sortedHigh_NONNULL (-> Int Int Int Int Int Int))
+(fun f1232_0_sortedHigh_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f1287_0_quicksort_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f1309_0_sortedHigh_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(fun f392_0_createList_GT (-> Int Int Int Int Int Int))
+(fun f501_0_createList_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f703_0_main_InvokeMethod (-> Int Int Int Int Int Int))
+(fun f730_0_quicksort_NONNULL (-> Int Int Int Int Int Int))
+(fun f790_0_sortedLow_NONNULL (-> Int Int Int Int Int Int))
+(fun f89_0_main_InvokeMethod (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f392_0_createList_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (and (> arg1 0) (= 0 arg2)) (= 0 arg1P)) (= 0 arg2P))
+(= 0 arg3P))
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f89_0_main_InvokeMethod arg1 arg2P arg3 arg4P arg5P)
+:guard
+(and
+(and (and (and (<= arg1 arg1_old) (> arg2 0)) (> arg1_old 0)) (> arg1 0))
+(= 0 arg2P))
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4P arg5P)
+:guard
+(and
+(and (and (and (> arg2 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f392_0_createList_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (and (> arg1 0) (> arg2P 0)) (= arg2 arg1P)) (= 1 arg3P)))
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4P arg5P)
+:guard
+(and
+(and (and (<= (+ arg1 1) arg1_old) (> arg1_old 0)) (> arg1 (- 1)))
+(= 0 arg2_old))
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3 arg4P arg5P)
+:guard
+(exists
+((x195 Int))
+(and
+(and
+(and (and (<= (+ arg1P 1) arg1) (> x195 0)) (> arg1 0))
+(> arg1P (- 1)))
+(= 0 arg2))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4P arg5P)
+:guard
+(and
+(and (and (<= (- arg1 1) arg1_old) (> arg1_old 0)) (> arg1 1))
+(= 0 arg2_old))
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f703_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x18 Int))
+(and
+(and
+(and (and (and (<= arg1P arg1) (> x18 0)) (> arg1 0)) (> arg1P 0))
+(> arg2P 2))
+(= 0 arg3P))
+)
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f703_0_main_InvokeMethod arg1P arg2P arg3 arg4P arg5P)
+:guard
+(exists
+((x23 Int))
+(and
+(and (and (and (<= arg1P arg1) (> x23 0)) (> arg1 0)) (> arg1P 0))
+(> arg2P 2))
+)
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f703_0_main_InvokeMethod arg1P arg2P arg3 arg4P arg5P)
+:guard
+(exists
+((x29 Int))
+(and
+(and (and (and (<= arg1P arg1) (> x29 0)) (> arg1 0)) (> arg1P 0))
+(> arg2P 1))
+)
+)
+(rule
+(f89_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f703_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x35 Int))
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (> x35 0)) (<= (- arg2P 1) arg1))
+(> arg1 0))
+(> arg1P 0))
+(> arg2P 1))
+(= 0 arg3P))
+)
+)
+(rule
+(f703_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x40 Int))
+(and
+(and
+(and (and (and (<= arg1P arg2) (> x40 0)) (> arg1 0)) (> arg2 0))
+(> arg1P 0))
+(<= (+ arg3 2) arg2))
+)
+)
+(rule
+(f392_0_createList_GT arg1 arg2 arg3 arg4 arg5)
+(f392_0_createList_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (> arg1 0) (> arg2 (- 1))) (< (- arg1 1) arg1))
+(>= arg3 arg2))
+(= (- arg1 1) arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+(rule
+(f392_0_createList_GT arg1 arg2 arg3 arg4 arg5)
+(f501_0_createList_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 0) (> arg2 (- 1))) (> arg3 (- 1)))
+(< arg3 arg2))
+(= arg1 arg1P))
+(= (- arg1 1) arg2P))
+(= arg2 arg3P))
+(= (+ arg3 1) arg4P))
+)
+(rule
+(f392_0_createList_GT arg1 arg2 arg3 arg4 arg5)
+(f501_0_createList_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x54 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg2 (- 1))) (< arg3 arg2)) (> x54 (- 1)))
+(> arg3 (- 1)))
+(= arg1 arg1P))
+(= (- arg1 1) arg2P))
+(= arg2 arg3P))
+(= (+ arg3 1) arg4P))
+)
+)
+(rule
+(f501_0_createList_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f392_0_createList_GT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 0)) (> arg3 0)) (<= arg4 arg3))
+(< arg2 arg1))
+(= arg2 arg1P))
+(= arg3 arg2P))
+(= arg4 arg3P))
+)
+(rule
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f790_0_sortedLow_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (<= (+ arg2P 1) arg1) (> arg1 0)) (> arg2P (- 1)))
+(<= (+ arg1P 2) arg1))
+)
+(rule
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1140_0_sortedHigh_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (<= (+ arg2P 2) arg1) (> arg1 1)) (> arg2P (- 1)))
+(<= (+ arg1P 2) arg1))
+)
+(rule
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1000_0_quicksort_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (<= (+ arg2P 2) arg1)) (> arg1 3))
+(> arg1P 3))
+(> arg2P 1))
+(<= (+ arg4P 2) arg1))
+(<= (+ arg5P 4) arg1))
+)
+(rule
+(f730_0_quicksort_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1000_0_quicksort_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (<= (+ arg2P 2) arg1)) (> arg1 4))
+(> arg1P 4))
+(> arg2P 2))
+(<= (+ arg4P 2) arg1))
+(<= (+ arg5P 4) arg1))
+)
+(rule
+(f1000_0_quicksort_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f1140_0_sortedHigh_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg2P 2) arg1) (<= arg2P arg2)) (> arg1 2))
+(> arg2 0))
+(> arg2P 0))
+(<= (+ arg5 4) arg1))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg2))
+(= arg4 arg1P))
+(= arg3 arg3P))
+)
+(rule
+(f1000_0_quicksort_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f1287_0_quicksort_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (> arg1 4)) (> arg2 2)) (> arg1P 4))
+(<= (+ arg5 4) arg1))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg2))
+)
+(rule
+(f1000_0_quicksort_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f1287_0_quicksort_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (> arg1 3)) (> arg2 1)) (> arg1P 3))
+(<= (+ arg5 4) arg1))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg2))
+)
+(rule
+(f790_0_sortedLow_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f790_0_sortedLow_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x105 Int))
+(and
+(and
+(and
+(and (and (<= (+ arg2P 1) arg2) (> x105 arg1)) (> arg2 0))
+(> arg2P (- 1)))
+(= arg1 arg1P))
+(= arg3 arg3P))
+)
+)
+(rule
+(f790_0_sortedLow_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f790_0_sortedLow_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x110 Int))
+(and
+(and
+(and
+(and (and (<= (+ arg2P 1) arg2) (<= x110 arg1)) (> arg2 0))
+(> arg2P (- 1)))
+(= arg1 arg1P))
+(= arg3 arg3P))
+)
+)
+(rule
+(f790_0_sortedLow_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x115 Int))
+(and (and (and (<= arg1P arg2) (<= x115 arg1)) (> arg2 1)) (> arg1P 1)))
+)
+(rule
+(f790_0_sortedLow_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1022_0_sortedLow_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (<= arg5P arg1)) (<= arg2P arg2))
+(> arg2 3))
+(> arg1P 3))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f790_0_sortedLow_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1022_0_sortedLow_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (<= arg5P arg1)) (<= arg2P arg2))
+(> arg2 4))
+(> arg1P 4))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f1022_0_sortedLow_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (<= arg1P arg2)) (> arg1 2)) (> arg2 1))
+(> arg1P 1))
+(<= (+ arg4 4) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg5 2) arg2))
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1140_0_sortedHigh_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x140 Int))
+(and
+(and
+(and
+(and (and (<= (+ arg2P 1) arg2) (<= x140 arg1)) (> arg2 0))
+(> arg2P (- 1)))
+(= arg1 arg1P))
+(= arg3 arg3P))
+)
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1140_0_sortedHigh_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x145 Int))
+(and
+(and
+(and
+(and (and (<= (+ arg2P 1) arg2) (> x145 arg1)) (> arg2 0))
+(> arg2P (- 1)))
+(= arg1 arg1P))
+(= arg3 arg3P))
+)
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1232_0_sortedHigh_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (> arg5P arg1)) (<= arg2P arg2))
+(> arg2 3))
+(> arg1P 3))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1232_0_sortedHigh_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (> arg5P arg1)) (<= arg2P arg2))
+(> arg2 4))
+(> arg1P 4))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x164 Int))
+(and (and (and (<= arg1P arg2) (> x164 arg1)) (> arg2 1)) (> arg1P 1)))
+)
+(rule
+(f1232_0_sortedHigh_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (<= arg1P arg2)) (> arg1 2)) (> arg2 1))
+(> arg1P 1))
+(<= (+ arg4 4) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg5 2) arg2))
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1309_0_sortedHigh_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (> arg5P arg1)) (<= arg2P arg2))
+(> arg2 3))
+(> arg1P 3))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f1140_0_sortedHigh_NONNULL arg1 arg2 arg3 arg4 arg5)
+(f1309_0_sortedHigh_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg2) (> arg5P arg1)) (<= arg2P arg2))
+(> arg2 4))
+(> arg1P 4))
+(> arg2P 1))
+(<= (+ arg5P 2) arg2))
+(<= (+ arg4P 4) arg2))
+(= arg3 arg3P))
+)
+(rule
+(f1309_0_sortedHigh_InvokeMethod arg1 arg2 arg3 arg4 arg5)
+(f730_0_quicksort_NONNULL arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1P arg1) (<= arg1P arg2)) (> arg1 2)) (> arg2 1))
+(> arg1P 1))
+(<= (+ arg4 4) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg5 2) arg2))
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1 arg2 arg3 arg4P arg5P))

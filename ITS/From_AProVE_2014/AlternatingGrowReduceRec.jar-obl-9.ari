@@ -1,0 +1,92 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f117_0_createList_LE (-> Int Int Int))
+(fun f180_0_main_InvokeMethod (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun f370_0_growReduce_NONNULL (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f180_0_main_InvokeMethod arg1P arg2)
+:guard
+(exists
+((x4 Int))
+(and
+(and
+(and (and (and (> x4 (- 1)) (> arg2_old 0)) (<= arg1P arg1)) (> arg1 0))
+(> arg1P 0))
+(> arg2 2))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f180_0_main_InvokeMethod arg1P arg2)
+:guard
+(exists
+((x9 Int))
+(and
+(and
+(and
+(and
+(and (and (> x9 (- 1)) (> arg2_old 0)) (<= arg1P arg1))
+(<= (- arg2 1) arg1))
+(> arg1 0))
+(> arg1P 0))
+(> arg2 1))
+)
+)
+(rule
+(f180_0_main_InvokeMethod arg1 arg2)
+(f370_0_growReduce_NONNULL arg1P arg2P)
+:guard
+(exists
+((x10 Int))
+(and
+(and
+(and (and (and (<= arg2P arg2) (> x10 0)) (> arg1 0)) (> arg2 0))
+(> arg2P 0))
+(= 0 arg1P))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f117_0_createList_LE arg1 arg2)
+:guard
+(and (and (> arg1 (- 1)) (> arg2_old 0)) (> arg1_old 0)))
+(rule
+(f117_0_createList_LE arg1 arg2)
+(f117_0_createList_LE arg1P arg2P)
+:guard
+(and (and (> arg1 1) (< (- arg1 1) arg1)) (= (- arg1 1) arg1P)))
+(rule
+(f370_0_growReduce_NONNULL arg1 arg2)
+(f370_0_growReduce_NONNULL arg1P arg2P)
+:guard
+(and
+(and
+(and (and (<= (+ arg2P 7) arg2) (> arg2 6)) (> arg2P (- 1)))
+(= 0 arg1))
+(= 1 arg1P))
+)
+(rule
+(f370_0_growReduce_NONNULL arg1 arg2)
+(f370_0_growReduce_NONNULL arg1P arg2P)
+:guard
+(and
+(and
+(and (and (<= (- arg2P 2) arg2) (> arg2 0)) (> arg2P 2))
+(= 1 arg1))
+(= 2 arg1P))
+)
+(rule
+(f370_0_growReduce_NONNULL arg1 arg2)
+(f370_0_growReduce_NONNULL arg1P arg2P)
+:guard
+(and
+(and
+(and (and (<= (- arg2P 4) arg2) (> arg2 0)) (> arg2P 4))
+(= 2 arg1))
+(= 0 arg1P))
+)
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2))

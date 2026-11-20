@@ -1,0 +1,78 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f168_0_main_LE (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun f223_0_iterate_EQ (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(f168_0_main_LE arg1P arg2P arg3P arg4)
+:guard
+(and
+(and
+(and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
+(= arg2 arg2P))
+(= 0 arg3P))
+)
+(rule
+(f168_0_main_LE arg1 arg2 arg3 arg4)
+(f168_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (> arg2 0) (> arg3P arg3)) (> arg3 0))
+(= (- arg1 1) arg1P))
+(= arg1 arg2P))
+)
+(rule
+(f168_0_main_LE arg1 arg2 arg3 arg4)
+(f168_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and (and (> arg2 0) (= (- arg1 1) arg1P)) (= arg1 arg2P))
+(= 1 arg3P))
+)
+(rule
+(f168_0_main_LE arg1 arg2 arg3 arg4)
+(f223_0_iterate_EQ arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (and (< arg2 1) (> arg3 0)) (= 0 arg1P)) (= arg3 arg2P))
+(= arg3 arg3P))
+(= 0 arg4P))
+)
+(rule
+(f223_0_iterate_EQ arg1 arg2 arg3 arg4)
+(f223_0_iterate_EQ arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x19 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg1 0) (> arg4 0)) (> arg3 0)) (> arg1P arg1))
+(> arg2 arg1))
+(< arg3P arg3))
+(< arg4P arg4))
+(> x19 arg1))
+(= arg2 arg2P))
+)
+)
+(rule
+(f223_0_iterate_EQ arg1 arg2 arg3 arg4)
+(f223_0_iterate_EQ arg1P arg2P arg3P arg4P)
+:guard
+(exists
+((x26 Int))
+(and
+(and
+(and (and (and (< arg3P arg2) (> arg2 0)) (> x26 arg4P)) (> x26 (- 1)))
+(= arg2 arg3))
+(= 1 arg1P))
+)
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2 arg3P arg4))

@@ -1,0 +1,11079 @@
+(format LCTRS)
+(theory Ints)
+(fun
+l0
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l1
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l10
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l11
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l12
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l13
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l14
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l15
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l16
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l17
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l18
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l19
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l2
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l20
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l21
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l22
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l23
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l24
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l25
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l26
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l27
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l28
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l29
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l3
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l30
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l31
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l32
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l33
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l34
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l35
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l36
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l37
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l38
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l39
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l4
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l40
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l41
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l42
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l43
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l44
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l45
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l46
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l47
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l48
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l49
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l5
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l50
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l51
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l52
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l53
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l54
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l55
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l56
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l57
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l58
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l6
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l7
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l8
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(fun
+l9
+(->
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int
+Int)
+)
+(entrypoint l58)
+(rule
+(l0
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l1
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 ni^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l0
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l2
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 n^0)) (= nj^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l3
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l4
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l5
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l6
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^post (+ 0 tmp___3^0)) (= ni2^post (+ 1 ni2^0)))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l7
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l5
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___3^post 1) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l8
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l7
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l8
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l5
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___3^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l8
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l7
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l9
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l5
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bCols^0) 0) (<= 0 (+ 0 bCols^0))) (= tmp___3^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l9
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l8
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bCols^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l9
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l8
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bCols^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l10
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l3
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 ni2^0)) (= ni1^post (+ 1 ni1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l10
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l9
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni2^0) (+ 0 n2^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l4
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l11
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ (- 1) n2^0) (+ 0 ni1^0)) (= nj^post (+ 1 nj^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l4
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l6
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni1^0) (+ (- 1) n2^0)) (= ni2^post (+ 1 ni1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l6
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l10
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l12
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l13
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 nj^0)) (= ni^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l12
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l3
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 n2^0)) (= ni1^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l13
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l0
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l14
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l15
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bRows^post (+ 0 tmp___2^0)) (= nj2^post (+ 1 nj2^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l16
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l14
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___2^post 1) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l17
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l16
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l17
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l14
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___2^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l17
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l16
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l18
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l14
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bRows^0) 0) (<= 0 (+ 0 bRows^0))) (= tmp___2^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l18
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l17
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bRows^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l18
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l17
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bRows^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l19
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l20
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 nj2^0)) (= nj1^post (+ 1 nj1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l19
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l18
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj2^0) (+ 0 n2^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l2
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l21
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l22
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l23
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ (- 1) n2^0) (+ 0 nj1^0)) (= ni^post (+ 1 ni^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l22
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l15
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj1^0) (+ (- 1) n2^0)) (= nj2^post (+ 1 nj1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l24
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l11
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 ni^0)) (= nj^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l24
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l20
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 n2^0)) (= nj1^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l25
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l26
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l27
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l28
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bDomain^post (+ 0 tmp___1^0)) (= nj^post (+ 1 nj^0)))
+(= bCols^0 bCols^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l29
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l27
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___1^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l29
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l27
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___1^post 1) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l30
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l27
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___1^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l30
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l29
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l31
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l27
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDomain^0) 0) (<= 0 (+ 0 bDomain^0)))
+(= tmp___1^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l31
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l30
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDomain^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l31
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l30
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDomain^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l32
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l33
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 nj^0)) (= ni^post (+ 1 ni^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l32
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l31
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 n2^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l34
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l35
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l36
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l23
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 ni^0)) (= ni^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l36
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l28
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 n2^0)) (= nj^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l37
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l38
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l39
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l40
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 nj^0)) (= ni^post (+ 1 ni^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l39
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l41
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 n2^0)) (= tmp___0^post tmp___0^post))
+(= nj^post (+ 1 nj^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l42
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l33
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n2^0) (+ 0 ni^0)) (= ni^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l42
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l41
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 ni^0) (+ 0 n2^0)) (= nj^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l43
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l44
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l40
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l42
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l41
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l39
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l33
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l36
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l28
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l32
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l45
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l46
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l47
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l45
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___5^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+)
+(rule
+(l48
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l45
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bSquares^0) 0) (<= 0 (+ 0 bSquares^0)))
+(= tmp___5^post 1))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+)
+(rule
+(l48
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l47
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSquares^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l48
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l47
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSquares^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l49
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l45
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bCols^0) 0) (<= 0 (+ 0 bCols^0))) (= tmp___5^post 1))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+)
+(rule
+(l49
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l48
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bCols^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l49
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l48
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bCols^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l50
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l45
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ 0 bRows^0) 0) (<= 0 (+ 0 bRows^0))) (= tmp___5^post 1))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+)
+(rule
+(l50
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l49
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bRows^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l50
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l49
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bRows^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l1
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l45
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bDomain^0) 0) (<= 0 (+ 0 bDomain^0)))
+(= tmp___5^post 1))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+)
+(rule
+(l1
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l50
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bDomain^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l1
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l50
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bDomain^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l23
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l24
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l51
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l43
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= nl2^post (+ 1 nl2^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l20
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l22
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l52
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l51
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bSquares^post (+ 0 tmp___4^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l53
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l52
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___4^post 1) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l54
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l53
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l54
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l52
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= tmp___4^post 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l54
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l53
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l55
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l52
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 bSquares^0) 0) (<= 0 (+ 0 bSquares^0)))
+(= tmp___4^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l55
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l54
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 bSquares^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l55
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l54
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 bSquares^0) 0) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l56
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l51
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l56
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l55
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l44
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l37
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 nl2^0)) (= nk2^post (+ 1 nk2^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l44
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l56
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nl2^0) (+ 0 n^0)) (= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l38
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l34
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 nk2^0)) (= nl1^post (+ 1 nl1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l38
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l43
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nk2^0) (+ 0 n^0)) (= nl2^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l15
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l19
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l35
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l25
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 nl1^0)) (= nk1^post (+ 1 nk1^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l35
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l37
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nl1^0) (+ 0 n^0)) (= nk2^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l26
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l2
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 nk1^0)) (= nj^post (+ 1 nj^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l26
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l34
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nk1^0) (+ 0 n^0)) (= nl1^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l21
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l13
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 0 n^0) (+ 0 nj^0)) (= ni^post (+ 1 ni^0)))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l21
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l25
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (<= (+ 1 nj^0) (+ 0 n^0)) (= nk1^post 0))
+(= bCols^0 bCols^post))
+(= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l11
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l12
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l57
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l40
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^0
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= n^post 3) (= n2^0 n2^0)) (= bDomain^post 1))
+(= bRows^post 1))
+(= bCols^post 1))
+(= bSquares^post 1))
+(= tmp^post tmp^post))
+(= ni^post 0))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)
+(rule
+(l58
+bCols^0
+bDomain^0
+bRows^0
+bSquares^0
+n2^0
+n^0
+ni1^0
+ni2^0
+ni^0
+nj1^0
+nj2^0
+nj^0
+nk1^0
+nk2^0
+nl1^0
+nl2^0
+tmp^0
+tmp___0^0
+tmp___1^0
+tmp___2^0
+tmp___3^0
+tmp___4^0
+tmp___5^0)
+(l57
+bCols^post
+bDomain^post
+bRows^post
+bSquares^post
+n2^post
+n^post
+ni1^post
+ni2^post
+ni^post
+nj1^post
+nj2^post
+nj^post
+nk1^post
+nk2^post
+nl1^post
+nl2^post
+tmp^post
+tmp___0^post
+tmp___1^post
+tmp___2^post
+tmp___3^post
+tmp___4^post
+tmp___5^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (= bCols^0 bCols^post) (= bDomain^0 bDomain^post))
+(= bRows^0 bRows^post))
+(= bSquares^0 bSquares^post))
+(= n^0 n^post))
+(= n2^0 n2^post))
+(= ni^0 ni^post))
+(= ni1^0 ni1^post))
+(= ni2^0 ni2^post))
+(= nj^0 nj^post))
+(= nj1^0 nj1^post))
+(= nj2^0 nj2^post))
+(= nk1^0 nk1^post))
+(= nk2^0 nk2^post))
+(= nl1^0 nl1^post))
+(= nl2^0 nl2^post))
+(= tmp^0 tmp^post))
+(= tmp___0^0 tmp___0^post))
+(= tmp___1^0 tmp___1^post))
+(= tmp___2^0 tmp___2^post))
+(= tmp___3^0 tmp___3^post))
+(= tmp___4^0 tmp___4^post))
+(= tmp___5^0 tmp___5^post))
+)

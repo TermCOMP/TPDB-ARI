@@ -1,0 +1,73 @@
+(format LCTRS)
+(theory Ints)
+(fun eval_speedFails4_1 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_2 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_3 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_4 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_5 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_6 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_7 (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_bb0_in (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_bb1_in (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_bb2_in (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_bb3_in (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_start (-> Int Int Int Int Int Int))
+(fun eval_speedFails4_stop (-> Int Int Int Int Int Int))
+(entrypoint eval_speedFails4_start)
+(rule
+  (eval_speedFails4_start v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb0_in v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_bb0_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_1 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_1 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_2 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_2 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_3 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_3 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_4 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_4 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_5 1 v__0 v_0 v_n v_x)
+  :guard
+  (>= v_0 1))
+(rule
+  (eval_speedFails4_4 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_5 (- 1) v__0 v_0 v_n v_x)
+  :guard
+  (< v_0 1))
+(rule
+  (eval_speedFails4_5 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_6 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_6 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_7 v__ v__0 v_0 v_n v_x))
+(rule
+  (eval_speedFails4_7 v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb1_in v__ v_x v_0 v_n v_x))
+(rule
+  (eval_speedFails4_bb1_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb2_in v__ v__0 v_0 v_n v_x)
+  :guard
+  (<= v__0 v_n))
+(rule
+  (eval_speedFails4_bb1_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb3_in v__ v__0 v_0 v_n v_x)
+  :guard
+  (> v__0 v_n))
+(rule
+  (eval_speedFails4_bb2_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb1_in v__ (+ v__0 v__) v_0 v_n v_x)
+  :guard
+  (>= v_0 1))
+(rule
+  (eval_speedFails4_bb2_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_bb1_in v__ (- v__0 v__) v_0 v_n v_x)
+  :guard
+  (< v_0 1))
+(rule
+  (eval_speedFails4_bb3_in v__ v__0 v_0 v_n v_x)
+  (eval_speedFails4_stop v__ v__0 v_0 v_n v_x))

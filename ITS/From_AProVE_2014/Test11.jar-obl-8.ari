@@ -1,0 +1,157 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1321_0_main_LE (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(fun |f1_0_main_Load'| (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(|f1_0_main_Load'| arg1P arg2P arg3 arg4P arg5P)
+:guard
+(exists
+((x38 Int) (x39 Int))
+(and
+(and
+(and
+(and
+(and (and (> arg2 (- 1)) (<= x38 (* 200 arg2))) (<= x39 arg1))
+(> arg1 0))
+(> x39 0))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5)
+(f1321_0_main_LE arg1P arg2P arg3 arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg2 (- 1)) (<= arg3 (* 200 arg2))) (<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(< (- (* 200 arg2) (* 13 arg3)) 13))
+(>= (- (* 200 arg2) (* 13 arg3)) 0))
+(= (* 100 arg2) arg2P))
+(= (+ (* 100 arg2) arg3) arg4P))
+(= 0 arg5P))
+)
+(rule
+(f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
+(f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x4 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg4 0) (> x4 (- 1))) (>= arg5 x4)) (>= arg1 arg1P))
+(> arg1 0))
+(> arg1P 0))
+(= arg2 arg2P))
+(= (- arg3 1) arg3P))
+(= (+ arg2 (- arg3 1)) arg4P))
+(= arg5 arg5P))
+)
+)
+(rule
+(f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
+(f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x11 Int) (x18 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg4 0) (> x11 (- 1))) (> arg5 (- 1))) (< arg5 x11))
+(> x18 (- 1)))
+(>= (+ arg5 1) x11))
+(<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= arg2 arg2P))
+(= (- arg3 1) arg3P))
+(= (+ arg2 (- arg3 1)) arg4P))
+(= (+ arg5 1) arg5P))
+)
+)
+(rule
+(f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
+(f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x19 Int) (x26 Int) (x27 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> x19 (- 1)) (< (+ arg5 1) x19)) (> arg4 0))
+(> arg5 (- 1)))
+(> x26 (- 1)))
+(<= (* x26 x27) 9))
+(> x27 (- 1)))
+(<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= arg2 arg2P))
+(= (- arg3 1) arg3P))
+(= (+ arg2 (- arg3 1)) arg4P))
+(= (+ arg5 2) arg5P))
+)
+)
+(rule
+(f1321_0_main_LE arg1 arg2 arg3 arg4 arg5)
+(f1321_0_main_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x28 Int) (x35 Int) (x36 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> x28 (- 1)) (< (+ arg5 1) x28)) (> arg4 0))
+(> arg5 (- 1)))
+(> x35 (- 1)))
+(> (* x35 x36) 9))
+(> x36 (- 1)))
+(<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= (- arg2 1) arg2P))
+(= arg3 arg3P))
+(= (+ (- arg2 1) arg3) arg4P))
+(= (+ arg5 2) arg5P))
+)
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1 arg2P arg3 arg4P arg5P))

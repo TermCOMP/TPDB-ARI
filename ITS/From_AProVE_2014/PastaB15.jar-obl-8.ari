@@ -1,0 +1,52 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int))
+(fun f278_0_main_NE (-> Int Int Int Int Int))
+(fun f322_0_main_LE (-> Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4)
+(f278_0_main_NE arg1 arg2 arg3 arg4)
+:guard
+(and
+(and
+(and (and (> arg2 (- 1)) (> arg2_old (- 1))) (> arg1 (- 1)))
+(> arg3 (- 1)))
+(> arg1_old 0))
+)
+(rule
+(f278_0_main_NE arg1 arg2 arg3 arg4)
+(f322_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (> arg2 arg1) (= arg2 arg3)) (= arg2 arg1P))
+(= arg2 arg2P))
+(= arg2 arg3P))
+(= arg1 arg4P))
+)
+(rule
+(f322_0_main_LE arg1 arg2 arg3 arg4)
+(f278_0_main_NE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and (and (>= arg4 arg2) (= arg2 arg3)) (= arg4 arg1P))
+(= arg1 arg2P))
+(= arg2 arg3P))
+)
+(rule
+(f322_0_main_LE arg1 arg2 arg3 arg4)
+(f322_0_main_LE arg1P arg2P arg3P arg4P)
+:guard
+(and
+(and
+(and
+(and (and (< arg4 arg2) (= arg2 arg3)) (= (- arg1 1) arg1P))
+(= (- arg2 1) arg2P))
+(= (- arg2 1) arg3P))
+(= arg4 arg4P))
+)
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

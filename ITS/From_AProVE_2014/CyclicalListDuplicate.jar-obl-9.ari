@@ -1,0 +1,105 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(fun f221_0_generate_GE (-> Int Int Int Int Int Int))
+(fun f348_0_duplicate_EQ (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f221_0_generate_GE arg1 arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
+(= 0 arg2P))
+(= (- arg2 1) arg3P))
+(= 0 arg4P))
+(= arg2 arg5P))
+)
+(rule
+(f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
+(f221_0_generate_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg5 (- 1)) (> arg3 arg2)) (<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= (+ arg2 1) arg2P))
+(= (- arg5 1) arg3P))
+(= arg5 arg5P))
+)
+(rule
+(f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and (and (and (<= arg3 arg2) (> arg4 0)) (> arg2P arg4)) (> arg1 0))
+(= 1 arg1P))
+)
+(rule
+(f221_0_generate_GE arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (and (> arg1 0) (<= arg3 arg2)) (= 1 arg1P)) (= 1 arg2P)))
+(rule
+(f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x23 Int))
+(and
+(and
+(and (and (and (> arg2 (- 1)) (> x23 0)) (< x23 arg2)) (< x23 arg2P))
+(= 0 arg1))
+(= 1 arg1P))
+)
+)
+(rule
+(f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x34 Int))
+(and
+(and (and (and (< x34 arg2) (> arg2 (- 1))) (= 0 arg1)) (= 1 arg1P))
+(= 1 arg2P))
+)
+)
+(rule
+(f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x27 Int) (x29 Int) (x28 Int))
+(and
+(and
+(and
+(and
+(and (and (and (> arg2 (- 1)) (> x27 0)) (< x27 arg2)) (> x29 x27))
+(> x28 x27))
+(= 1 arg1))
+(= 0 arg1P))
+(= 0 arg2P))
+)
+)
+(rule
+(f348_0_duplicate_EQ arg1 arg2 arg3 arg4 arg5)
+(f348_0_duplicate_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x37 Int))
+(and
+(and (and (and (< x37 arg2) (> arg2 (- 1))) (= 1 arg1)) (= 0 arg1P))
+(= 2 arg2P))
+)
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1 arg2 arg3P arg4P arg5P))

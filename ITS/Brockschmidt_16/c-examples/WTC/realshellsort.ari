@@ -1,0 +1,110 @@
+(format LCTRS)
+(theory Ints)
+(fun evalrealshellsortbb1in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb2in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb3in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb4in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb5in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb6in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb7in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortbb8in (-> Int Int Int Int Int Int))
+(fun evalrealshellsortentryin (-> Int Int Int Int Int Int))
+(fun evalrealshellsortreturnin (-> Int Int Int Int Int Int))
+(fun evalrealshellsortstart (-> Int Int Int Int Int Int))
+(fun evalrealshellsortstop (-> Int Int Int Int Int Int))
+(entrypoint evalrealshellsortstart)
+(rule
+  (evalrealshellsortstart A B C D E)
+  (evalrealshellsortentryin A B C D E))
+(rule
+  (evalrealshellsortentryin A B C D E)
+  (evalrealshellsortbb8in A 0 C D E)
+  :guard
+  (= A 0))
+(rule
+  (evalrealshellsortentryin A B C D E)
+  (evalrealshellsortbb8in A B C D E)
+  :guard
+  (and
+    (and (and (>= A 1) (>= B 0)) (>= A (* 2 B)))
+    (>= (+ 1 (* 2 B)) A))
+  )
+(rule
+  (evalrealshellsortentryin A B C D E)
+  (evalrealshellsortbb8in A B C D E)
+  :guard
+  (and
+    (and (and (>= 0 (+ A 1)) (>= 0 B)) (>= (* 2 B) A))
+    (>= (+ 1 A) (* 2 B)))
+  )
+(rule
+  (evalrealshellsortbb8in A B C D E)
+  (evalrealshellsortbb6in A B 0 D E)
+  :guard
+  (>= B 1))
+(rule
+  (evalrealshellsortbb8in A B C D E)
+  (evalrealshellsortreturnin A B C D E)
+  :guard
+  (>= 0 B))
+(rule
+  (evalrealshellsortbb6in A B C D E)
+  (evalrealshellsortbb1in A B C D E)
+  :guard
+  (>= A (+ C 1)))
+(rule
+  (evalrealshellsortbb6in A B C D E)
+  (evalrealshellsortbb7in A B C D E)
+  :guard
+  (>= C A))
+(rule (evalrealshellsortbb1in A B C D E) (evalrealshellsortbb3in A B C F C))
+(rule
+  (evalrealshellsortbb3in A B C D E)
+  (evalrealshellsortbb5in A B C D E)
+  :guard
+  (>= B (+ E 1)))
+(rule
+  (evalrealshellsortbb3in A B C D E)
+  (evalrealshellsortbb4in A B C D E)
+  :guard
+  (>= E B))
+(rule
+  (evalrealshellsortbb4in A B C D E)
+  (evalrealshellsortbb2in A B C D E)
+  :guard
+  (exists ((F Int)) (>= F (+ D 1))))
+(rule
+  (evalrealshellsortbb4in A B C D E)
+  (evalrealshellsortbb5in A B C D E)
+  :guard
+  (exists ((F Int)) (>= D F)))
+(rule
+  (evalrealshellsortbb2in A B C D E)
+  (evalrealshellsortbb3in A B C D (- E B)))
+(rule
+  (evalrealshellsortbb5in A B C D E)
+  (evalrealshellsortbb6in A B (+ C 1) D E))
+(rule
+  (evalrealshellsortbb7in A B C D E)
+  (evalrealshellsortbb8in A 0 C D E)
+  :guard
+  (= B 0))
+(rule
+  (evalrealshellsortbb7in A B C D E)
+  (evalrealshellsortbb8in A F C D E)
+  :guard
+  (and
+    (and (and (>= B 1) (>= F 0)) (>= B (* 2 F)))
+    (>= (+ 1 (* 2 F)) B))
+  )
+(rule
+  (evalrealshellsortbb7in A B C D E)
+  (evalrealshellsortbb8in A F C D E)
+  :guard
+  (and
+    (and (and (>= 0 (+ B 1)) (>= 0 F)) (>= (* 2 F) B))
+    (>= (+ 1 B) (* 2 F)))
+  )
+(rule
+  (evalrealshellsortreturnin A B C D E)
+  (evalrealshellsortstop A B C D E))

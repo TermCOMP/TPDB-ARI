@@ -1,0 +1,404 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f1154_0_Ajouter_LE (-> Int Int Int Int Int Int))
+(fun |f1154_0_Ajouter_LE'| (-> Int Int Int Int Int Int))
+(fun f1288_0_Supprimer_Return (-> Int Int Int Int Int Int))
+(fun f1437_0_HeapSort_ArrayAccess (-> Int Int Int Int Int Int))
+(fun f1441_0_Ajouter_ArrayAccess (-> Int Int Int Int Int Int))
+(fun f1783_0_Supprimer_GE (-> Int Int Int Int Int Int))
+(fun f1792_0_Supprimer_ArrayAccess (-> Int Int Int Int Int Int))
+(fun f1821_0_Supprimer_ArrayAccess (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(fun f229_0_main_GE (-> Int Int Int Int Int Int))
+(fun f357_0_main_ArrayAccess (-> Int Int Int Int Int Int))
+(fun f763_0_HeapSort_GE (-> Int Int Int Int Int Int))
+(fun f809_0_HeapSort_LT (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f229_0_main_GE arg1 arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
+(= 0 arg2P))
+(= 0 arg3P))
+)
+(rule
+(f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
+(f357_0_main_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x3 Int))
+(and
+(and
+(and (and (and (>= arg3 x3) (< arg2 x3)) (> x3 (- 1))) (> arg1 0))
+(= arg2 arg1P))
+(= arg3 arg2P))
+)
+)
+(rule
+(f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
+(f357_0_main_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x7 Int) (x11 Int))
+(and
+(and
+(and
+(and
+(and (and (and (> x7 (- 1)) (> x7 arg2)) (< arg3 x7)) (> x11 (- 1)))
+(> arg3 (- 1)))
+(> arg1 0))
+(= arg2 arg1P))
+(= (+ arg3 1) arg2P))
+)
+)
+(rule
+(f357_0_main_ArrayAccess arg1 arg2 arg3 arg4 arg5)
+(f229_0_main_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x12 Int))
+(and
+(and (and (< arg1 x12) (> arg1P 0)) (= (+ arg1 1) arg2P))
+(= arg2 arg3P))
+)
+)
+(rule
+(f229_0_main_GE arg1 arg2 arg3 arg4 arg5)
+(f763_0_HeapSort_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x16 Int))
+(and
+(and (and (and (>= arg2 x16) (<= arg3 x16)) (> arg1 0)) (= 0 arg1P))
+(= 0 arg2P))
+)
+)
+(rule
+(f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
+(f809_0_HeapSort_LT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x20 Int))
+(and (and (>= arg1 x20) (= (- x20 1) arg1P)) (= arg2 arg2P)))
+)
+(rule
+(f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
+(f763_0_HeapSort_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x24 Int))
+(and (and (< arg1 x24) (> x24 0)) (= (+ arg1 1) arg1P)))
+)
+(rule
+(f1288_0_Supprimer_Return arg1 arg2 arg3 arg4 arg5)
+(f1437_0_HeapSort_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and (and (> arg1P 0) (= arg1 arg2P)) (= arg2 arg3P)))
+(rule
+(f809_0_HeapSort_LT arg1 arg2 arg3 arg4 arg5)
+(f1437_0_HeapSort_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x33 Int))
+(and (and (and (> arg1 (- 1)) (> arg1P 0)) (> x33 0)) (= arg1 arg2P)))
+)
+(rule
+(f1437_0_HeapSort_ArrayAccess arg1 arg2 arg3 arg4 arg5)
+(f809_0_HeapSort_LT arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x38 Int))
+(and
+(and (and (> arg1 0) (< arg2 x38)) (= (- arg2 1) arg1P))
+(= arg3 arg2P))
+)
+)
+(rule
+(f763_0_HeapSort_GE arg1 arg2 arg3 arg4 arg5)
+(f1154_0_Ajouter_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists ((x42 Int)) (and (and (< arg1 x42) (> x42 0)) (= arg2 arg2P))))
+(rule
+(f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
+(|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x29 Int) (x44 Int) (x50 Int) (x51 Int) (x52 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (>= (- arg2 1) x29) (> arg2 0)) (> x44 x29))
+(>= (- arg2 1) x50))
+(<= x51 arg1))
+(> x44 x50))
+(>= (- arg2 1) x52))
+(< arg2 x44))
+(> arg2 x52))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
+(f1154_0_Ajouter_LE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x61 Int) (x66 Int) (x67 Int) (x68 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (>= (- arg2 1) x61) (> arg2 0)) (> x66 x61))
+(>= (- arg2 1) x67))
+(<= x68 arg1))
+(> x66 x67))
+(>= (- arg2 1) arg2P))
+(> arg2 arg2P))
+(< arg2 x66))
+(>= (- (- arg2 1) (* 2 x61)) 0))
+(< (- (- arg2 1) (* 2 x61)) 2))
+(>= (- (- arg2 1) (* 2 x67)) 0))
+(< (- (- arg2 1) (* 2 x67)) 2))
+(< (- (- arg2 1) (* 2 arg2P)) 2))
+(>= (- (- arg2 1) (* 2 arg2P)) 0))
+(= arg1 arg1P))
+)
+)
+(rule
+(f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
+(|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x73 Int) (x78 Int) (x83 Int) (x84 Int))
+(and
+(and
+(and
+(and (and (and (>= (- arg2 1) x73) (> arg2 0)) (> x78 arg1)) (> x83 0))
+(> x84 x73))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
+(f1441_0_Ajouter_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x125 Int) (x126 Int) (x127 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (>= (- arg2 1) x125) (> arg2 0)) (> x126 arg1))
+(> x127 x125))
+(> arg1P 0))
+(< (- (- arg2 1) (* 2 x125)) 2))
+(>= (- (- arg2 1) (* 2 x125)) 0))
+(= arg2 arg2P))
+(= arg1 arg3P))
+)
+)
+(rule
+(f1154_0_Ajouter_LE arg1 arg2 arg3 arg4 arg5)
+(|f1154_0_Ajouter_LE'| arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x130 Int) (x131 Int) (x132 Int) (x133 Int) (x134 Int) (x135 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (>= (- arg2 1) x130) (> arg2 0)) (> x131 x130))
+(>= (- arg2 1) x132))
+(<= x133 arg1))
+(> x131 x132))
+(>= (- arg2 1) x134))
+(<= arg2 x134))
+(> x135 0))
+(< arg2 x131))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1154_0_Ajouter_LE'| arg1 arg2 arg3 arg4 arg5)
+(f1441_0_Ajouter_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x139 Int) (x140 Int) (x141 Int) (x142 Int) (x143 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (>= (- arg2 1) x139) (> arg2 0)) (> x140 x139))
+(>= (- arg2 1) x141))
+(<= x142 arg1))
+(> x140 x141))
+(>= (- arg2 1) x143))
+(<= arg2 x143))
+(< arg2 x140))
+(> arg1P 0))
+(>= (- (- arg2 1) (* 2 x139)) 0))
+(< (- (- arg2 1) (* 2 x139)) 2))
+(>= (- (- arg2 1) (* 2 x141)) 0))
+(< (- (- arg2 1) (* 2 x141)) 2))
+(< (- (- arg2 1) (* 2 x143)) 2))
+(>= (- (- arg2 1) (* 2 x143)) 0))
+(= arg2 arg2P))
+(= arg1 arg3P))
+)
+)
+(rule
+(f809_0_HeapSort_LT arg1 arg2 arg3 arg4 arg5)
+(f1783_0_Supprimer_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x74 Int))
+(and
+(and
+(and (and (> arg1 (- 1)) (< (- arg2 1) x74)) (> x74 0))
+(= 0 arg1P))
+(= 1 arg3P))
+)
+)
+(rule
+(f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
+(f1792_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x79 Int))
+(and (and (and (>= arg3 x79) (> arg1P 0)) (= arg1 arg2P)) (= arg2 arg3P)))
+)
+(rule
+(f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
+(f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (<= arg5P (+ (* 2 arg1) 2)) (>= (* 2 arg1) 0)) (> arg3P 0))
+(< arg3 arg5P))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= (+ (* 2 arg1) 1) arg4P))
+)
+(rule
+(f1821_0_Supprimer_ArrayAccess arg1 arg2 arg3 arg4 arg5)
+(f1792_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x101 Int) (x92 Int))
+(and
+(and
+(and
+(and (and (and (>= arg2 x101) (< arg4 x92)) (>= arg3 arg1P)) (> arg3 0))
+(> arg1P 0))
+(= arg1 arg2P))
+(= arg2 arg3P))
+)
+)
+(rule
+(f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
+(f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x102 Int) (x109 Int) (x108 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (< arg3 arg5P) (>= (* 2 arg1) 0)) (> arg5P (+ (* 2 arg1) 2)))
+(> x102 (+ (* 2 arg1) 2)))
+(<= x109 x108))
+(> arg3P 0))
+(> x102 (+ (* 2 arg1) 1)))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= (+ (* 2 arg1) 1) arg4P))
+)
+)
+(rule
+(f1783_0_Supprimer_GE arg1 arg2 arg3 arg4 arg5)
+(f1821_0_Supprimer_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x110 Int) (x117 Int) (x116 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (< arg3 arg5P) (>= (* 2 arg1) 0)) (> arg5P (+ (* 2 arg1) 2)))
+(> x110 (+ (* 2 arg1) 2)))
+(> x117 x116))
+(> arg3P 0))
+(> x110 (+ (* 2 arg1) 1)))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= (+ (* 2 arg1) 2) arg4P))
+)
+)
+(rule
+(f1821_0_Supprimer_ArrayAccess arg1 arg2 arg3 arg4 arg5)
+(f1783_0_Supprimer_GE arg1P arg2P arg3P arg4P arg5P)
+:guard
+(exists
+((x118 Int) (x124 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (< arg4 x118) (> x124 arg2)) (>= (* 2 arg4) 0))
+(< arg1 x118))
+(> arg3 0))
+(= arg4 arg1P))
+(= arg2 arg2P))
+(= (+ (* 2 arg4) 1) arg3P))
+)
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1 arg2P arg3P arg4P arg5P))

@@ -1,0 +1,76 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f145_0_main_LE (-> Int Int Int))
+(fun |f145_0_main_LE'| (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f145_0_main_LE arg1 arg2)
+:guard
+(and
+(and (and (> arg2 (- 1)) (> arg2_old (- 1))) (> arg1 (- 1)))
+(> arg1_old 0))
+)
+(rule
+(f145_0_main_LE arg1 arg2)
+(|f145_0_main_LE'| arg1P arg2P)
+:guard
+(exists
+((x10 Int))
+(and
+(and
+(and (and (= (- (+ arg2 1) (* 2 x10)) 0) (> arg2 (- 1))) (< arg2 arg1))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f145_0_main_LE'| arg1 arg2)
+(f145_0_main_LE arg1P arg2P)
+:guard
+(exists
+((x13 Int))
+(and
+(and
+(and
+(and
+(and (and (= (- (+ arg2 1) (* 2 x13)) 0) (< arg2 arg1)) (> arg2 (- 1)))
+(< (- (+ arg2 1) (* 2 x13)) 2))
+(>= (- (+ arg2 1) (* 2 x13)) 0))
+(= arg1 arg1P))
+(= (+ arg2 1) arg2P))
+)
+)
+(rule
+(f145_0_main_LE arg1 arg2)
+(|f145_0_main_LE'| arg1P arg2P)
+:guard
+(exists
+((x16 Int))
+(and
+(and
+(and (and (> arg2 (- 1)) (= (- (+ arg2 1) (* 2 x16)) 1)) (< arg2 arg1))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f145_0_main_LE'| arg1 arg2)
+(f145_0_main_LE arg1P arg2P)
+:guard
+(exists
+((x19 Int))
+(and
+(and
+(and
+(and
+(and (and (> arg2 (- 1)) (< arg2 arg1)) (= (- (+ arg2 1) (* 2 x19)) 1))
+(< (- (+ arg2 1) (* 2 x19)) 2))
+(>= (- (+ arg2 1) (* 2 x19)) 0))
+(= arg1 arg1P))
+(= (+ arg2 2) arg2P))
+)
+)
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2))

@@ -1,0 +1,356 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int Int Int))
+(fun f1029_0_findKthPrime_GE (-> Int Int Int Int Int Int Int Int))
+(fun f1209_0_checkPrime_GE (-> Int Int Int Int Int Int Int Int))
+(fun |f1209_0_checkPrime_GE'| (-> Int Int Int Int Int Int Int Int))
+(fun
+f1280_0_getPowerOfKInSource_IntArithmetic
+(-> Int Int Int Int Int Int Int Int))
+(fun
+|f1280_0_getPowerOfKInSource_IntArithmetic'|
+(-> Int Int Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int))
+(fun f731_0_main_GE (-> Int Int Int Int Int Int Int Int))
+(fun f873_0_findKthPrime_Return (-> Int Int Int Int Int Int Int Int))
+(fun f958_0_getNext_Return (-> Int Int Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f731_0_main_GE arg1 arg2P arg3P arg4 arg5P arg6P arg7)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg4 (- 1)) (> arg2 1)) (> arg7 0)) (<= arg1 arg1_old))
+(> arg1_old 0))
+(> arg1 0))
+(> arg2P 2))
+(= 0 arg3P))
+(= arg2 arg5P))
+(= 1 arg6P))
+)
+(rule
+(f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f731_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg5 1) (> arg4 arg3)) (> arg7 0)) (> arg4 0))
+(>= arg1 arg1P))
+(>= arg2 arg1P))
+(> arg1 0))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P 0))
+(>= arg2 (+ arg7 2)))
+(>= arg2 (+ arg6 2)))
+(= (+ arg3 1) arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+)
+(rule
+(f958_0_getNext_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f731_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= arg1P arg1) (<= arg1P arg2)) (<= arg2P arg2))
+(> arg1 0))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P 0))
+(<= (+ arg7 2) arg2))
+(<= (+ arg6 2) arg2))
+(= (+ arg4 1) arg3P))
+(= arg3 arg4P))
+(= arg5 arg5P))
+(= arg6 arg6P))
+(= arg7 arg7P))
+)
+(rule
+(f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1280_0_getPowerOfKInSource_IntArithmetic
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg5 1) (> arg4 arg3)) (> arg4 0)) (> arg7 0))
+(<= (- arg1P 1) arg2))
+(> arg1 0))
+(> arg2 0))
+(> arg1P 0))
+(<= (+ arg7 2) arg2))
+(<= (+ arg6 2) arg2))
+(= arg7 arg2P))
+(= (+ arg6 1) arg4P))
+(= arg7 arg5P))
+)
+(rule
+(f873_0_findKthPrime_Return arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1280_0_getPowerOfKInSource_IntArithmetic
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (- arg1P 1) arg1) (> arg1 0)) (> arg1P 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg3 2) arg1))
+(= arg4 arg2P))
+(= arg2 arg3P))
+(= (+ arg3 1) arg4P))
+(= arg4 arg5P))
+)
+(rule
+(f1280_0_getPowerOfKInSource_IntArithmetic arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(|f1280_0_getPowerOfKInSource_IntArithmetic'|
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P)
+:guard
+(exists
+((x76 Int) (x77 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= (- arg2 (* arg3 x76)) 0) (<= x77 arg1)) (> arg1 0))
+(> x77 0))
+(<= (+ arg5 2) arg1))
+(<= (+ arg4 2) arg1))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+)
+)
+(rule
+(|f1280_0_getPowerOfKInSource_IntArithmetic'|
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7)
+(f1280_0_getPowerOfKInSource_IntArithmetic
+arg1P
+arg2P
+arg3P
+arg4P
+arg5P
+arg6P
+arg7P)
+:guard
+(exists
+((x85 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (= (- arg2 (* arg3 x85)) 0) (<= arg1P arg1)) (> arg1 0))
+(> arg1P 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(>= (- arg2 (* arg3 arg2P)) 0))
+(> arg3 (- arg2 (* arg3 arg2P))))
+(> arg3 (- arg2 (* arg3 x85))))
+(>= (- arg2 (* arg3 x85)) 0))
+(= arg3 arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+)
+)
+(rule
+(f731_0_main_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg5 1) (> arg4 arg3)) (> arg4 0)) (> arg7 0))
+(> arg1 0))
+(> arg2 0))
+(<= (+ arg7 2) arg2))
+(<= (+ arg6 2) arg2))
+(= 1 arg1P))
+(= 0 arg2P))
+(= arg6 arg3P))
+)
+(rule
+(f1029_0_findKthPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1209_0_checkPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and
+(and (and (and (> arg3 arg2) (> arg1 0)) (= arg3 arg1P)) (= arg2 arg2P))
+(= 2 arg3P))
+(= (+ arg1 1) arg4P))
+)
+(rule
+(f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(exists
+((x90 Int))
+(and
+(and
+(and
+(and (and (> arg4 arg3) (< (- arg4 (* arg3 x90)) 0)) (= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+)
+)
+(rule
+(f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(exists
+((x95 Int))
+(and
+(and
+(and
+(and (and (> arg4 arg3) (> (- arg4 (* arg3 x95)) 0)) (= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+)
+)
+(rule
+(|f1209_0_checkPrime_GE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1209_0_checkPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(exists
+((x100 Int))
+(and
+(and
+(and
+(and
+(and
+(and (> (- arg4 (* arg3 x100)) 0) (< (- arg4 (* arg3 x100)) arg3))
+(> arg4 arg3))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= (+ arg3 1) arg3P))
+(= arg4 arg4P))
+)
+)
+(rule
+(f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and (and (<= arg4 arg3) (= arg4 arg1P)) (= (+ arg2 1) arg2P))
+(= arg1 arg3P))
+)
+(rule
+(f1029_0_findKthPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(and
+(and
+(and (and (> arg3 arg2) (< arg1 1)) (= (+ arg1 1) arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+)
+(rule
+(f1209_0_checkPrime_GE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(|f1209_0_checkPrime_GE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(exists
+((x105 Int))
+(and
+(and
+(and
+(and (and (> arg4 arg3) (= (- arg4 (* arg3 x105)) 0)) (= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+)
+)
+(rule
+(|f1209_0_checkPrime_GE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1029_0_findKthPrime_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+:guard
+(exists
+((x110 Int))
+(and
+(and
+(and
+(and
+(and
+(and (= (- arg4 (* arg3 x110)) 0) (> arg4 arg3))
+(< (- arg4 (* arg3 x110)) arg3))
+(>= (- arg4 (* arg3 x110)) 0))
+(= arg4 arg1P))
+(= arg2 arg2P))
+(= arg1 arg3P))
+)
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
+(f1_0_main_Load arg1 arg2 arg3P arg4 arg5P arg6P arg7))

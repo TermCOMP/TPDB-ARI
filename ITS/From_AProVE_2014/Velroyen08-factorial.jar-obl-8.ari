@@ -1,0 +1,63 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int))
+(fun f104_0_factorial_EQ (-> Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
+(f104_0_factorial_EQ arg1 arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
+(= 1 arg2P))
+(= 1 arg3P))
+(= 1 arg4P))
+(= arg2 arg5P))
+)
+(rule
+(f104_0_factorial_EQ arg1 arg2 arg3 arg4 arg5)
+(f104_0_factorial_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (> arg5 arg3) (> arg2 0)) (> arg3 0)) (<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= arg3 arg4))
+(= (+ arg2 1) arg2P))
+(= (* arg3 arg2) arg3P))
+(= (* arg3 arg2) arg4P))
+(= arg5 arg5P))
+)
+(rule
+(f104_0_factorial_EQ arg1 arg2 arg3 arg4 arg5)
+(f104_0_factorial_EQ arg1P arg2P arg3P arg4P arg5P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (< arg5 arg3) (> arg2 0)) (> arg3 0)) (<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= arg3 arg4))
+(= (+ arg2 1) arg2P))
+(= (* arg3 arg2) arg3P))
+(= (* arg3 arg2) arg4P))
+(= arg5 arg5P))
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5)
+(f1_0_main_Load arg1 arg2 arg3P arg4P arg5P))

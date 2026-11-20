@@ -1,0 +1,288 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int Int Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int Int Int Int Int Int))
+(fun f361_0_fractale_LE (-> Int Int Int Int Int Int Int Int Int))
+(fun |f361_0_fractale_LE'| (-> Int Int Int Int Int Int Int Int Int))
+(fun f425_0_fractale_InvokeMethod (-> Int Int Int Int Int Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f361_0_fractale_LE arg1 arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (- arg1 1) arg1_old) (> arg2 (- 1))) (<= (- arg2P 201) arg1_old))
+(> arg1_old 0))
+(> arg1 1))
+(> arg2P 201))
+(= arg2 arg3P))
+(= 0 arg4P))
+(= 0 arg5P))
+(= 200 arg6P))
+(= 200 arg7P))
+)
+(rule
+(f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(exists
+((x11 Int) (x12 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 0) (< (- arg3 1) arg3)) (>= arg1 x11))
+(> arg1 0))
+(> arg2 0))
+(> x11 0))
+(> x12 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(>= arg2 (+ arg7 2)))
+(<= (+ arg6 2) arg2))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+(= arg6 arg6P))
+(= arg7 arg7P))
+)
+)
+(rule
+(|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f361_0_fractale_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 0) (< (- arg3 1) arg3)) (>= arg1 arg1P))
+(> arg1 0))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg6 2) arg2))
+(>= arg2 (+ arg7 2)))
+(>= (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg6P)) 0))
+(< (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg6P)) 2))
+(< (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg7P)) 2))
+(>= (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg7P)) 0))
+(= (- arg3 1) arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+)
+(rule
+(f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(exists
+((x22 Int) (x21 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (<= x22 arg2) (> arg1 0)) (> arg2 0)) (> x21 0))
+(> x22 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg7 2) arg2))
+(<= (+ arg6 2) arg2))
+(= 1 arg3))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= 1 arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+(= arg6 arg6P))
+(= arg7 arg7P))
+)
+)
+(rule
+(|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f425_0_fractale_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (and (<= arg4P arg2) (> arg1 0)) (> arg2 0)) (> arg3P 0))
+(> arg4P 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg6 2) arg2))
+(<= (+ arg7 2) arg2))
+(>= (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg6P)) 0))
+(< (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg6P)) 2))
+(< (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg5P)) 2))
+(>= (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg5P)) 0))
+(= 1 arg3))
+(= 1 arg1P))
+(= 0 arg2P))
+(= arg6 arg7P))
+(= arg7 arg8P))
+)
+(rule
+(f361_0_fractale_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(|f361_0_fractale_LE'| arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(exists
+((x33 Int) (x32 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 0) (< (- arg3 1) arg3)) (<= x33 arg2))
+(> arg1 0))
+(> arg2 0))
+(> x32 0))
+(> x33 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg7 2) arg2))
+(<= (+ arg6 2) arg2))
+(= arg1 arg1P))
+(= arg2 arg2P))
+(= arg3 arg3P))
+(= arg4 arg4P))
+(= arg5 arg5P))
+(= arg6 arg6P))
+(= arg7 arg7P))
+)
+)
+(rule
+(|f361_0_fractale_LE'| arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f425_0_fractale_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg3 0) (< (- arg3 1) arg3)) (<= arg4P arg2))
+(> arg1 0))
+(> arg2 0))
+(> arg3P 0))
+(> arg4P 0))
+(<= (+ arg4 2) arg1))
+(<= (+ arg5 2) arg1))
+(<= (+ arg6 2) arg2))
+(<= (+ arg7 2) arg2))
+(>= (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg5P)) 0))
+(< (- (- (+ (+ arg4 arg5) arg6) arg7) (* 2 arg5P)) 2))
+(< (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg6P)) 2))
+(>= (- (- (+ (+ arg6 arg7) arg5) arg4) (* 2 arg6P)) 0))
+(= arg3 arg1P))
+(= (- arg3 1) arg2P))
+(= arg6 arg7P))
+(= arg7 arg8P))
+)
+(rule
+(f425_0_fractale_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f361_0_fractale_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (< arg2 arg1) (> arg1 0)) (<= arg1P arg3))
+(<= arg2P arg4))
+(> arg3 0))
+(> arg4 0))
+(> arg1P 0))
+(> arg2P 0))
+(<= (+ arg5 2) arg3))
+(<= (+ arg6 2) arg3))
+(<= (+ arg8 2) arg4))
+(<= (+ arg7 2) arg4))
+(= arg2 arg3P))
+(= arg5 arg4P))
+(= arg6 arg5P))
+(= arg7 arg6P))
+(= arg8 arg7P))
+)
+(rule
+(__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
+(f1_0_main_Load arg1 arg2 arg3P arg4P arg5P arg6P arg7P arg8P))

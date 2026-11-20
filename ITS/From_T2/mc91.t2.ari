@@ -1,0 +1,86 @@
+(format LCTRS)
+(theory Ints)
+(fun l0 (-> Int Int Int Int Int Int))
+(fun l1 (-> Int Int Int Int Int Int))
+(fun l2 (-> Int Int Int Int Int Int))
+(fun l3 (-> Int Int Int Int Int Int))
+(fun l4 (-> Int Int Int Int Int Int))
+(entrypoint l4)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l1 __const_100^post __const_10^post __const_11^post e^post n^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 e^0)) (<= (+ 0 n^0) (+ 0 __const_100^0)))
+(= n^post (+ (+ 0 __const_11^0) n^0)))
+(= e^post (+ 1 e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+)
+(rule
+(l1 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l0 __const_100^post __const_10^post __const_11^post e^post n^post)
+:guard
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= e^0 e^post))
+(= n^0 n^post))
+)
+(rule
+(l0 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l2 __const_100^post __const_10^post __const_11^post e^post n^post)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (<= 1 (+ 0 e^0)) (<= (+ 1 __const_100^0) (+ 0 n^0)))
+(= n^post (+ (+ 0 (* (- 1) __const_10^0)) n^0)))
+(= e^post (+ (- 1) e^0)))
+(= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+)
+(rule
+(l2 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l0 __const_100^post __const_10^post __const_11^post e^post n^post)
+:guard
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= e^0 e^post))
+(= n^0 n^post))
+)
+(rule
+(l3 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l0 __const_100^post __const_10^post __const_11^post e^post n^0)
+:guard
+(and
+(and
+(and (and (= n^0 n^0) (= e^post 1)) (= __const_10^0 __const_10^post))
+(= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+)
+(rule
+(l4 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
+(l3 __const_100^post __const_10^post __const_11^post e^post n^post)
+:guard
+(and
+(and
+(and
+(and (= __const_10^0 __const_10^post) (= __const_100^0 __const_100^post))
+(= __const_11^0 __const_11^post))
+(= e^0 e^post))
+(= n^0 n^post))
+)

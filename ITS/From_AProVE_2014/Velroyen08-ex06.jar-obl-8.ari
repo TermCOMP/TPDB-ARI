@@ -1,0 +1,105 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f130_0_loop_GT (-> Int Int Int))
+(fun f131_0_loop_LT (-> Int Int Int))
+(fun f163_0_loop_GE (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun |f1_0_main_Load'| (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(|f1_0_main_Load'| arg1P arg2P)
+:guard
+(exists
+((x14 Int) (x15 Int) (x16 Int))
+(and
+(and
+(and
+(and
+(and (and (> x14 (- 1)) (> arg2 1)) (= (- x15 (* 2 x16)) 0))
+(> x15 (- 1)))
+(> arg1 0))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1_0_main_Load'| arg1 arg2)
+(f131_0_loop_LT arg1P arg2P)
+:guard
+(exists
+((x19 Int) (x20 Int) (x21 Int))
+(and
+(and
+(and
+(and
+(and
+(and (and (> x19 (- 1)) (> arg2 1)) (= (- x20 (* 2 x21)) 0))
+(> x20 (- 1)))
+(> arg1 0))
+(< (- x20 (* 2 x21)) 2))
+(>= (- x20 (* 2 x21)) 0))
+(= (- 0 x19) arg1P))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2)
+(|f1_0_main_Load'| arg1P arg2P)
+:guard
+(exists
+((x24 Int) (x25 Int) (x26 Int))
+(and
+(and
+(and
+(and
+(and (and (> x24 (- 1)) (> arg2 1)) (= (- x25 (* 2 x26)) 1))
+(> x25 (- 1)))
+(> arg1 0))
+(= arg1 arg1P))
+(= arg2 arg2P))
+)
+)
+(rule
+(|f1_0_main_Load'| arg1 arg2)
+(f130_0_loop_GT arg1P arg2P)
+:guard
+(exists
+((x30 Int) (x31 Int))
+(and
+(and
+(and
+(and
+(and (and (> arg1P (- 1)) (> arg2 1)) (= (- x30 (* 2 x31)) 1))
+(> x30 (- 1)))
+(> arg1 0))
+(< (- x30 (* 2 x31)) 2))
+(>= (- x30 (* 2 x31)) 0))
+)
+)
+(rule
+(f130_0_loop_GT arg1 arg2)
+(f163_0_loop_GE arg1P arg2P)
+:guard
+(and (= 0 arg1) (= 0 arg1P)))
+(rule
+(f130_0_loop_GT arg1 arg2)
+(f163_0_loop_GE arg1P arg2P)
+:guard
+(and (and (> arg1 0) (< arg1 6)) (= (- arg1 1) arg1P)))
+(rule
+(f131_0_loop_LT arg1 arg2)
+(f163_0_loop_GE arg1P arg2P)
+:guard
+(and (and (and (< arg1 1) (< arg1 6)) (> arg1 (- 6))) (= arg1 arg1P)))
+(rule
+(f163_0_loop_GE arg1 arg2)
+(f130_0_loop_GT arg1P arg2P)
+:guard
+(and (> arg1 (- 1)) (= arg1 arg1P)))
+(rule
+(f163_0_loop_GE arg1 arg2)
+(f131_0_loop_LT arg1P arg2P)
+:guard
+(and (< arg1 0) (= (+ arg1 1) arg1P)))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2P))

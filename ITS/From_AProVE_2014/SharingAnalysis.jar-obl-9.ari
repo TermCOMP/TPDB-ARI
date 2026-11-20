@@ -1,0 +1,47 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f172_0_appendNewList_LE (-> Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int))
+(fun f282_0_copy_NULL (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f172_0_appendNewList_LE arg1 arg2P arg3)
+:guard
+(and (and (and (> arg2 0) (> arg1 (- 1))) (> arg1_old 0)) (= 0 arg2P)))
+(rule
+(f172_0_appendNewList_LE arg1 arg2 arg3)
+(f172_0_appendNewList_LE arg1P arg2P arg3P)
+:guard
+(and
+(and (and (> arg2P arg2) (> arg1 1)) (> arg2 0))
+(= (- arg1 1) arg1P))
+)
+(rule
+(f172_0_appendNewList_LE arg1 arg2 arg3)
+(f172_0_appendNewList_LE arg1P arg2P arg3P)
+:guard
+(and (and (> arg1 1) (= (- arg1 1) arg1P)) (= 1 arg2P)))
+(rule
+(f172_0_appendNewList_LE arg1 arg2 arg3)
+(f282_0_copy_NULL arg1P arg2P arg3P)
+:guard
+(and (and (and (> arg1P 1) (> arg2P 3)) (< arg1 2)) (= 0 arg3P)))
+(rule
+(f282_0_copy_NULL arg1 arg2 arg3)
+(f282_0_copy_NULL arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (- arg1P 1) arg2) (<= (+ arg2P 1) arg2)) (> arg1 1))
+(> arg2 0))
+(> arg1P 1))
+(> arg2P (- 1)))
+(<= (+ arg3 2) arg1))
+(<= (+ arg3P 2) arg2))
+)
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2P arg3))

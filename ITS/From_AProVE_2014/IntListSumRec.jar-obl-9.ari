@@ -1,0 +1,104 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int Int))
+(fun f302_0_createList_GE (-> Int Int Int Int))
+(fun f502_0_main_InvokeMethod (-> Int Int Int Int))
+(fun f571_0_sumList_NONNULL (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f302_0_createList_GE arg1 arg2P arg3P)
+:guard
+(and
+(and (and (and (> arg1 (- 1)) (> arg2 0)) (> arg1_old 0)) (= arg2 arg2P))
+(= 1 arg3P))
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f502_0_main_InvokeMethod arg1 arg2 arg3)
+:guard
+(exists
+((x8 Int))
+(and
+(and
+(and (and (and (> x8 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+(> arg2 2))
+)
+)
+(rule
+(f1_0_main_Load arg1 arg2 arg3)
+(f502_0_main_InvokeMethod arg1 arg2 arg3)
+:guard
+(exists
+((x14 Int))
+(and
+(and
+(and
+(and
+(and (and (> x14 (- 1)) (> arg2_old 0)) (>= arg1_old arg1))
+(>= arg1_old (- arg2 1)))
+(> arg1_old 0))
+(> arg1 0))
+(> arg2 1))
+)
+)
+(rule
+(f302_0_createList_GE arg1 arg2 arg3)
+(f302_0_createList_GE arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and (and (> arg1 (- 1)) (> arg2 (- 1))) (> arg3 0))
+(< (- arg1 1) arg1))
+(< arg3 arg2))
+(= (- arg1 1) arg1P))
+(= arg2 arg2P))
+(= (+ arg3 1) arg3P))
+)
+(rule
+(f502_0_main_InvokeMethod arg1 arg2 arg3)
+(f571_0_sumList_NONNULL arg1P arg2P arg3P)
+:guard
+(exists
+((x18 Int))
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (> x18 0) (> arg3 1)) (<= arg1P arg2))
+(<= (+ arg2P 1) arg2))
+(> arg1 0))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P (- 1)))
+(= arg3 arg3P))
+)
+)
+(rule
+(f571_0_sumList_NONNULL arg1 arg2 arg3)
+(f571_0_sumList_NONNULL arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and
+(and
+(and
+(and
+(and
+(and (and (<= (+ arg1P 2) arg1) (> arg3 1)) (<= arg1P arg2))
+(<= (+ arg2P 3) arg1))
+(<= (+ arg2P 1) arg2))
+(> arg1 2))
+(> arg2 0))
+(> arg1P 0))
+(> arg2P (- 1)))
+(= arg3 arg3P))
+)
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2 arg3))

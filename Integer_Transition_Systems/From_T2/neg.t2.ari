@@ -1,8 +1,0 @@
-(format LCTRS)
-(theory Ints)
-(fun l0 Int)
-(fun l1 Int)
-(fun l2 Int)
-(entrypoint l2)
-(rule l0 l1 :guard (<= 2 0))
-(rule l2 l0 :guard (<= 0 0))

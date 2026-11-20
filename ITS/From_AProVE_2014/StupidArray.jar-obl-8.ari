@@ -1,0 +1,33 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int Int))
+(fun f1_0_main_ConstantStackPush (-> Int Int Int Int))
+(fun f83_0_main_ArrayAccess (-> Int Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_ConstantStackPush arg1 arg2 arg3)
+(f83_0_main_ArrayAccess arg1 arg2P arg3P)
+:guard
+(and
+(and
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
+(= (+ arg2 1) arg2P))
+(= arg2 arg3P))
+)
+(rule
+(f83_0_main_ArrayAccess arg1 arg2 arg3)
+(f83_0_main_ArrayAccess arg1P arg2P arg3P)
+:guard
+(and
+(and
+(and
+(and
+(and (and (> arg3 arg2) (> arg3 (- 1))) (<= arg1P arg1))
+(> arg1 0))
+(> arg1P 0))
+(= (+ arg3 1) arg2P))
+(= arg3 arg3P))
+)
+(rule
+(__init arg1 arg2 arg3)
+(f1_0_main_ConstantStackPush arg1 arg2 arg3P))

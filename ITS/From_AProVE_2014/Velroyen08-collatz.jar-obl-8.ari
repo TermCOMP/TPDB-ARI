@@ -1,0 +1,67 @@
+(format LCTRS)
+(theory Ints)
+(fun __init (-> Int Int Int))
+(fun f1_0_main_Load (-> Int Int Int))
+(fun f57_0_collatz_LE (-> Int Int Int))
+(fun |f57_0_collatz_LE'| (-> Int Int Int))
+(entrypoint __init)
+(rule
+(f1_0_main_Load arg1 arg2)
+(f57_0_collatz_LE arg1P arg2P)
+:guard
+(and (and (> arg1 0) (> arg2 (- 1))) (= arg2 arg1P)))
+(rule
+(f57_0_collatz_LE arg1 arg2)
+(|f57_0_collatz_LE'| arg1P arg2P)
+:guard
+(exists
+((x5 Int) (x6 Int))
+(and
+(and (and (> arg1 1) (> arg1 x5)) (= (- arg1 (* 2 x6)) 0))
+(= arg1 arg1P))
+)
+)
+(rule
+(|f57_0_collatz_LE'| arg1 arg2)
+(f57_0_collatz_LE arg1P arg2P)
+:guard
+(exists
+((x9 Int))
+(and
+(and
+(and
+(and
+(and (and (> arg1 1) (= (- arg1 (* 2 x9)) 0)) (> arg1 arg1P))
+(>= (- arg1 (* 2 arg1P)) 0))
+(< (- arg1 (* 2 arg1P)) 2))
+(< (- arg1 (* 2 x9)) 2))
+(>= (- arg1 (* 2 x9)) 0))
+)
+)
+(rule
+(f57_0_collatz_LE arg1 arg2)
+(|f57_0_collatz_LE'| arg1P arg2P)
+:guard
+(exists
+((x11 Int))
+(and
+(and (and (= (- arg1 (* 2 x11)) 1) (> (* 3 arg1) 0)) (> arg1 1))
+(= arg1 arg1P))
+)
+)
+(rule
+(|f57_0_collatz_LE'| arg1 arg2)
+(f57_0_collatz_LE arg1P arg2P)
+:guard
+(exists
+((x13 Int))
+(and
+(and
+(and
+(and (and (= (- arg1 (* 2 x13)) 1) (> arg1 1)) (> (* 3 arg1) 0))
+(< (- arg1 (* 2 x13)) 2))
+(>= (- arg1 (* 2 x13)) 0))
+(= (+ (* 3 arg1) 1) arg1P))
+)
+)
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))
