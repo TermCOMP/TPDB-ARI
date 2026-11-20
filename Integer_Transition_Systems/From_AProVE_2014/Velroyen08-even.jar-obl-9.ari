@@ -91,4 +91,4 @@
 (f146_0_even_EQ arg1P arg2P)
 :guard
 (and (and (< arg1 0) (< arg1 3)) (= (- arg1 2) arg1P)))
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2P))

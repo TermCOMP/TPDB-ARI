@@ -6,9 +6,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_New arg1 arg2 arg3)
-(f169_0_exampleMethods_LE arg1P arg2P arg3P)
+(f169_0_exampleMethods_LE arg1 arg2P arg3P)
 :guard
-(and (and (> arg1P 13) (= 0 arg2P)) (= 10 arg3P)))
+(and (and (> arg1 13) (= 0 arg2P)) (= 10 arg3P)))
 (rule
 (f169_0_exampleMethods_LE arg1 arg2 arg3)
 (f169_0_exampleMethods_LE arg1P arg2P arg3P)
@@ -23,4 +23,4 @@
 (= (+ arg2 10) arg2P))
 (= (- arg3 1) arg3P))
 )
-(rule (__init arg1 arg2 arg3) (f1_0_main_New arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_New arg1 arg2P arg3P))

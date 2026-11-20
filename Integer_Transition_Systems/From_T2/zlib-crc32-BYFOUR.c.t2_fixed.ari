@@ -3634,8 +3634,8 @@ x6^0)
 oldX0^post
 oldX10^post
 oldX11^post
-oldX12^post
-oldX13^post
+oldX12^0
+oldX13^0
 oldX1^post
 oldX2^post
 oldX3^post
@@ -3683,8 +3683,8 @@ x6^post)
 (= oldX9^post oldX9^post))
 (= oldX10^post oldX10^post))
 (= oldX11^post oldX11^post))
-(= oldX12^post oldX12^post))
-(= oldX13^post oldX13^post))
+(= oldX12^0 oldX12^0))
+(= oldX13^0 oldX13^0))
 (= x0^post (+ 0 oldX0^post)))
 (= x1^post (+ 0 oldX1^post)))
 (=
@@ -3698,8 +3698,8 @@ x2^post
 )
 (= x3^post (+ 0 oldX1^post)))
 (= x4^post (+ 0 oldX11^post)))
-(= x5^post (+ 0 oldX12^post)))
-(= x6^post (+ 0 oldX13^post)))
+(= x5^post (+ 0 oldX12^0)))
+(= x6^post (+ 0 oldX13^0)))
 )
 (rule
 (l24
@@ -4422,8 +4422,8 @@ x5^0
 x6^0)
 (l23
 oldX0^post
-oldX10^post
-oldX11^post
+oldX10^0
+oldX11^0
 oldX12^post
 oldX13^post
 oldX1^post
@@ -4432,9 +4432,9 @@ oldX3^post
 oldX4^post
 oldX5^post
 oldX6^post
-oldX7^post
+oldX7^0
 oldX8^post
-oldX9^post
+oldX9^0
 x0^post
 x1^post
 x2^post
@@ -4468,18 +4468,18 @@ x6^post)
 (= oldX4^post (+ 0 x4^0)))
 (= oldX5^post (+ 0 x5^0)))
 (= oldX6^post (+ 0 x6^0)))
-(= oldX7^post oldX7^post))
+(= oldX7^0 oldX7^0))
 (= oldX8^post oldX8^post))
-(= oldX9^post oldX9^post))
-(= oldX10^post oldX10^post))
-(= oldX11^post oldX11^post))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
+(= oldX11^0 oldX11^0))
 (= x0^post (+ 0 oldX0^post)))
 (= x1^post (+ 0 oldX1^post)))
-(= x2^post (+ 0 oldX7^post)))
+(= x2^post (+ 0 oldX7^0)))
 (= x3^post (+ 0 oldX8^post)))
-(= x4^post (+ 0 oldX9^post)))
-(= x5^post (+ 0 oldX10^post)))
-(= x6^post (+ 0 oldX11^post)))
+(= x4^post (+ 0 oldX9^0)))
+(= x5^post (+ 0 oldX10^0)))
+(= x6^post (+ 0 oldX11^0)))
 (= oldX12^0 oldX12^post))
 (= oldX13^0 oldX13^post))
 )
@@ -4508,8 +4508,8 @@ x5^0
 x6^0)
 (l20
 oldX0^post
-oldX10^post
-oldX11^post
+oldX10^0
+oldX11^0
 oldX12^post
 oldX13^post
 oldX1^post
@@ -4518,9 +4518,9 @@ oldX3^post
 oldX4^post
 oldX5^post
 oldX6^post
-oldX7^post
-oldX8^post
-oldX9^post
+oldX7^0
+oldX8^0
+oldX9^0
 x0^post
 x1^post
 x2^post
@@ -4554,18 +4554,18 @@ x6^post)
 (= oldX4^post (+ 0 x4^0)))
 (= oldX5^post (+ 0 x5^0)))
 (= oldX6^post (+ 0 x6^0)))
-(= oldX7^post oldX7^post))
-(= oldX8^post oldX8^post))
-(= oldX9^post oldX9^post))
-(= oldX10^post oldX10^post))
-(= oldX11^post oldX11^post))
+(= oldX7^0 oldX7^0))
+(= oldX8^0 oldX8^0))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
+(= oldX11^0 oldX11^0))
 (= x0^post (+ 0 oldX0^post)))
 (= x1^post (+ 0 oldX1^post)))
-(= x2^post (+ 0 oldX7^post)))
-(= x3^post (+ 0 oldX8^post)))
-(= x4^post (+ 0 oldX9^post)))
-(= x5^post (+ 0 oldX10^post)))
-(= x6^post (+ 0 oldX11^post)))
+(= x2^post (+ 0 oldX7^0)))
+(= x3^post (+ 0 oldX8^0)))
+(= x4^post (+ 0 oldX9^0)))
+(= x5^post (+ 0 oldX10^0)))
+(= x6^post (+ 0 oldX11^0)))
 (= oldX12^0 oldX12^post))
 (= oldX13^0 oldX13^post))
 )

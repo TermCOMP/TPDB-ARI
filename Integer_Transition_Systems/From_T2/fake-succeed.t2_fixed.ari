@@ -60128,7 +60128,7 @@ ip1919^post
 irql^post
 keA^post
 keR^post
-length^post
+length^0
 lock^post
 pBaudRate^post
 pLineControl^post
@@ -60233,7 +60233,7 @@ y77^post)
 (and
 (and
 (and (and (<= 1 (+ 0 ___rho_91_^0)) (= keA^1 1)) (= keA^post 0))
-(= length^post length^post))
+(= length^0 length^0))
 (= CancelIrp^0 CancelIrp^post))
 (= CancelIrql^0 CancelIrql^post))
 (= CurrentWaitIrp^0 CurrentWaitIrp^post))
@@ -62445,7 +62445,7 @@ CancelIrp^post
 CancelIrql^post
 CurrentWaitIrp^post
 DeviceObject^post
-Irp^post
+Irp^0
 LData^post
 LParity^post
 LStop^post
@@ -62507,11 +62507,11 @@ ip1919^post
 irql^post
 keA^post
 keR^post
-length^post
+length^0
 lock^post
 pBaudRate^post
 pLineControl^post
-status^post
+status^0
 x1010^post
 x1313^post
 x2222^post
@@ -62617,12 +62617,12 @@ y77^post)
 (= irql^post irql^post))
 (= csl^post csl^post))
 (= DeviceObject^post DeviceObject^post))
-(= Irp^post Irp^post))
+(= Irp^0 Irp^0))
 (= status^1 1))
-(= status^post status^post))
+(= status^0 status^0))
 (= keA^post 0))
 (= keR^post 0))
-(= length^post length^post))
+(= length^0 length^0))
 (= NewTimeouts^post NewTimeouts^post))
 (= SerialStatus^post SerialStatus^post))
 (= pBaudRate^post pBaudRate^post))

@@ -17,7 +17,7 @@ f1280_0_getPowerOfKInSource_IntArithmetic
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f731_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f731_0_main_GE arg1 arg2P arg3P arg4 arg5P arg6P arg7)
 :guard
 (and
 (and
@@ -25,9 +25,9 @@ f1280_0_getPowerOfKInSource_IntArithmetic
 (and
 (and
 (and
-(and (and (and (> arg4P (- 1)) (> arg2 1)) (> arg7P 0)) (<= arg1P arg1))
+(and (and (and (> arg4 (- 1)) (> arg2 1)) (> arg7 0)) (<= arg1 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
 (> arg2P 2))
 (= 0 arg3P))
 (= arg2 arg5P))
@@ -353,4 +353,4 @@ arg7P)
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
+(f1_0_main_Load arg1 arg2 arg3P arg4 arg5P arg6P arg7))

@@ -9,7 +9,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(|f1_0_main_Load'| arg1P arg2P arg3P arg4P arg5P arg6P)
+(|f1_0_main_Load'| arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x45 Int) (x46 Int) (x47 Int) (x48 Int) (x49 Int) (x50 Int))
@@ -30,7 +30,7 @@
 )
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5 arg6)
-(f387_0_lcm_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f387_0_lcm_EQ arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x53 Int) (x55 Int) (x56 Int) (x57 Int) (x58 Int))
@@ -46,7 +46,7 @@
 (and
 (and
 (and
-(and (and (> arg3P (- 1)) (> arg2 3)) (> x53 (- 1)))
+(and (and (> arg3 (- 1)) (> arg2 3)) (> x53 (- 1)))
 (> x55 (- 1)))
 (= (- x55 (* 2 x56)) 1))
 (= (- x57 (* 2 x58)) 0))
@@ -58,12 +58,12 @@
 (>= (- x57 (* 2 x58)) 0))
 (= (- 0 x53) arg1P))
 (= (- 0 x53) arg2P))
-(= (- 0 x53) arg4P))
+(= (- 0 x53) arg4))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(|f1_0_main_Load'| arg1P arg2P arg3P arg4P arg5P arg6P)
+(|f1_0_main_Load'| arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x61 Int) (x62 Int) (x63 Int) (x64 Int) (x65 Int) (x66 Int))
@@ -84,7 +84,7 @@
 )
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5 arg6)
-(f454_0_lcm_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f454_0_lcm_EQ arg1P arg2P arg3 arg4 arg5P arg6P)
 :guard
 (exists
 ((x71 Int) (x72 Int) (x73 Int) (x74 Int))
@@ -111,8 +111,8 @@
 (< (- x71 (* 2 x72)) 2))
 (< (- x73 (* 2 x74)) 2))
 (>= (- x73 (* 2 x74)) 0))
-(= arg1P arg3P))
-(= arg2P arg4P))
+(= arg1P arg3))
+(= arg2P arg4))
 (= arg1P arg5P))
 (= arg2P arg6P))
 )
@@ -133,7 +133,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(|f1_0_main_Load'| arg1P arg2P arg3P arg4P arg5P arg6P)
+(|f1_0_main_Load'| arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x77 Int) (x78 Int) (x79 Int) (x80 Int) (x81 Int) (x82 Int))
@@ -154,7 +154,7 @@
 )
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5 arg6)
-(f481_0_lcm_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f481_0_lcm_EQ arg1P arg2P arg3 arg4 arg5P arg6P)
 :guard
 (exists
 ((x85 Int) (x87 Int) (x88 Int) (x89 Int) (x90 Int))
@@ -183,15 +183,15 @@
 (< (- x89 (* 2 x90)) 2))
 (>= (- x89 (* 2 x90)) 0))
 (= (- 0 x85) arg1P))
-(= (- 0 x85) arg3P))
-(= arg2P arg4P))
+(= (- 0 x85) arg3))
+(= arg2P arg4))
 (= (- 0 x85) arg5P))
 (= arg2P arg6P))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(|f1_0_main_Load'| arg1P arg2P arg3P arg4P arg5P arg6P)
+(|f1_0_main_Load'| arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x93 Int) (x94 Int) (x95 Int) (x96 Int) (x97 Int) (x98 Int))
@@ -212,7 +212,7 @@
 )
 (rule
 (|f1_0_main_Load'| arg1 arg2 arg3 arg4 arg5 arg6)
-(f481_0_lcm_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f481_0_lcm_EQ arg1P arg2P arg3 arg4 arg5P arg6P)
 :guard
 (exists
 ((x101 Int) (x102 Int) (x103 Int) (x104 Int) (x105 Int) (x106 Int))
@@ -243,8 +243,8 @@
 (>= (- x105 (* 2 x106)) 0))
 (= (- 0 x101) arg1P))
 (= (- 0 x102) arg2P))
-(= (- 0 x101) arg3P))
-(= (- 0 x102) arg4P))
+(= (- 0 x101) arg3))
+(= (- 0 x102) arg4))
 (= (- 0 x101) arg5P))
 (= (- 0 x102) arg6P))
 )
@@ -333,4 +333,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6))

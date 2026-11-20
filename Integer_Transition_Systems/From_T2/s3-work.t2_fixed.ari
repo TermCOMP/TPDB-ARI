@@ -105960,7 +105960,7 @@ len_161^post
 len_238^post
 len_262^post
 len_861^post
-length_29^post
+length_29^0
 nondet_12^post
 r_143^post
 r_151^post
@@ -106092,7 +106092,7 @@ y_20^post)
 (= nondet_12^1 nondet_12^1)
 (= result_dot_nondet_sdv_special_RETURN_VALUE_13^post (+ 0 nondet_12^1)))
 (= nondet_12^post nondet_12^post))
-(= length_29^post (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)))
+(= length_29^0 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)))
 (= head_32^post 0))
 (= i_30^post 0))
 (<= 0 (+ 0 i_30^post)))
@@ -106101,10 +106101,10 @@ y_20^post)
 (<= (+ 0 head_32^post) 0))
 (<=
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
-(+ 0 length_29^post))
+(+ 0 length_29^0))
 )
 (<=
-(+ 0 length_29^post)
+(+ 0 length_29^0)
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post))
 )
 (= a_1089^0 a_1089^post))
@@ -157241,7 +157241,7 @@ t_24^post
 t_458^post
 temp0_16^post
 temp0_31^post
-temp_35^post
+temp_35^0
 tmp_34^post
 x_14^post
 x_156^post
@@ -157425,7 +157425,7 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post
 result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_33^post)
 )
 (= tmp_34^post tmp_34^post))
-(= temp_35^post temp_35^post))
+(= temp_35^0 temp_35^0))
 (= head_15^post (+ 0 result_11^1)))
 (= result_11^2 result_11^2))
 (= x_14^1 (+ 0 head_15^post)))

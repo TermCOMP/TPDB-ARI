@@ -54486,7 +54486,7 @@ i1343120^post
 i1357^post
 i1472^post
 i1592^post
-i16^post
+i16^0
 i1876^post
 i1895^post
 i18^post
@@ -54581,7 +54581,7 @@ zer^post)
 (and
 (and
 (and (= tmp^post tmp^post) (= tmp___0^post tmp___0^post))
-(= i16^post i16^post))
+(= i16^0 i16^0))
 (= cmd1^0 cmd1^post))
 (= cmd2^0 cmd2^post))
 (= ea62^0 ea62^post))

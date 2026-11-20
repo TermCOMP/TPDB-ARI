@@ -361,14 +361,14 @@
   (and (and (>= Z 2) (>= R 0)) (= J H)))
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
-  (f10 B1 D1 C1 K1 H1 F G P1 I O1 A1 0 L1 M1 N1 Q1 F1 R S T Z E1 G1 X Y)
+  (f10 A D1 C K1 H1 F G P1 I O1 A1 0 L1 M1 N1 Q1 F1 R S T Z E1 G1 X Y)
   :guard
   (exists ((I1 Int) (J1 Int)) (and (and (>= 0 I1) (>= 0 A1)) (>= 0 J1))))
 (rule
   (f9 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
-  (f1 A1 2 B1 C1 B1 F G H I J A1 L M N O P Q R S T Z V B1 D1 Y)
+  (f1 A 2 C C1 C F G H I J A L M N O P Q R S T Z V C D1 Y)
   :guard
-  (>= A1 2))
+  (>= A 2))
 (rule
   (f1 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
   (f8 A1 C1 B1 H1 G1 F G C R 0 Z C C 0 C C E1 R S T U D1 F1 X (+ R 1))

@@ -25,4 +25,4 @@
 (and (> arg1 0) (> 2 (* (- 1) arg1)))
 (= (- (* (- 1) arg1) 1) arg1P))
 )
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))

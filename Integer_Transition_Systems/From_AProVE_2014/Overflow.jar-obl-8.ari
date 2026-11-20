@@ -6,12 +6,12 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2)
-(f79_0_overflow_GT arg1P arg2P)
+(f79_0_overflow_GT arg1 arg2P)
 :guard
-(and (and (> arg2 (- 1)) (> arg1P (- 1))) (> arg1 0)))
+(and (and (> arg2 (- 1)) (> arg1 (- 1))) (> arg1_old 0)))
 (rule
 (f79_0_overflow_GT arg1 arg2)
 (f79_0_overflow_GT arg1P arg2P)
 :guard
 (and (< arg1 2147483648) (= (+ arg1 1) arg1P)))
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2P))

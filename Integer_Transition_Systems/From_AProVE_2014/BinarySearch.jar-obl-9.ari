@@ -22,19 +22,19 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f382_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f382_0_random_ArrayAccess arg1 arg2P arg3 arg4P arg5P arg6P arg7P)
 :guard
-(and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (= arg2 arg2P)))
+(and (and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)) (= arg2 arg2P)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f464_0_createArray_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f464_0_createArray_GE arg1 arg2P arg3P arg4P arg5 arg6 arg7P)
 :guard
 (and
 (and
 (and
 (and
-(and (and (and (> arg5P (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
-(> arg1P 0))
+(and (and (and (> arg5 (- 1)) (> arg2 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
 (= 0 arg2P))
 (= arg2 arg3P))
 (= 1 arg4P))
@@ -61,7 +61,7 @@
 )
 (rule
 (f382_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f826_0_binarySearch_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f826_0_binarySearch_LE arg1P arg2 arg3P arg4P arg5P arg6P arg7P)
 :guard
 (exists
 ((x22 Int) (x28 Int))
@@ -74,13 +74,13 @@
 (and
 (and
 (and
-(and (and (and (< x22 arg2) (> x22 0)) (> arg3P (- 1))) (> arg2 0))
+(and (and (and (< x22 arg2_old) (> x22 0)) (> arg3P (- 1))) (> arg2_old 0))
 (> arg3 (- 1)))
 (> x28 1))
-(<= arg2P arg1))
+(<= arg2 arg1))
 (> arg1 0))
 (> arg1P 0))
-(> arg2P 0))
+(> arg2 0))
 (= 0 arg4P))
 (= arg3 arg5P))
 (= arg3 arg6P))
@@ -1646,4 +1646,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
+(f1_0_main_Load arg1 arg2 arg3 arg4P arg5 arg6 arg7P))

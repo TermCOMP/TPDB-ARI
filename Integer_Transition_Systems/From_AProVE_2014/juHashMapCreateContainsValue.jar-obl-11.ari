@@ -55,25 +55,25 @@ arg12
 arg13
 arg14)
 (f4085_0_random_ArrayAccess
-arg1P
+arg1
 arg2P
-arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P)
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14)
 :guard
 (exists
 ((x7 Int))
 (and
-(and (and (and (> x7 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 3))
+(and (and (and (> x7 (- 1)) (> arg2 0)) (> arg1_old 0)) (> arg1 3))
 (= arg2 arg2P))
 )
 )
@@ -140,20 +140,20 @@ arg12
 arg13
 arg14)
 (f4007_0_createMap_LE
-arg1P
+arg1
 arg2P
 arg3P
 arg4P
 arg5P
 arg6P
 arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P)
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14)
 :guard
 (and
 (and
@@ -162,9 +162,9 @@ arg14P)
 (and
 (and
 (and
-(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1P 14) arg1))
-(> arg1 0))
-(> arg1P 14))
+(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1 14) arg1_old))
+(> arg1_old 0))
+(> arg1 14))
 (= arg2 arg3P))
 (= 1 arg4P))
 (= 16 arg5P))
@@ -250,17 +250,17 @@ arg14)
 arg1P
 arg2P
 arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P)
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14)
 :guard
 (exists
 ((x32 Int) (x38 Int))
@@ -277,8 +277,8 @@ arg14P)
 (<= (+ arg1P 3) arg1))
 (> arg1 3))
 (> arg1P 0))
-(<= (+ arg5 3) arg1))
-(<= (+ arg4 3) arg1))
+(<= (+ arg5_old 3) arg1))
+(<= (+ arg4_old 3) arg1))
 (= 0 arg2P))
 (= arg3 arg3P))
 )
@@ -1775,18 +1775,18 @@ arg12
 arg13
 arg14)
 (f1_0_main_Load
-arg1P
-arg2P
-arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P)
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14)
 )

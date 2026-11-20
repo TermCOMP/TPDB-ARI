@@ -1,0 +1,34 @@
+# Fails if a benchmark in Integer_Transition_Systems or Complexity_ITS assigns
+# superfluous nondeterministic values before its first loop, i.e. if
+# .github/remove_initial_nondet.py would change a file.  Run that script with
+# --in-place to fix such files.
+name: ITS initial nondeterminism
+
+on:
+  push:
+    paths:
+      - 'Integer_Transition_Systems/**'
+      - 'Complexity_ITS/**'
+      - '.github/remove_initial_nondet.py'
+      - '.github/its_dedup.py'
+      - '.github/workflows/its-nondeterminism.yml'
+  pull_request:
+    paths:
+      - 'Integer_Transition_Systems/**'
+      - 'Complexity_ITS/**'
+      - '.github/remove_initial_nondet.py'
+      - '.github/its_dedup.py'
+      - '.github/workflows/its-nondeterminism.yml'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check for superfluous initial nondeterminism
+        run: python3 .github/remove_initial_nondet.py Integer_Transition_Systems Complexity_ITS --check

@@ -22,12 +22,12 @@ f3952_0_extendMatchingSubstitution_NULL
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f2800_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f2800_0_random_ArrayAccess arg1 arg2P arg3 arg4 arg5 arg6P arg7P)
 :guard
 (exists
 ((x6 Int))
 (and
-(and (and (and (> x6 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 3))
+(and (and (and (> x6 (- 1)) (> arg2 0)) (> arg1_old 0)) (> arg1 3))
 (= arg2 arg2P))
 )
 )
@@ -86,9 +86,9 @@ arg7P)
 (f3568_0_extendMatchingSubstitution_CheckCast
 arg1P
 arg2P
-arg3P
-arg4P
-arg5P
+arg3
+arg4
+arg5
 arg6P
 arg7P)
 :guard
@@ -105,16 +105,16 @@ arg7P)
 (and
 (and
 (and (and (and (< x26 arg2) (> x26 0)) (> arg2 0)) (> x34 (- 1)))
-(> arg4P 1))
+(> arg4 1))
 (<= arg1P arg1))
 (<= (+ arg2P 3) arg1))
-(<= (+ arg3P 3) arg1))
+(<= (+ arg3 3) arg1))
 (> arg1 3))
 (> arg1P 3))
 (> arg2P 0))
-(> arg3P 0))
-(<= (+ arg4 5) arg1))
-(<= (+ arg3 5) arg1))
+(> arg3 0))
+(<= (+ arg4_old 5) arg1))
+(<= (+ arg3_old 5) arg1))
 )
 )
 (rule
@@ -122,9 +122,9 @@ arg7P)
 (f3568_0_extendMatchingSubstitution_CheckCast
 arg1P
 arg2P
-arg3P
-arg4P
-arg5P
+arg3
+arg4
+arg5
 arg6P
 arg7P)
 :guard
@@ -139,27 +139,27 @@ arg7P)
 (and
 (and
 (and (and (and (< x36 arg2) (> x36 0)) (> arg2 0)) (> x44 (- 1)))
-(> arg4P 1))
+(> arg4 1))
 (<= arg1P arg1))
 (> arg1 3))
 (> arg1P 3))
 (> arg2P 3))
-(> arg3P 3))
-(<= (+ arg4 5) arg1))
-(<= (+ arg3 5) arg1))
+(> arg3 3))
+(<= (+ arg4_old 5) arg1))
+(<= (+ arg3_old 5) arg1))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f648_0_create_GT arg1 arg2P arg3P arg4 arg5 arg6P arg7P)
 :guard
 (and
-(and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= arg2 arg2P))
+(and (and (and (> arg1 (- 1)) (> arg2 0)) (> arg1_old 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f648_0_create_GT arg1 arg2P arg3 arg4 arg5 arg6P arg7P)
 :guard
 (exists
 ((x52 Int) (x50 Int))
@@ -168,15 +168,15 @@ arg7P)
 (and
 (and
 (and (and (and (> x52 (- 1)) (> arg2 0)) (> x50 0)) (< x50 arg2))
-(> arg1P (- 1)))
-(> arg1 0))
+(> arg1 (- 1)))
+(> arg1_old 0))
 (= arg2 arg2P))
-(= (+ x50 1) arg3P))
+(= (+ x50 1) arg3))
 )
 )
 (rule
 (f2800_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f648_0_create_GT arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f648_0_create_GT arg1P arg2P arg3 arg4 arg5 arg6P arg7P)
 :guard
 (exists
 ((x54 Int))
@@ -187,10 +187,10 @@ arg7P)
 (and
 (and (and (and (< x54 arg2) (> x54 0)) (> arg2 0)) (> arg1P (- 1)))
 (> arg1 3))
-(<= (+ arg4 5) arg1))
-(<= (+ arg3 5) arg1))
+(<= (+ arg4_old 5) arg1))
+(<= (+ arg3_old 5) arg1))
 (= arg2 arg2P))
-(= (+ x54 1) arg3P))
+(= (+ x54 1) arg3))
 )
 )
 (rule
@@ -474,4 +474,4 @@ arg7P)
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6P arg7P))

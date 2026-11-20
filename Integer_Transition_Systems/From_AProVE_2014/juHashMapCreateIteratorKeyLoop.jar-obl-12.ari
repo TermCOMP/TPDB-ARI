@@ -51,26 +51,26 @@ arg11
 arg12
 arg13)
 (f4729_0__init__LE
-arg1P
-arg2P
+arg1
+arg2
 arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (exists
 ((x7 Int))
 (and
 (and
-(and (and (and (> x7 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 5))
-(> arg2P 3))
+(and (and (and (> x7 (- 1)) (> arg2_old 0)) (> arg1_old 0)) (> arg1 5))
+(> arg2 3))
 (= 0 arg3P))
 )
 )
@@ -146,13 +146,13 @@ arg3P
 arg4P
 arg5P
 arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (and
 (and
@@ -642,19 +642,19 @@ arg11
 arg12
 arg13)
 (f4279_0_createMap_LE
-arg1P
+arg1
 arg2P
 arg3P
 arg4P
 arg5P
 arg6P
 arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (and
 (and
@@ -663,9 +663,9 @@ arg13P)
 (and
 (and
 (and
-(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1P 14) arg1))
-(> arg1 0))
-(> arg1P 14))
+(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1 14) arg1_old))
+(> arg1_old 0))
+(> arg1 14))
 (= arg2 arg3P))
 (= 1 arg4P))
 (= 0 arg5P))
@@ -1705,17 +1705,17 @@ arg13P)
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12 arg13)
 (f1_0_main_Load
-arg1P
-arg2P
+arg1
+arg2
 arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 )

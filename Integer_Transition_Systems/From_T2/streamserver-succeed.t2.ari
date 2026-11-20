@@ -7284,7 +7284,7 @@ ret^0
 tmp1^0)
 (l34
 ListenSocket_OF_listen_index^post
-MAXADDR^post
+MAXADDR^0
 MaxBackends^post
 MaxListen^post
 __const_10^post
@@ -7300,7 +7300,7 @@ __rho_9_^post
 added^post
 addr^post
 addr_ai_family^post
-addrs^post
+addrs^0
 err^post
 family^post
 fd^post
@@ -7336,9 +7336,9 @@ tmp1^post)
 (and
 (and
 (and (and (= one^post 1) (= listen_index^post 0)) (= added^post 0))
-(= MAXADDR^post MAXADDR^post))
-(= addrs^post addrs^post))
-(<= 0 (+ 0 addrs^post)))
+(= MAXADDR^0 MAXADDR^0))
+(= addrs^0 addrs^0))
+(<= 0 (+ 0 addrs^0)))
 (= MaxBackends^post MaxBackends^post))
 (<= 1 (+ 0 MaxBackends^post)))
 (= ret^post ret^post))

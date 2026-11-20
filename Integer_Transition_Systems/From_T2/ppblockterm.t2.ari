@@ -419,9 +419,9 @@ IoCreateDevice^post
 PPBlockInits^post
 PPBunlockInits^post
 Pdo^post
-Pdolen^post
+Pdolen^0
 conditional^post
-i^post
+i^0
 num^post
 status^post)
 :guard
@@ -433,7 +433,7 @@ status^post)
 (and
 (and
 (and
-(and (= i^post i^post) (= Pdolen^post Pdolen^post))
+(and (= i^0 i^0) (= Pdolen^0 Pdolen^0))
 (= PPBunlockInits^post 0))
 (= PPBlockInits^post 1))
 (= status^post 0))

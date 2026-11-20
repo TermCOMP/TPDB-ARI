@@ -12,31 +12,31 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f577_0_createTree_GT arg1P arg2P arg3P arg4P arg5P arg6P)
+(f577_0_createTree_GT arg1 arg2P arg3P arg4 arg5 arg6)
 :guard
 (and
-(and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= arg2 arg2P))
+(and (and (and (> arg1 (- 1)) (> arg2 0)) (> arg1_old 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1116_0_dupTree_FieldAccess arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1116_0_dupTree_FieldAccess arg1 arg2 arg3 arg4 arg5 arg6)
 :guard
 (and
-(and (and (<= (+ arg1P 1) arg1) (> arg2 0)) (> arg1 0))
-(> arg1P (- 1)))
+(and (and (<= (+ arg1 1) arg1_old) (> arg2_old 0)) (> arg1_old 0))
+(> arg1 (- 1)))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1098_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1098_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x11 Int))
 (and
 (and
-(and (and (and (> x11 (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
+(and (and (and (> x11 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+(> arg2 0))
 )
 )
 (rule
@@ -53,13 +53,13 @@
 )
 (rule
 (f1098_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f1116_0_dupTree_FieldAccess arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1116_0_dupTree_FieldAccess arg1P arg2P arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x17 Int))
 (and
 (and
-(and (and (and (> x17 0) (> arg3 1)) (<= arg1P arg2)) (> arg1 0))
+(and (and (and (> x17 0) (> arg3_old 1)) (<= arg1P arg2)) (> arg1 0))
 (> arg2 0))
 (> arg1P 0))
 )
@@ -212,4 +212,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6))

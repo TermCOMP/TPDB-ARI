@@ -1129,7 +1129,7 @@ z^post)
 (rule
 (l20 N^0 b_arp^0 b_configured^0 b_ip^0 b_probe^0 i^0 k^0 pos^0 seq^0 z^0)
 (l1
-N^post
+N^0
 b_arp^post
 b_configured^post
 b_ip^post
@@ -1152,8 +1152,8 @@ z^post)
 (and (and (= seq^post 1) (= i^post (+ 3 seq^post))) (= z^post z^post))
 (<= 0 (+ 0 z^post)))
 (= pos^post 0))
-(= N^post N^post))
-(<= 0 (+ 0 N^post)))
+(= N^0 N^0))
+(<= 0 (+ 0 N^0)))
 (= b_ip^post 0))
 (= b_probe^post 0))
 (= b_arp^post 0))

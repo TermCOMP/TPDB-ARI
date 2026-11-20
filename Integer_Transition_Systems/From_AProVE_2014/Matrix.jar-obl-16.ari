@@ -32,11 +32,11 @@ f7078_0_determinant_ArrayAccess
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
-(f401_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P)
+(f401_0_main_GE arg1 arg2P arg3P arg4 arg5 arg6 arg7 arg8 arg9)
 :guard
 (and
 (and
-(and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
 (= 0 arg2P))
 (= arg2 arg3P))
 )
@@ -1662,4 +1662,4 @@ arg9P)
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P arg9P))
+(f1_0_main_Load arg1 arg2 arg3P arg4 arg5 arg6 arg7 arg8 arg9))

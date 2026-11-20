@@ -1348,8 +1348,8 @@ oldX10^post
 oldX11^post
 oldX12^post
 oldX13^post
-oldX14^post
-oldX15^post
+oldX14^0
+oldX15^0
 oldX16^post
 oldX1^post
 oldX2^post
@@ -1405,16 +1405,16 @@ x7^post)
 (= oldX11^post oldX11^post))
 (= oldX12^post oldX12^post))
 (= oldX13^post oldX13^post))
-(= oldX14^post oldX14^post))
-(= oldX15^post oldX15^post))
+(= oldX14^0 oldX14^0))
+(= oldX15^0 oldX15^0))
 (= x0^post (+ 0 oldX8^post)))
 (= x1^post (+ 0 oldX9^post)))
 (= x2^post (+ 0 oldX10^post)))
 (= x3^post (+ 0 oldX11^post)))
 (= x4^post (+ 0 oldX12^post)))
 (= x5^post (+ 0 oldX13^post)))
-(= x6^post (+ 0 oldX14^post)))
-(= x7^post (+ 0 oldX15^post)))
+(= x6^post (+ 0 oldX14^0)))
+(= x7^post (+ 0 oldX15^0)))
 (= oldX16^0 oldX16^post))
 )
 (rule
@@ -1654,8 +1654,8 @@ oldX10^post
 oldX11^post
 oldX12^post
 oldX13^post
-oldX14^post
-oldX15^post
+oldX14^0
+oldX15^0
 oldX16^post
 oldX1^post
 oldX2^post
@@ -1713,8 +1713,8 @@ x7^post)
 (= oldX11^post oldX11^post))
 (= oldX12^post oldX12^post))
 (= oldX13^post oldX13^post))
-(= oldX14^post oldX14^post))
-(= oldX15^post oldX15^post))
+(= oldX14^0 oldX14^0))
+(= oldX15^0 oldX15^0))
 (= oldX16^post oldX16^post))
 (<= (+ (+ 0 oldX16^post) oldX3^post) 65520))
 (<= (+ (+ (+ 0 oldX16^post) oldX2^post) oldX3^post) 65520))
@@ -1724,8 +1724,8 @@ x7^post)
 (= x3^post (+ 0 oldX11^post)))
 (= x4^post (+ 0 oldX12^post)))
 (= x5^post (+ 0 oldX13^post)))
-(= x6^post (+ 0 oldX14^post)))
-(= x7^post (+ 0 oldX15^post)))
+(= x6^post (+ 0 oldX14^0)))
+(= x7^post (+ 0 oldX15^0)))
 )
 (rule
 (l10
@@ -1760,8 +1760,8 @@ oldX10^post
 oldX11^post
 oldX12^post
 oldX13^post
-oldX14^post
-oldX15^post
+oldX14^0
+oldX15^0
 oldX16^post
 oldX1^post
 oldX2^post
@@ -1819,8 +1819,8 @@ x7^post)
 (= oldX11^post oldX11^post))
 (= oldX12^post oldX12^post))
 (= oldX13^post oldX13^post))
-(= oldX14^post oldX14^post))
-(= oldX15^post oldX15^post))
+(= oldX14^0 oldX14^0))
+(= oldX15^0 oldX15^0))
 (= oldX16^post oldX16^post))
 (<= (+ (+ 0 oldX16^post) oldX3^post) 65520))
 (<= 65521 (+ (+ (+ 0 oldX16^post) oldX2^post) oldX3^post)))
@@ -1830,8 +1830,8 @@ x7^post)
 (= x3^post (+ 0 oldX11^post)))
 (= x4^post (+ 0 oldX12^post)))
 (= x5^post (+ 0 oldX13^post)))
-(= x6^post (+ 0 oldX14^post)))
-(= x7^post (+ 0 oldX15^post)))
+(= x6^post (+ 0 oldX14^0)))
+(= x7^post (+ 0 oldX15^0)))
 )
 (rule
 (l10
@@ -1866,8 +1866,8 @@ oldX10^post
 oldX11^post
 oldX12^post
 oldX13^post
-oldX14^post
-oldX15^post
+oldX14^0
+oldX15^0
 oldX16^post
 oldX1^post
 oldX2^post
@@ -1925,8 +1925,8 @@ x7^post)
 (= oldX11^post oldX11^post))
 (= oldX12^post oldX12^post))
 (= oldX13^post oldX13^post))
-(= oldX14^post oldX14^post))
-(= oldX15^post oldX15^post))
+(= oldX14^0 oldX14^0))
+(= oldX15^0 oldX15^0))
 (= oldX16^post oldX16^post))
 (<= 65521 (+ (+ 0 oldX16^post) oldX3^post)))
 (<= (+ (+ (+ (- 65521) oldX16^post) oldX2^post) oldX3^post) 65520))
@@ -1936,8 +1936,8 @@ x7^post)
 (= x3^post (+ 0 oldX11^post)))
 (= x4^post (+ 0 oldX12^post)))
 (= x5^post (+ 0 oldX13^post)))
-(= x6^post (+ 0 oldX14^post)))
-(= x7^post (+ 0 oldX15^post)))
+(= x6^post (+ 0 oldX14^0)))
+(= x7^post (+ 0 oldX15^0)))
 )
 (rule
 (l10
@@ -1972,8 +1972,8 @@ oldX10^post
 oldX11^post
 oldX12^post
 oldX13^post
-oldX14^post
-oldX15^post
+oldX14^0
+oldX15^0
 oldX16^post
 oldX1^post
 oldX2^post
@@ -2031,8 +2031,8 @@ x7^post)
 (= oldX11^post oldX11^post))
 (= oldX12^post oldX12^post))
 (= oldX13^post oldX13^post))
-(= oldX14^post oldX14^post))
-(= oldX15^post oldX15^post))
+(= oldX14^0 oldX14^0))
+(= oldX15^0 oldX15^0))
 (= oldX16^post oldX16^post))
 (<= 65521 (+ (+ 0 oldX16^post) oldX3^post)))
 (<= 65521 (+ (+ (+ (- 65521) oldX16^post) oldX2^post) oldX3^post)))
@@ -2042,8 +2042,8 @@ x7^post)
 (= x3^post (+ 0 oldX11^post)))
 (= x4^post (+ 0 oldX12^post)))
 (= x5^post (+ 0 oldX13^post)))
-(= x6^post (+ 0 oldX14^post)))
-(= x7^post (+ 0 oldX15^post)))
+(= x6^post (+ 0 oldX14^0)))
+(= x7^post (+ 0 oldX15^0)))
 )
 (rule
 (l11
@@ -4244,10 +4244,10 @@ x6^0
 x7^0)
 (l15
 oldX0^post
-oldX10^post
-oldX11^post
-oldX12^post
-oldX13^post
+oldX10^0
+oldX11^0
+oldX12^0
+oldX13^0
 oldX14^post
 oldX15^post
 oldX16^post
@@ -4258,8 +4258,8 @@ oldX4^post
 oldX5^post
 oldX6^post
 oldX7^post
-oldX8^post
-oldX9^post
+oldX8^0
+oldX9^0
 x0^post
 x1^post
 x2^post
@@ -4299,20 +4299,20 @@ x7^post)
 (= oldX5^post (+ 0 x5^0)))
 (= oldX6^post (+ 0 x6^0)))
 (= oldX7^post (+ 0 x7^0)))
-(= oldX8^post oldX8^post))
-(= oldX9^post oldX9^post))
-(= oldX10^post oldX10^post))
-(= oldX11^post oldX11^post))
-(= oldX12^post oldX12^post))
-(= oldX13^post oldX13^post))
+(= oldX8^0 oldX8^0))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
+(= oldX11^0 oldX11^0))
+(= oldX12^0 oldX12^0))
+(= oldX13^0 oldX13^0))
 (= x0^post (+ 0 oldX0^post)))
 (= x1^post (+ 0 oldX1^post)))
-(= x2^post (+ 0 oldX8^post)))
-(= x3^post (+ 0 oldX9^post)))
-(= x4^post (+ 0 oldX10^post)))
-(= x5^post (+ 0 oldX11^post)))
-(= x6^post (+ 0 oldX12^post)))
-(= x7^post (+ 0 oldX13^post)))
+(= x2^post (+ 0 oldX8^0)))
+(= x3^post (+ 0 oldX9^0)))
+(= x4^post (+ 0 oldX10^0)))
+(= x5^post (+ 0 oldX11^0)))
+(= x6^post (+ 0 oldX12^0)))
+(= x7^post (+ 0 oldX13^0)))
 (= oldX14^0 oldX14^post))
 (= oldX15^0 oldX15^post))
 (= oldX16^0 oldX16^post))

@@ -11638,7 +11638,7 @@ i___02424^post
 i___04040^post
 i___04646^post
 i___099^post
-k1^post
+k1^0
 k2^post
 k3^post
 k4^post
@@ -11725,7 +11725,7 @@ ret_t1394_SubmitIrpSynch3636^post)
 (= keA^3 1))
 (= keA^post 0))
 (= __rho_2_^post __rho_2_^post))
-(= k1^post (+ 0 __rho_2_^post)))
+(= k1^0 (+ 0 __rho_2_^post)))
 (= AsyncAddressData^0 AsyncAddressData^post))
 (= CromData^0 CromData^post))
 (= Irp^0 Irp^post))

@@ -30,11 +30,11 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f158_0_main_InvokeMethod arg1P arg2P arg3P)
+(f158_0_main_InvokeMethod arg1 arg2P arg3P)
 :guard
 (and
 (and
-(and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
 (> arg2P (- 1)))
 (= arg2 arg3P))
 )
@@ -409,7 +409,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f183_0_mk_LE arg1P arg2P arg3P)
+(f183_0_mk_LE arg1P arg2P arg3)
 :guard
 (and
 (and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
@@ -706,4 +706,4 @@
 (> arg1P (- 1)))
 (> arg2P (- 1)))
 )
-(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2 arg3))

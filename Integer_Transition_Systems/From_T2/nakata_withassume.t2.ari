@@ -1111,14 +1111,14 @@ z^post)
 (l1
 c1^post
 c2^post
-m^post
-max^post
-n^post
+m^0
+max^0
+n^0
 pi^post
 pos^post
 seq^post
 wpos^post
-z^post)
+z^0)
 :guard
 (and
 (and
@@ -1134,17 +1134,17 @@ z^post)
 (and
 (and
 (and (and (= seq^post 1) (= wpos^post 0)) (= pi^post (+ 0 seq^post)))
-(= z^post z^post))
-(<= 0 (+ 0 z^post)))
+(= z^0 z^0))
+(<= 0 (+ 0 z^0)))
 (= pos^post 0))
-(= n^post n^post))
-(<= 0 (+ 0 n^post)))
-(= max^post max^post))
-(<= 0 (+ 0 max^post)))
-(<= (+ 0 max^post) (+ 0 n^post)))
-(= m^post m^post))
-(<= (+ 0 m^post) (+ 0 max^post)))
-(<= 0 (+ 0 m^post)))
+(= n^0 n^0))
+(<= 0 (+ 0 n^0)))
+(= max^0 max^0))
+(<= 0 (+ 0 max^0)))
+(<= (+ 0 max^0) (+ 0 n^0)))
+(= m^0 m^0))
+(<= (+ 0 m^0) (+ 0 max^0)))
+(<= 0 (+ 0 m^0)))
 (= c1^0 c1^post))
 (= c2^0 c2^post))
 )

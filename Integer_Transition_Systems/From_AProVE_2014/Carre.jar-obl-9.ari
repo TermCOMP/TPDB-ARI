@@ -196,4 +196,4 @@
 (= (+ arg3 1) arg3P))
 (= arg4 arg4P))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2P arg3P arg4P))

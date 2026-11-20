@@ -323,6 +323,6 @@
   (and (>= 0 D1) (>= 0 A)))
 (rule
   (f3 A B C D E F G H I J K L M N O P Q R S T U V W X)
-  (f1 A 2 Y C1 Z A1 B1 D1 E1 F1 Y L M N O P Q R S T U V W G1)
+  (f1 A 2 C C1 Z A1 B1 D1 E1 F1 C L M N O P Q R S T U V W G1)
   :guard
   (>= A 2))

@@ -126,12 +126,12 @@
 )
 (rule
 (l12 WItemsNum^0 tmp1^0)
-(l3 WItemsNum^post tmp1^post)
+(l3 WItemsNum^0 tmp1^post)
 :guard
 (exists
 ((WItemsNum^1 Int))
 (and
-(and (= WItemsNum^1 WItemsNum^1) (= WItemsNum^post WItemsNum^post))
+(and (= WItemsNum^1 WItemsNum^1) (= WItemsNum^0 WItemsNum^0))
 (= tmp1^0 tmp1^post))
 )
 )

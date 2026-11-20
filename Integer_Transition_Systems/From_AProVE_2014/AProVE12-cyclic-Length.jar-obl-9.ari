@@ -41,4 +41,4 @@
 (f270_0_length_FieldAccess arg1P arg2P arg3P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2 arg3P))

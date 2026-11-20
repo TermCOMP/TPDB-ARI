@@ -255,11 +255,11 @@
   (and (>= 0 X) (>= B (+ A 1))))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W)
-  (f13 A B C Y E 0 G H I J K L M N O P Q R S T U V 0)
+  (f13 A B C D E 0 G H I J K L M N O P Q R S T U V 0)
   :guard
-  (>= 0 Y))
+  (>= 0 D))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W)
-  (f13 A B C Y E 0 G H I J K L M N O P Q R S T U V 0)
+  (f13 A B C D E 0 G H I J K L M N O P Q R S T U V 0)
   :guard
-  (>= Y 1))
+  (>= D 1))

@@ -18,19 +18,19 @@
 (entrypoint __init)
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5)
-(f217_0_merge_NONNULL arg1P arg2P arg3P arg4P arg5P)
+(f217_0_merge_NONNULL arg1 arg2 arg3 arg4 arg5)
 :guard
-(and (> arg2P 6) (> arg1P 9)))
+(and (> arg2 6) (> arg1 9)))
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5)
-(f561_0_main_FieldAccess arg1P arg2P arg3P arg4P arg5P)
+(f561_0_main_FieldAccess arg1 arg2 arg3P arg4P arg5)
 :guard
-(and (and (and (> arg2P 6) (> arg1P 4)) (= 3 arg3P)) (= 1 arg4P)))
+(and (and (and (> arg2 6) (> arg1 4)) (= 3 arg3P)) (= 1 arg4P)))
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5)
-(f580_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+(f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5P)
 :guard
-(and (and (> arg2P 6) (> arg1P 6)) (= 5 arg5P)))
+(and (and (> arg2 6) (> arg1 6)) (= 5 arg5P)))
 (rule
 (f418_0_merge_Return arg1 arg2 arg3 arg4 arg5)
 (f580_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -45,19 +45,19 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4 arg5P)
 :guard
 (and
 (and
 (and
 (and (and (and (> arg1 6) (> arg2 6)) (> arg1P 6)) (<= (+ arg3 2) arg1))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (= 5 arg5))
 (= 5 arg3P))
 )
 (rule
 (f561_0_main_FieldAccess arg1 arg2 arg3 arg4 arg5)
-(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5)
 :guard
 (and
 (and
@@ -71,19 +71,19 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4 arg5P)
 :guard
 (and
 (and
 (and
 (and (and (and (> arg1 6) (> arg2 6)) (> arg1P 6)) (<= (+ arg3 2) arg1))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (= 5 arg5))
 (= 5 arg3P))
 )
 (rule
 (f561_0_main_FieldAccess arg1 arg2 arg3 arg4 arg5)
-(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
+(f1500_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5)
 :guard
 (and
 (and
@@ -197,7 +197,7 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1341_0_append_NONNULL arg1P arg2P arg3P arg4P arg5P)
+(f1341_0_append_NONNULL arg1P arg2P arg3 arg4P arg5P)
 :guard
 (and
 (and
@@ -210,8 +210,8 @@
 (and (and (and (<= arg2P arg1) (<= arg2P arg2)) (> arg1 6)) (> arg2 6))
 (> arg1P 6))
 (> arg2P 6))
-(> arg3P (- 1)))
-(<= (+ arg3 2) arg1))
+(> arg3 (- 1)))
+(<= (+ arg3_old 2) arg1))
 (<= (+ arg4 2) arg2))
 (= 5 arg5))
 (= 5 arg4P))
@@ -259,7 +259,7 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1472_0_iter_NULL arg1P arg2P arg3P arg4P arg5P)
+(f1472_0_iter_NULL arg1P arg2P arg3P arg4 arg5P)
 :guard
 (and
 (and
@@ -271,7 +271,7 @@
 (> arg1P 6))
 (> arg2P (- 1)))
 (<= (+ arg3 2) arg1))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (= 5 arg5))
 (= 5 arg3P))
 )
@@ -297,7 +297,7 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1570_0_reverseAcc_NONNULL arg1P arg2P arg3P arg4P arg5P)
+(f1570_0_reverseAcc_NONNULL arg1P arg2P arg3P arg4 arg5P)
 :guard
 (and
 (and
@@ -309,7 +309,7 @@
 (> arg1P 6))
 (> arg2P (- 1)))
 (<= (+ arg3 2) arg1))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (= 5 arg5))
 (= 5 arg3P))
 )
@@ -335,7 +335,7 @@
 )
 (rule
 (f580_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5)
-(f1682_0_reverse_NONNULL arg1P arg2P arg3P arg4P arg5P)
+(f1682_0_reverse_NONNULL arg1P arg2P arg3P arg4 arg5P)
 :guard
 (and
 (and
@@ -347,7 +347,7 @@
 (> arg1P 6))
 (> arg2P (- 1)))
 (<= (+ arg3 2) arg1))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (= 5 arg5))
 (= 5 arg3P))
 )
@@ -433,4 +433,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
-(f1_0_main_New arg1P arg2P arg3P arg4P arg5P))
+(f1_0_main_New arg1 arg2 arg3 arg4 arg5))

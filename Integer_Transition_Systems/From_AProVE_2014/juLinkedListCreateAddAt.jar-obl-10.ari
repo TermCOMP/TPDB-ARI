@@ -345,10 +345,10 @@ arg7P
 arg8P
 arg9P
 arg10P
-arg11P
-arg12P
-arg13P
-arg14P
+arg11
+arg12
+arg13
+arg14
 arg15P
 arg16P
 arg17P
@@ -419,34 +419,34 @@ arg21
 arg22
 arg23)
 (f2403_0_random_ArrayAccess
-arg1P
+arg1
 arg2P
-arg3P
+arg3
 arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P
-arg15P
-arg16P
-arg17P
-arg18P
-arg19P
-arg20P
-arg21P
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
 arg22P
-arg23P)
+arg23)
 :guard
 (exists
 ((x24 Int))
 (and
-(and (and (and (> x24 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 5))
+(and (and (and (> x24 (- 1)) (> arg2 0)) (> arg1_old 0)) (> arg1 5))
 (= arg2 arg4P))
 )
 )
@@ -550,21 +550,21 @@ arg5P
 arg6P
 arg7P
 arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P
-arg15P
-arg16P
-arg17P
-arg18P
-arg19P
-arg20P
-arg21P
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
 arg22P
-arg23P)
+arg23)
 :guard
 (exists
 ((x39 Int) (x49 Int) (x50 Int))
@@ -629,27 +629,27 @@ arg23)
 (f2990_0_addBefore_FieldAccess
 arg1P
 arg2P
-arg3P
+arg3
 arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P
-arg15P
-arg16P
-arg17P
-arg18P
-arg19P
-arg20P
-arg21P
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
 arg22P
-arg23P)
+arg23)
 :guard
 (exists
 ((x65 Int) (x52 Int) (x66 Int) (x67 Int))
@@ -672,24 +672,24 @@ arg23P)
 (and
 (and
 (and (and (> x65 0) (< (+ x52 1) arg4)) (> x52 (- 1)))
-(> arg5 (- 1)))
+(> arg5_old (- 1)))
 (> arg2 (- 1)))
 (< x66 arg2))
-(< x65 arg3))
-(> arg3 (- 1)))
+(< x65 arg3_old))
+(> arg3_old (- 1)))
 (> x67 (- 1)))
-(> x65 arg5P))
+(> x65 arg5))
 (> x66 0))
 (<= (+ arg1P 5) arg1))
 (> arg1 5))
 (> arg1P 0))
 (> arg2P 5))
-(> arg3P 0))
+(> arg3 0))
 (> arg4P 4))
-(<= (+ arg5 5) arg1))
-(<= (+ arg6 7) arg1))
-(<= (+ arg8 3) arg1))
-(<= (+ arg7 7) arg1))
+(<= (+ arg5_old 5) arg1))
+(<= (+ arg6_old 7) arg1))
+(<= (+ arg8_old 3) arg1))
+(<= (+ arg7_old 7) arg1))
 )
 )
 (rule
@@ -1129,21 +1129,21 @@ arg5P
 arg6P
 arg7P
 arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P
-arg15P
-arg16P
-arg17P
-arg18P
-arg19P
-arg20P
-arg21P
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
 arg22P
-arg23P)
+arg23)
 :guard
 (exists
 ((x124 Int) (x134 Int) (x135 Int))
@@ -1960,20 +1960,20 @@ arg21
 arg22
 arg23)
 (f496_0_createList_Load
-arg1P
+arg1
 arg2P
-arg3P
-arg4P
+arg3
+arg4
 arg5P
 arg6P
 arg7P
 arg8P
 arg9P
 arg10P
-arg11P
-arg12P
-arg13P
-arg14P
+arg11
+arg12
+arg13
+arg14
 arg15P
 arg16P
 arg17P
@@ -1989,8 +1989,8 @@ arg23P)
 (and
 (and
 (and
-(and (and (> arg1P (- 1)) (> arg2 0)) (<= (- arg2P 7) arg1))
-(> arg1 0))
+(and (and (> arg1 (- 1)) (> arg2 0)) (<= (- arg2P 7) arg1_old))
+(> arg1_old 0))
 (> arg2P 7))
 (= 1 arg5P))
 (= 0 arg6P))
@@ -2356,27 +2356,27 @@ arg21
 arg22
 arg23)
 (f1_0_main_Load
-arg1P
-arg2P
-arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P
-arg14P
-arg15P
-arg16P
-arg17P
-arg18P
-arg19P
-arg20P
-arg21P
+arg1
+arg2
+arg3
+arg4
+arg5
+arg6
+arg7
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13
+arg14
+arg15
+arg16
+arg17
+arg18
+arg19
+arg20
+arg21
 arg22P
-arg23P)
+arg23)
 )

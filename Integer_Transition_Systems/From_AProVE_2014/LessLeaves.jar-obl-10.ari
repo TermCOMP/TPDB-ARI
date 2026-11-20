@@ -22,14 +22,14 @@
 (and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (= arg2 arg2P)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f295_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f295_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 :guard
-(and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
+(and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f2292_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f2292_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 :guard
-(and (and (and (>= arg1 arg1P) (> arg1 0)) (> arg1P 0)) (> arg2P 0)))
+(and (and (and (>= arg1_old arg1) (> arg1_old 0)) (> arg1 0)) (> arg2 0)))
 (rule
 (f508_0_createTree_Return arg1 arg2 arg3 arg4)
 (f2292_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -52,11 +52,11 @@
 )
 (rule
 (f295_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f2302_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f2302_0_main_InvokeMethod arg1P arg2 arg3 arg4)
 :guard
 (and
-(and (and (and (<= arg1P arg1) (> arg2 0)) (> arg1 0)) (> arg1P 0))
-(> arg2P 0))
+(and (and (and (<= arg1P arg1) (> arg2_old 0)) (> arg1 0)) (> arg1P 0))
+(> arg2 0))
 )
 (rule
 (f509_0_createTree_Return arg1 arg2 arg3 arg4)
@@ -78,34 +78,34 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f548_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f548_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 :guard
-(and (> arg1 0) (> arg2 (- 1))))
+(and (> arg1_old 0) (> arg2_old (- 1))))
 (rule
 (f295_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f548_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f548_0_random_ArrayAccess arg1P arg2 arg3 arg4)
 :guard
-(exists ((x35 Int)) (and (and (> x35 (- 1)) (> arg2 0)) (> arg1 0))))
+(exists ((x35 Int)) (and (and (> x35 (- 1)) (> arg2_old 0)) (> arg1 0))))
 (rule
 (f2292_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f548_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f548_0_random_ArrayAccess arg1P arg2P arg3 arg4)
 :guard
 (exists
 ((x38 Int))
 (and
 (and (and (> arg1 0) (> x38 (- 1))) (> arg2 0))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 )
 )
 (rule
 (f548_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f2274_0_createTree_LE arg1P arg2P arg3P arg4P)
+(f2274_0_createTree_LE arg1P arg2P arg3 arg4)
 :guard
 (exists
 ((x43 Int))
 (and
-(and (and (and (> arg3P 0) (> x43 (- 1))) (> arg2P 1)) (> arg1P 1))
-(= (+ x43 1) arg4P))
+(and (and (and (> arg3 0) (> x43 (- 1))) (> arg2P 1)) (> arg1P 1))
+(= (+ x43 1) arg4))
 )
 )
 (rule
@@ -239,7 +239,7 @@
 )
 (rule
 (f295_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f1394_0_less_leaves_NULL arg1P arg2P arg3P arg4P)
+(f1394_0_less_leaves_NULL arg1P arg2 arg3 arg4)
 :guard
 (exists
 ((x92 Int))
@@ -249,18 +249,18 @@
 (and
 (and
 (and
-(and (and (> x92 0) (> arg2 0)) (<= (+ arg1P 1) arg1))
-(<= (+ arg2P 1) arg1))
-(<= (+ arg3P 1) arg1))
+(and (and (> x92 0) (> arg2_old 0)) (<= (+ arg1P 1) arg1))
+(<= (+ arg2 1) arg1))
+(<= (+ arg3 1) arg1))
 (> arg1 0))
 (> arg1P (- 1)))
-(> arg2P (- 1)))
-(> arg3P (- 1)))
+(> arg2 (- 1)))
+(> arg3 (- 1)))
 )
 )
 (rule
 (f2302_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f1394_0_less_leaves_NULL arg1P arg2P arg3P arg4P)
+(f1394_0_less_leaves_NULL arg1P arg2P arg3 arg4)
 :guard
 (and
 (and
@@ -271,18 +271,18 @@
 (and
 (and
 (and (and (<= (+ arg1P 1) arg1) (<= (+ arg1P 1) arg2)) (<= arg2P arg2))
-(<= (+ arg3P 1) arg1))
-(<= (+ arg3P 1) arg2))
+(<= (+ arg3 1) arg1))
+(<= (+ arg3 1) arg2))
 (> arg1 0))
 (> arg2 0))
 (> arg1P (- 1)))
 (> arg2P 0))
-(> arg3P (- 1)))
-(<= (+ arg3 2) arg2))
+(> arg3 (- 1)))
+(<= (+ arg3_old 2) arg2))
 )
 (rule
 (f2292_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f1394_0_less_leaves_NULL arg1P arg2P arg3P arg4P)
+(f1394_0_less_leaves_NULL arg1P arg2P arg3 arg4)
 :guard
 (exists
 ((x108 Int))
@@ -296,28 +296,28 @@
 (and
 (and (and (<= arg1P arg2) (> x108 0)) (<= (+ arg2P 1) arg1))
 (<= (+ arg2P 1) arg2))
-(<= arg3P arg2))
+(<= arg3 arg2))
 (> arg1 0))
 (> arg2 0))
 (> arg1P 0))
 (> arg2P (- 1)))
-(> arg3P 0))
-(<= (+ arg4 2) arg2))
+(> arg3 0))
+(<= (+ arg4_old 2) arg2))
 )
 )
 (rule
 (f2292_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f1394_0_less_leaves_NULL arg1P arg2P arg3P arg4P)
+(f1394_0_less_leaves_NULL arg1P arg2P arg3 arg4)
 :guard
 (and
 (and
 (and
 (and
-(and (and (and (<= arg1P arg2) (<= arg3P arg2)) (> arg1 0)) (> arg2 0))
+(and (and (and (<= arg1P arg2) (<= arg3 arg2)) (> arg1 0)) (> arg2 0))
 (> arg1P 0))
 (> arg2P 0))
-(> arg3P 0))
-(<= (+ arg4 2) arg2))
+(> arg3 0))
+(<= (+ arg4_old 2) arg2))
 )
 (rule
 (f1394_0_less_leaves_NULL arg1 arg2 arg3 arg4)
@@ -421,4 +421,4 @@
 (<= (+ arg3 2) arg1))
 (<= (+ arg3P 2) arg2))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

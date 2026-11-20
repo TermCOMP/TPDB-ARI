@@ -52,9 +52,9 @@
   (>= 0 B))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q)
-  (f10 A B R S 0 1 0 H I J K L M N O P Q)
+  (f10 A B C D 0 1 0 H I J K L M N O P Q)
   :guard
-  (and (>= R 1) (>= S 0)))
+  (and (>= C 1) (>= D 0)))
 (rule
   (f10 A B C D E F G H I J K L M N O P Q)
   (f14 A B C D E F G 1 I J K L M N O P Q)

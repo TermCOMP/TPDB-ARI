@@ -646,7 +646,7 @@ __const_10^post
 __const_285^post
 __const_35^post
 acc12^post
-acc_length11^post
+acc_length11^0
 coef_len210^post
 coef_len6^post
 i8^post
@@ -668,7 +668,7 @@ scale7^post)
 (= coef_len6^post (+ 0 __const_35^0)))
 (= scale7^post (+ 0 __const_285^0)))
 (= coef_len210^post coef_len210^post))
-(= acc_length11^post (+ 0 coef_len210^post)))
+(= acc_length11^0 (+ 0 coef_len210^post)))
 (= i8^post 0))
 (= __const_10^0 __const_10^post))
 (= __const_285^0 __const_285^post))

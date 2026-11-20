@@ -118,12 +118,12 @@
 )
 (rule
 (l7 ___rho_1_^0 c^0 curr_serv^0 resp^0 servers^0)
-(l0 ___rho_1_^post c^post curr_serv^post resp^post servers^post)
+(l0 ___rho_1_^post c^0 curr_serv^post resp^post servers^post)
 :guard
 (and
 (and
 (and
-(and (and (= c^post c^post) (<= 1 (+ 0 c^post))) (= servers^post 4))
+(and (and (= c^0 c^0) (<= 1 (+ 0 c^0))) (= servers^post 4))
 (= resp^post 0))
 (= curr_serv^post (+ 0 servers^post)))
 (= ___rho_1_^0 ___rho_1_^post))

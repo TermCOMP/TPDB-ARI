@@ -56,11 +56,11 @@
 )
 (rule
 (l3 A^0 R^0 dobreak^0 n^0)
-(l1 A^post R^post dobreak^post n^post)
+(l1 A^post R^post dobreak^post n^0)
 :guard
 (and
 (and (and (= A^post 0) (= R^post 0)) (= dobreak^post dobreak^post))
-(= n^post n^post))
+(= n^0 n^0))
 )
 (rule
 (l4 A^0 R^0 dobreak^0 n^0)

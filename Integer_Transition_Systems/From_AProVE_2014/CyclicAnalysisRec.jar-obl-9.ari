@@ -10,7 +10,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f177_0_appendNewList_Return arg1P arg2P arg3P arg4P)
+(f177_0_appendNewList_Return arg1 arg2 arg3P arg4P)
 :guard
 (exists
 ((x5 Int))
@@ -21,28 +21,28 @@
 (and
 (and
 (and
-(and (and (> x5 (- 1)) (> arg2 0)) (<= arg1P arg1))
-(<= (- arg2P 7) arg1))
-(<= (- arg3P 5) arg1))
+(and (and (> x5 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old))
+(<= (- arg2 7) arg1_old))
+(<= (- arg3P 5) arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 7))
+(> arg2 7))
 (> arg3P 5))
 (= 0 arg4P))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f177_0_appendNewList_Return arg1P arg2P arg3P arg4P)
+(f177_0_appendNewList_Return arg1 arg2 arg3P arg4P)
 :guard
 (exists
 ((x12 Int))
 (and
 (and
 (and
-(and (and (and (> x12 (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
-(> arg1P 0))
-(> arg2P 8))
+(and (and (and (> x12 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+(> arg2 8))
 (> arg3P 6))
 )
 )
@@ -96,17 +96,17 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f415_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f415_0_main_InvokeMethod arg1 arg2 arg3P arg4P)
 :guard
 (exists
 ((x33 Int) (x34 Int))
 (and
 (and
 (and
-(and (and (> x33 (- 1)) (> arg2 1)) (> x34 (- 1)))
-(<= arg1P arg1))
+(and (and (> x33 (- 1)) (> arg2_old 1)) (> x34 (- 1)))
+(<= arg1 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
 )
 )
 (rule
@@ -192,7 +192,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f480_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f480_0_main_InvokeMethod arg1 arg2 arg3P arg4P)
 :guard
 (exists
 ((x66 Int) (x67 Int))
@@ -200,11 +200,11 @@
 (and
 (and
 (and
-(and (and (> x66 (- 1)) (> arg2 1)) (> x67 (- 1)))
-(<= arg1P arg1))
+(and (and (> x66 (- 1)) (> arg2_old 1)) (> x67 (- 1)))
+(<= arg1 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 6))
+(> arg2 6))
 )
 )
 (rule
@@ -244,7 +244,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f480_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f480_0_main_InvokeMethod arg1 arg2 arg3P arg4P)
 :guard
 (exists
 ((x83 Int) (x84 Int))
@@ -253,19 +253,19 @@
 (and
 (and
 (and
-(and (and (> x83 (- 1)) (> arg2 1)) (> x84 (- 1)))
-(<= arg1P arg1))
-(<= (- arg2P 5) arg1))
+(and (and (> x83 (- 1)) (> arg2_old 1)) (> x84 (- 1)))
+(<= arg1 arg1_old))
+(<= (- arg2 5) arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 5))
+(> arg2 5))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f343_0_appendNewList_GT arg1P arg2P arg3P arg4P)
+(f343_0_appendNewList_GT arg1 arg2P arg3P arg4P)
 :guard
-(and (and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)) (= 1 arg2P)))
+(and (and (and (> arg1 (- 1)) (> arg2 0)) (> arg1_old 0)) (= 1 arg2P)))
 (rule
 (f177_0_appendNewList_Return arg1 arg2 arg3 arg4)
 (f343_0_appendNewList_GT arg1P arg2P arg3P arg4P)
@@ -302,12 +302,12 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f343_0_appendNewList_GT arg1P arg2P arg3P arg4P)
+(f343_0_appendNewList_GT arg1 arg2P arg3P arg4P)
 :guard
 (exists
 ((x106 Int))
 (and
-(and (and (and (> x106 (- 1)) (> arg2 1)) (> arg1P (- 1))) (> arg1 0))
+(and (and (and (> x106 (- 1)) (> arg2 1)) (> arg1 (- 1))) (> arg1_old 0))
 (= 2 arg2P))
 )
 )
@@ -369,4 +369,4 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3P arg4P))

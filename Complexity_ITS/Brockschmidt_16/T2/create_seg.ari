@@ -22,14 +22,14 @@
   (and (and (and (>= B A) (>= B 0)) (>= S Q)) (>= Q 2)))
 (rule
   (f3 A B C D E F G H I J K L M N O P)
-  (f4 T V S Y X F G R U W Z B1 O Q O P)
+  (f4 A V S Y X F G R U W Z B1 O Q O P)
   :guard
   (exists ((A1 Int)) (and (>= 0 R) (>= 0 A1))))
 (rule
   (f3 A B C D E F G H I J K L M N O P)
-  (f1 R 2 U S U F G R T U K L M Q T V)
+  (f1 A 2 U S U F G A T U K L M Q T V)
   :guard
-  (>= R 2))
+  (>= A 2))
 (rule
   (f3 A B C D E F G H I J K L M N O P)
-  (f4 R S U Y X F G 1 T W Z B1 D Q V P))
+  (f4 A S U Y X F G 1 T W Z B1 D Q V P))

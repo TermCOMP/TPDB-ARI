@@ -225,10 +225,10 @@ arg18
 arg19
 arg20)
 (f309_0_createList_Load
-arg1P
+arg1
 arg2P
-arg3P
-arg4P
+arg3
+arg4
 arg5P
 arg6P
 arg7P
@@ -251,8 +251,8 @@ arg20P)
 (and
 (and
 (and
-(and (and (> arg1P (- 1)) (> arg2 0)) (<= (- arg2P 7) arg1))
-(> arg1 0))
+(and (and (> arg1 (- 1)) (> arg2 0)) (<= (- arg2P 7) arg1_old))
+(> arg1_old 0))
 (> arg2P 7))
 (= 1 arg5P))
 (= 0 arg6P))
@@ -468,10 +468,10 @@ arg18
 arg19
 arg20)
 (f1_0_main_Load
-arg1P
+arg1
 arg2P
-arg3P
-arg4P
+arg3
+arg4
 arg5P
 arg6P
 arg7P

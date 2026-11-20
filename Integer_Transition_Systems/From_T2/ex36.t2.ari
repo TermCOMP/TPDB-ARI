@@ -60600,7 +60600,7 @@ i1343120^post
 i1357^post
 i1472^post
 i1592^post
-i16^post
+i16^0
 i1876^post
 i1895^post
 i18^post
@@ -60701,7 +60701,7 @@ zer^post)
 (and
 (and
 (and (= tmp^post tmp^post) (= tmp___0^post tmp___0^post))
-(= i16^post i16^post))
+(= i16^0 i16^0))
 (= __const_1132^0 __const_1132^post))
 (= __const_12^0 __const_12^post))
 (= __const_123^0 __const_123^post))

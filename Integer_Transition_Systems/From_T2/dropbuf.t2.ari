@@ -4076,8 +4076,8 @@ tmp___03^0
 tmp___14^0)
 (l20
 A^post
-NBuffers^post
-NLocBuffer^post
+NBuffers^0
+NLocBuffer^0
 R^post
 a1010^post
 a1414^post
@@ -4128,8 +4128,8 @@ tmp___14^post)
 (and
 (and (= istemp^post istemp^post) (= R^post 0))
 (= A^post (+ 0 R^post)))
-(= NLocBuffer^post NLocBuffer^post))
-(= NBuffers^post NBuffers^post))
+(= NLocBuffer^0 NLocBuffer^0))
+(= NBuffers^0 NBuffers^0))
 (= a1010^0 a1010^post))
 (= a1414^0 a1414^post))
 (= a66^0 a66^post))

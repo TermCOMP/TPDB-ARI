@@ -14,12 +14,12 @@
 (and (and (<= arg1P arg1) (> arg1 (- 1))) (> arg1P (- 1))))
 (rule
 (f1_0_main_Load arg1 arg2)
-(f491_0_random_ArrayAccess arg1P arg2P)
+(f491_0_random_ArrayAccess arg1 arg2)
 :guard
-(and (> arg1 0) (> arg1P (- 1))))
+(and (> arg1_old 0) (> arg1 (- 1))))
 (rule
 (f491_0_random_ArrayAccess arg1 arg2)
-(f815_0_main_NULL arg1P arg2P)
+(f815_0_main_NULL arg1P arg2)
 :guard
 (exists
 ((x7 Int))
@@ -57,9 +57,9 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2)
-(f639_0_createIntList_LE arg1P arg2P)
+(f639_0_createIntList_LE arg1 arg2P)
 :guard
-(and (and (and (> arg2 (- 1)) (> arg1P (- 1))) (> arg1 0)) (= 1 arg2P)))
+(and (and (and (> arg2 (- 1)) (> arg1 (- 1))) (> arg1_old 0)) (= 1 arg2P)))
 (rule
 (f639_0_createIntList_LE arg1 arg2)
 (f639_0_createIntList_LE arg1P arg2P)
@@ -68,4 +68,4 @@
 (and (and (> arg1 0) (> arg2 0)) (= (- arg1 1) arg1P))
 (= (+ arg2 1) arg2P))
 )
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2))

@@ -176,11 +176,11 @@
 )
 (rule
 (l9 i^0 j^0 k^0 tmp^0 tmp___0^0)
-(l3 i^post j^post k^post tmp^post tmp___0^post)
+(l3 i^post j^post k^0 tmp^post tmp___0^post)
 :guard
 (and
 (and
-(and (and (= tmp^post tmp^post) (= k^post (+ 0 tmp^post))) (= i^0 i^post))
+(and (and (= tmp^post tmp^post) (= k^0 (+ 0 tmp^post))) (= i^0 i^post))
 (= j^0 j^post))
 (= tmp___0^0 tmp___0^post))
 )

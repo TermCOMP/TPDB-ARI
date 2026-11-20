@@ -208,7 +208,7 @@ tmp1^post)
 (l7 ___rho_1_^0 c^0 curr_serv^0 resp^0 servers^0 serversdiv2^0 tmp1^0)
 (l0
 ___rho_1_^post
-c^post
+c^0
 curr_serv^post
 resp^post
 servers^post
@@ -224,8 +224,8 @@ tmp1^post)
 (and
 (and
 (and
-(and (= tmp1^post tmp1^post) (= c^post (+ 0 tmp1^post)))
-(<= 1 (+ 0 c^post)))
+(and (= tmp1^post tmp1^post) (= c^0 (+ 0 tmp1^post)))
+(<= 1 (+ 0 c^0)))
 (= servers^post servers^post))
 (<= 1 (+ 0 servers^post)))
 (= serversdiv2^post serversdiv2^post))

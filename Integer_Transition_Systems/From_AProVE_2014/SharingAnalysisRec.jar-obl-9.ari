@@ -24,9 +24,9 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
-(f540_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+(f540_0_random_ArrayAccess arg1 arg2P arg3P arg4P arg5P)
 :guard
-(and (and (and (> arg1 0) (> arg1P 3)) (= arg2 arg2P)) (= 0 arg3P)))
+(and (and (and (> arg1_old 0) (> arg1 3)) (= arg2 arg2P)) (= 0 arg3P)))
 (rule
 (f540_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5)
 (f673_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P)
@@ -66,15 +66,15 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
-(f422_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+(f422_0_random_ArrayAccess arg1P arg2 arg3P arg4P arg5P)
 :guard
 (and
-(and (and (and (<= arg2P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg2P 0))
+(and (and (and (<= arg2 arg1) (> arg2_old (- 1))) (> arg1 0)) (> arg2 0))
 (= 1 arg1P))
 )
 (rule
 (f540_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5)
-(f422_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P)
+(f422_0_random_ArrayAccess arg1P arg2 arg3P arg4P arg5P)
 :guard
 (exists
 ((x59 Int))
@@ -83,10 +83,10 @@
 (and
 (and
 (and
-(and (and (and (> x59 0) (< x59 arg2)) (> arg1P (- 1))) (> arg2 (- 1)))
-(<= (+ arg2P 3) arg1))
+(and (and (and (> x59 0) (< x59 arg2_old)) (> arg1P (- 1))) (> arg2_old (- 1)))
+(<= (+ arg2 3) arg1))
 (> arg1 3))
-(> arg2P 0))
+(> arg2 0))
 (<= (+ arg4 2) arg1))
 (= 0 arg3))
 )
@@ -124,4 +124,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
+(f1_0_main_Load arg1 arg2 arg3P arg4P arg5P))

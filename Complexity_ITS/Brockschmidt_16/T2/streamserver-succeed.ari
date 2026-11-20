@@ -509,16 +509,16 @@
   (f76 A B C D E F G H I J K L M N O P Q R S T U V W X Y))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
-  (f20 C1 B C A1 Z F G H 0 J K L M N O P Q R S T 0 3 1 B1 C1)
+  (f20 C1 B C D E F G H 0 J K L M N O P Q R S T 0 3 1 B1 C1)
   :guard
-  (and (and (>= A1 0) (>= B1 1)) (= V 3)))
+  (and (and (>= D 0) (>= B1 1)) (= V 3)))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
-  (f20 C1 B C A1 Z F G H 0 J K L M N O P Q R S T 0 V 1 B1 C1)
+  (f20 C1 B C D E F G H 0 J K L M N O P Q R S T 0 V 1 B1 C1)
   :guard
-  (and (and (>= 2 V) (>= A1 0)) (>= B1 1)))
+  (and (and (>= 2 V) (>= D 0)) (>= B1 1)))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X Y)
-  (f20 C1 B C A1 Z F G H 0 J K L M N O P Q R S T 0 V 1 B1 C1)
+  (f20 C1 B C D E F G H 0 J K L M N O P Q R S T 0 V 1 B1 C1)
   :guard
-  (and (and (>= V 4) (>= A1 0)) (>= B1 1)))
+  (and (and (>= V 4) (>= D 0)) (>= B1 1)))

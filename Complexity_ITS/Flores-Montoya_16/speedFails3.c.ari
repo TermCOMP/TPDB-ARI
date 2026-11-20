@@ -32,7 +32,7 @@
   (eval_speedFails3_3 v__0 v_0 v_n v_t v_x))
 (rule
   (eval_speedFails3_3 v__0 v_0 v_n v_t v_x)
-  (eval_speedFails3_4 v__0 nondef_0 v_n v_t v_x))
+  (eval_speedFails3_4 v__0 v_0 v_n v_t v_x))
 (rule
   (eval_speedFails3_4 v__0 v_0 v_n v_t v_x)
   (eval_speedFails3_5 v__0 v_0 v_n v_t v_x))

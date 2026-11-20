@@ -13,10 +13,10 @@
 (l1
 result_11^post
 temp0_14^post
-x_13^post
+x_13^0
 x_27^post
 x_32^post
-y_16^post
+y_16^0
 y_28^post
 y_33^post)
 :guard
@@ -26,7 +26,7 @@ y_33^post)
 (and
 (and
 (and
-(and (= x_13^post x_13^post) (= y_16^post y_16^post))
+(and (= x_13^0 x_13^0) (= y_16^0 y_16^0))
 (= result_11^0 result_11^post))
 (= temp0_14^0 temp0_14^post))
 (= x_27^0 x_27^post))

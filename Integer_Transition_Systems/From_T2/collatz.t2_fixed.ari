@@ -65,9 +65,9 @@
 (and (= y^post y^post) (= x^0 x^post)))
 (rule
 (l5 x^0 y^0)
-(l1 x^post y^post)
+(l1 x^0 y^post)
 :guard
-(and (and (= x^post x^post) (<= 1 (+ 0 x^post))) (= y^0 y^post)))
+(and (and (= x^0 x^0) (<= 1 (+ 0 x^0))) (= y^0 y^post)))
 (rule
 (l6 x^0 y^0)
 (l5 x^post y^post)

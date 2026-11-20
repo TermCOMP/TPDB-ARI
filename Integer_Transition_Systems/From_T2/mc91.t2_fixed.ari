@@ -36,9 +36,9 @@
 (and (= e^0 e^post) (= n^0 n^post)))
 (rule
 (l3 e^0 n^0)
-(l0 e^post n^post)
+(l0 e^post n^0)
 :guard
-(and (= n^post n^post) (= e^post 1)))
+(and (= n^0 n^0) (= e^post 1)))
 (rule
 (l4 e^0 n^0)
 (l3 e^post n^post)

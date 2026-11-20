@@ -16,12 +16,12 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f34_0_loop_Inc arg1P arg2P arg3P)
+(f34_0_loop_Inc arg1 arg2P arg3P)
 :guard
 (and
 (and
-(and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
+(and (and (and (<= arg1 arg1_old) (> arg2 (- 1))) (> arg1_old 0)) (> arg1 0))
 (= (+ arg2 1) arg2P))
 (= arg2 arg3P))
 )
-(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2P arg3P))

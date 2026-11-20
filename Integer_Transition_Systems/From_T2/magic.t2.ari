@@ -10829,12 +10829,12 @@ bDomain^post
 bSum^post
 bSymmetry^post
 nDim^post
-nN^post
+nN^0
 nSumCol^post
 nSumDiag1^post
 nSumDiag2^post
 nSumRow^post
-nSum^post
+nSum^0
 ni^post
 nj^post
 tmp^post
@@ -10866,7 +10866,7 @@ tmp___7^post)
 (and
 (and
 (and
-(and (and (= nDim^post 4) (= nN^post nN^post)) (= nSum^post nSum^post))
+(and (and (= nDim^post 4) (= nN^0 nN^0)) (= nSum^0 nSum^0))
 (= bDomain^post 1))
 (= bDistinct^post 1))
 (= bSum^post 1))

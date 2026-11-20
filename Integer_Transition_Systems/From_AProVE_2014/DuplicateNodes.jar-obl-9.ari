@@ -14,9 +14,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f1843_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f1843_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 :guard
-(and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (> arg2P (- 1))))
+(and (and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)) (> arg2 (- 1))))
 (rule
 (f323_0_createTree_Return arg1 arg2 arg3 arg4)
 (f1843_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
@@ -40,9 +40,9 @@
 (> arg1P 0))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f931_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f931_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 :guard
-(and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
+(and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)))
 (rule
 (f588_0_createNode_Return arg1 arg2 arg3 arg4)
 (f977_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -50,37 +50,37 @@
 (> arg1P 0))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f977_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f977_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 :guard
-(and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
+(and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)))
 (rule
 (f977_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f2251_0_createTree_LE arg1P arg2P arg3P arg4P)
+(f2251_0_createTree_LE arg1P arg2 arg3 arg4)
 :guard
 (exists
 ((x25 Int))
 (and
 (and
 (and
-(and (and (> x25 0) (> arg2P (- 1))) (<= (- arg1P 3) arg1))
+(and (and (> x25 0) (> arg2 (- 1))) (<= (- arg1P 3) arg1))
 (> arg1 0))
 (> arg1P 3))
-(= (+ x25 1) arg4P))
+(= (+ x25 1) arg4))
 )
 )
 (rule
 (f931_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f2251_0_createTree_LE arg1P arg2P arg3P arg4P)
+(f2251_0_createTree_LE arg1P arg2 arg3 arg4)
 :guard
 (exists
 ((x30 Int))
 (and
 (and
 (and
-(and (and (> x30 0) (> arg2P (- 1))) (<= (- arg1P 1) arg1))
+(and (and (> x30 0) (> arg2 (- 1))) (<= (- arg1P 1) arg1))
 (> arg1 0))
 (> arg1P 1))
-(= (+ x30 1) arg4P))
+(= (+ x30 1) arg4))
 )
 )
 (rule
@@ -167,16 +167,16 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f1257_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f1257_0_random_ArrayAccess arg1 arg2 arg3P arg4)
 :guard
 (and
 (and
 (and
 (and
-(and (and (<= arg1P arg1) (> arg2 (- 1))) (<= arg2P arg1))
+(and (and (<= arg1 arg1_old) (> arg2_old (- 1))) (<= arg2 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
+(> arg2 0))
 (= 0 arg3P))
 )
 (rule
@@ -207,7 +207,7 @@
 )
 (rule
 (f1843_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f2233_0_randomlyDuplicate_NULL arg1P arg2P arg3P arg4P)
+(f2233_0_randomlyDuplicate_NULL arg1P arg2P arg3P arg4)
 :guard
 (and
 (and
@@ -255,4 +255,4 @@
 (= (+ arg3 1) arg3P))
 )
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

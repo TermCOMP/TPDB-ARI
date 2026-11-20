@@ -191,7 +191,7 @@
 )
 (rule
 (l12 WItemsNum^0 __const_5^0 __rho_1_^0 __rho_2_^0)
-(l0 WItemsNum^post __const_5^post __rho_1_^post __rho_2_^post)
+(l0 WItemsNum^0 __const_5^post __rho_1_^post __rho_2_^post)
 :guard
 (exists
 ((WItemsNum^1 Int))
@@ -199,7 +199,7 @@
 (and
 (and
 (and (= WItemsNum^1 WItemsNum^1) (= __rho_1_^post __rho_1_^post))
-(= WItemsNum^post (+ 0 __rho_1_^post)))
+(= WItemsNum^0 (+ 0 __rho_1_^post)))
 (= __const_5^0 __const_5^post))
 (= __rho_2_^0 __rho_2_^post))
 )

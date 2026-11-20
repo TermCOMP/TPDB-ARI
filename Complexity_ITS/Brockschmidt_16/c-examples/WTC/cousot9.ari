@@ -10,7 +10,7 @@
 (fun evalcousot9stop (-> Int Int Int Int))
 (entrypoint evalcousot9start)
 (rule (evalcousot9start A B C) (evalcousot9entryin A B C))
-(rule (evalcousot9entryin A B C) (evalcousot9bb3in D C C))
+(rule (evalcousot9entryin A B C) (evalcousot9bb3in A C C))
 (rule (evalcousot9bb3in A B C) (evalcousot9bbin A B C) :guard (>= B 1))
 (rule (evalcousot9bb3in A B C) (evalcousot9returnin A B C) :guard (>= 0 B))
 (rule (evalcousot9bbin A B C) (evalcousot9bb1in A B C) :guard (>= A 1))

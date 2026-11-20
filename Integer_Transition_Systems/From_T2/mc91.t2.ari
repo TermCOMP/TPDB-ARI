@@ -64,11 +64,11 @@
 )
 (rule
 (l3 __const_100^0 __const_10^0 __const_11^0 e^0 n^0)
-(l0 __const_100^post __const_10^post __const_11^post e^post n^post)
+(l0 __const_100^post __const_10^post __const_11^post e^post n^0)
 :guard
 (and
 (and
-(and (and (= n^post n^post) (= e^post 1)) (= __const_10^0 __const_10^post))
+(and (and (= n^0 n^0) (= e^post 1)) (= __const_10^0 __const_10^post))
 (= __const_100^0 __const_100^post))
 (= __const_11^0 __const_11^post))
 )

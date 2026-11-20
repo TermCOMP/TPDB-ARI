@@ -4,10 +4,10 @@
 (fun f176_0_iter_NULL (-> Int Int))
 (fun f1_0_main_New (-> Int Int))
 (entrypoint __init)
-(rule (f1_0_main_New arg1) (f176_0_iter_NULL arg1P) :guard (> arg1P 3))
+(rule (f1_0_main_New arg1) (f176_0_iter_NULL arg1) :guard (> arg1 3))
 (rule
 (f176_0_iter_NULL arg1)
 (f176_0_iter_NULL arg1P)
 :guard
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
-(rule (__init arg1) (f1_0_main_New arg1P))
+(rule (__init arg1) (f1_0_main_New arg1))

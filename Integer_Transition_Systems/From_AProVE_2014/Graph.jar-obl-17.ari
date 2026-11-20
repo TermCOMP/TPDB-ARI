@@ -30,13 +30,13 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f5469_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f5469_0_main_GE arg1 arg2P arg3P arg4 arg5 arg6)
 :guard
 (and
 (and
 (and
-(and (and (<= (- arg1P 2) arg1) (> arg2 (- 1))) (> arg1 0))
-(> arg1P 2))
+(and (and (<= (- arg1 2) arg1_old) (> arg2 (- 1))) (> arg1_old 0))
+(> arg1 2))
 (= 0 arg2P))
 (= arg2 arg3P))
 )
@@ -113,17 +113,17 @@
 (and (> arg1P 2) (= 0 arg2P)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f439_0_example_LT arg1P arg2P arg3P arg4P arg5P arg6P)
+(f439_0_example_LT arg1 arg2P arg3P arg4 arg5 arg6)
 :guard
 (and
 (and
-(and (and (<= (- arg1P 2) arg1) (> arg2 (- 1))) (> arg1 0))
-(> arg1P 2))
+(and (and (<= (- arg1 2) arg1_old) (> arg2 (- 1))) (> arg1_old 0))
+(> arg1 2))
 (= arg2 arg2P))
 )
 (rule
 (f439_0_example_LT arg1 arg2 arg3 arg4 arg5 arg6)
-(f1266_0_example_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1266_0_example_GE arg1P arg2P arg3P arg4 arg5 arg6)
 :guard
 (and
 (and
@@ -467,13 +467,13 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f319_0__init__GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f319_0__init__GE arg1 arg2P arg3P arg4 arg5 arg6)
 :guard
 (and
 (and
 (and
-(and (and (<= (- arg1P 2) arg1) (> arg2 (- 1))) (> arg1 0))
-(> arg1P 2))
+(and (and (<= (- arg1 2) arg1_old) (> arg2 (- 1))) (> arg1_old 0))
+(> arg1 2))
 (= 0 arg2P))
 (= arg2 arg3P))
 )
@@ -1733,4 +1733,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3P arg4 arg5 arg6))

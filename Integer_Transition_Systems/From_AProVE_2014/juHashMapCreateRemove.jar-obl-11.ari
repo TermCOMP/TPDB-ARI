@@ -51,24 +51,24 @@ arg11
 arg12
 arg13)
 (f3543_0_random_ArrayAccess
-arg1P
+arg1
 arg2P
-arg3P
-arg4P
-arg5P
+arg3
+arg4
+arg5
 arg6P
 arg7P
 arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (exists
 ((x7 Int))
 (and
-(and (and (and (> x7 (- 1)) (> arg2 0)) (> arg1 0)) (> arg1P 3))
+(and (and (and (> x7 (- 1)) (> arg2 0)) (> arg1_old 0)) (> arg1 3))
 (= arg2 arg2P))
 )
 )
@@ -132,19 +132,19 @@ arg11
 arg12
 arg13)
 (f3465_0_createMap_LE
-arg1P
+arg1
 arg2P
 arg3P
 arg4P
 arg5P
 arg6P
 arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (and
 (and
@@ -153,9 +153,9 @@ arg13P)
 (and
 (and
 (and
-(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1P 14) arg1))
-(> arg1 0))
-(> arg1P 14))
+(and (and (> arg2P (- 1)) (> arg2 0)) (<= (- arg1 14) arg1_old))
+(> arg1_old 0))
+(> arg1 14))
 (= arg2 arg3P))
 (= 1 arg4P))
 (= 16 arg5P))
@@ -243,11 +243,11 @@ arg5P
 arg6P
 arg7P
 arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg9
+arg10
+arg11
+arg12
+arg13)
 :guard
 (exists
 ((x32 Int) (x41 Int) (x42 Int))
@@ -1852,17 +1852,17 @@ arg13P)
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11 arg12 arg13)
 (f1_0_main_Load
-arg1P
-arg2P
-arg3P
-arg4P
-arg5P
+arg1
+arg2
+arg3
+arg4
+arg5
 arg6P
 arg7P
-arg8P
-arg9P
-arg10P
-arg11P
-arg12P
-arg13P)
+arg8
+arg9
+arg10
+arg11
+arg12
+arg13)
 )

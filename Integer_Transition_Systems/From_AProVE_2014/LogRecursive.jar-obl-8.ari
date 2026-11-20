@@ -9,7 +9,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f96_0_random_GT arg1P arg2P arg3P)
+(f96_0_random_GT arg1P arg2P arg3)
 :guard
 (and
 (and (and (and (<= arg1P arg1) (> arg2 0)) (> arg1 0)) (> arg1P 0))
@@ -17,10 +17,10 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f96_0_random_GT arg1P arg2P arg3P)
+(f96_0_random_GT arg1P arg2 arg3)
 :guard
 (and
-(and (and (and (> arg2P (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
+(and (and (and (> arg2 (- 1)) (> arg2_old 0)) (<= arg1P arg1)) (> arg1 0))
 (> arg1P 0))
 )
 (rule
@@ -38,13 +38,13 @@
 )
 (rule
 (f96_0_random_GT arg1 arg2 arg3)
-(f154_0_main_InvokeMethod arg1P arg2P arg3P)
+(f154_0_main_InvokeMethod arg1P arg2P arg3)
 :guard
 (exists
 ((x11 Int))
 (and
 (and
-(and (and (and (> x11 1) (> arg3P (- 1))) (<= arg1P arg1)) (> arg1 0))
+(and (and (and (> x11 1) (> arg3 (- 1))) (<= arg1P arg1)) (> arg1 0))
 (> arg1P 0))
 (= arg2 arg2P))
 )
@@ -106,4 +106,4 @@
 (= arg1 arg1P))
 (= arg1 arg3P))
 )
-(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2 arg3))

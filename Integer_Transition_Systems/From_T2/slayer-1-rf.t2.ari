@@ -975,7 +975,7 @@ i_28^post
 l_143^post
 l_203^post
 l_219^post
-l_27^post
+l_27^0
 nd_12^post
 old_a^post
 r_124^post
@@ -1057,7 +1057,7 @@ y_20^post)
 (and
 (and (= nd_12^1 nd_12^1) (= rv_13^post (+ 0 nd_12^1)))
 (= nd_12^post nd_12^post))
-(= l_27^post (+ 0 rv_13^post)))
+(= l_27^0 (+ 0 rv_13^post)))
 (= h_30^post 0))
 (= i_28^post 0))
 (= copied^post 0))

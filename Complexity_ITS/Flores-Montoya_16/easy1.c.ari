@@ -14,7 +14,7 @@
 (fun eval_easy1_stop (-> Int Int Int))
 (entrypoint eval_easy1_start)
 (rule (eval_easy1_start v_0 v_x_0) (eval_easy1_bb0_in v_0 v_x_0))
-(rule (eval_easy1_bb0_in v_0 v_x_0) (eval_easy1_1 nondef_0 v_x_0))
+(rule (eval_easy1_bb0_in v_0 v_x_0) (eval_easy1_1 v_0 v_x_0))
 (rule (eval_easy1_1 v_0 v_x_0) (eval_easy1_2 v_0 v_x_0))
 (rule (eval_easy1_2 v_0 v_x_0) (eval_easy1_3 v_0 v_x_0))
 (rule (eval_easy1_3 v_0 v_x_0) (eval_easy1_4 v_0 v_x_0))

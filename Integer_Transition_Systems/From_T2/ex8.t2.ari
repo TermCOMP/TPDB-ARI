@@ -152,13 +152,13 @@
 )
 (rule
 (l9 i5^0 length4^0 s^0 tmp^0 tmp___08^0)
-(l2 i5^post length4^post s^post tmp^post tmp___08^post)
+(l2 i5^post length4^0 s^post tmp^post tmp___08^post)
 :guard
 (and
 (and
 (and
 (and (= tmp^post tmp^post) (= s^post (+ 0 tmp^post)))
-(= length4^post (+ 0 s^post)))
+(= length4^0 (+ 0 s^post)))
 (= i5^post 0))
 (= tmp___08^0 tmp___08^post))
 )

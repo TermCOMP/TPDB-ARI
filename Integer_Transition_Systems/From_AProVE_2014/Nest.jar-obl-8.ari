@@ -7,9 +7,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2)
-(f66_0_nest_NE arg1P arg2P)
+(f66_0_nest_NE arg1 arg2P)
 :guard
-(and (and (> arg1P (- 1)) (> arg2 0)) (> arg1 0)))
+(and (and (> arg1 (- 1)) (> arg2 0)) (> arg1_old 0)))
 (rule
 (f66_0_nest_NE arg1 arg2)
 (f66_0_nest_NE arg1P arg2P)
@@ -30,4 +30,4 @@
 (f115_0_nest_InvokeMethod arg1P arg2P)
 :guard
 (and (and (> arg1 0) (< (- arg1 1) arg1)) (= arg1 arg1P)))
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1 arg2P))

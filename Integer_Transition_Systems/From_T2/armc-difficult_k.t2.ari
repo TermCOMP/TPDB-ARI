@@ -282,8 +282,8 @@ z^post)
 (l0
 c1^post
 c2^post
-m^post
-max^post
+m^0
+max^0
 n^post
 pi^post
 pos^post
@@ -320,13 +320,13 @@ z^post)
 (= pos^1 0))
 (= n^post n^post))
 (<= 0 (+ 0 n^post)))
-(= max^post max^post))
-(<= 0 (+ 0 max^post)))
-(<= (+ 0 max^post) (+ 0 n^post)))
-(= m^post m^post))
-(<= (+ 0 m^post) (+ 0 max^post)))
-(<= 0 (+ 0 m^post)))
-(<= 1 (+ 0 m^post)))
+(= max^0 max^0))
+(<= 0 (+ 0 max^0)))
+(<= (+ 0 max^0) (+ 0 n^post)))
+(= m^0 m^0))
+(<= (+ 0 m^0) (+ 0 max^0)))
+(<= 0 (+ 0 m^0)))
+(<= 1 (+ 0 m^0)))
 (= c1^post c1^post))
 (<= 0 (+ 0 c1^post)))
 (<= (+ 0 c1^post) 1))

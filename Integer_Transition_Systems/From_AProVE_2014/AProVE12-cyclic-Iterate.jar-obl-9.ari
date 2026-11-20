@@ -7,7 +7,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f168_0_main_LE arg1P arg2P arg3P arg4P)
+(f168_0_main_LE arg1P arg2P arg3P arg4)
 :guard
 (and
 (and
@@ -75,4 +75,4 @@
 (= 1 arg1P))
 )
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2 arg3P arg4))

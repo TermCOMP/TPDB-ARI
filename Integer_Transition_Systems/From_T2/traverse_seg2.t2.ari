@@ -14530,7 +14530,7 @@ i_30^post
 i_95^post
 len_134^post
 len_187^post
-length_28^post
+length_28^0
 nondet_12^post
 r_126^post
 r_165^post
@@ -14641,7 +14641,7 @@ y_25^post)
 (= nondet_12^1 nondet_12^1)
 (= result_dot_nondet_sdv_special_RETURN_VALUE_13^post (+ 0 nondet_12^1)))
 (= nondet_12^post nondet_12^post))
-(= length_28^post (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)))
+(= length_28^0 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)))
 (= head_SLAM_f_29^post (+ 0 tail_14^0)))
 (= head_32^post (+ 0 head_SLAM_f_29^post)))
 (= i_30^post 0))
@@ -14649,10 +14649,10 @@ y_25^post)
 (<= (+ 0 i_30^post) 0))
 (<=
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post)
-(+ 0 length_28^post))
+(+ 0 length_28^0))
 )
 (<=
-(+ 0 length_28^post)
+(+ 0 length_28^0)
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_13^post))
 )
 (<= (+ 0 tail_14^0) (+ 0 head_SLAM_f_29^post)))

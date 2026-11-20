@@ -602,13 +602,13 @@
 )
 (rule
 (l28 b^0 e^0 f^0 olde^0 q^0 x^0)
-(l27 b^post e^post f^post olde^post q^post x^post)
+(l27 b^0 e^post f^post olde^post q^post x^post)
 :guard
 (and
 (and
 (and
 (and
-(and (and (= e^post 1) (= f^post 0)) (= b^post b^post))
+(and (and (= e^post 1) (= f^post 0)) (= b^0 b^0))
 (= x^post x^post))
 (<= 1 (+ 0 x^post)))
 (= olde^post (+ 0 e^post)))

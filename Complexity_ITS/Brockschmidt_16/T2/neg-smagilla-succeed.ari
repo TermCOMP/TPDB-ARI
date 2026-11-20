@@ -19,4 +19,4 @@
 (rule (f22 A B C D E F) (f22 A B C D E F))
 (rule (f24 A B C D E F) (f27 A B C D E F))
 (rule (f12 A B C D E F) (f22 A B C D E F) :guard (>= 0 A))
-(rule (f0 A B C D E F) (f12 4 G 0 D G 4) :guard (>= G 1))
+(rule (f0 A B C D E F) (f12 4 B 0 D B 4) :guard (>= B 1))

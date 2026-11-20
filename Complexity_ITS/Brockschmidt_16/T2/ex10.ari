@@ -8,7 +8,7 @@
 (rule (f0 A B C D E F G H I J K) (f5 A B C D E F G H I J K))
 (rule
   (f0 A B C D E F G H I J K)
-  (f12 M B C D E F G H I J K)
+  (f12 A B C D E F G H I J K)
   :guard
   (exists ((L Int)) (>= 15 L)))
 (rule

@@ -8,9 +8,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
-(f1602_0_main_NULL arg1P arg2P arg3P arg4P arg5P)
+(f1602_0_main_NULL arg1 arg2 arg3 arg4 arg5)
 :guard
-(and (and (> arg1 0) (> arg1P 2)) (> arg2P (- 1))))
+(and (and (> arg1_old 0) (> arg1 2)) (> arg2 (- 1))))
 (rule
 (f408_0_createTree_Return arg1 arg2 arg3 arg4 arg5)
 (f1602_0_main_NULL arg1P arg2P arg3P arg4P arg5P)
@@ -41,7 +41,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
-(f1295_0_createTree_LE arg1P arg2P arg3P arg4P arg5P)
+(f1295_0_createTree_LE arg1 arg2P arg3 arg4P arg5P)
 :guard
 (and
 (and
@@ -49,10 +49,10 @@
 (and
 (and
 (and
-(and (and (> arg2 0) (> arg3P 0)) (<= (- arg1P 2) arg1))
-(<= (- arg2P 2) arg1))
-(> arg1 0))
-(> arg1P 2))
+(and (and (> arg2 0) (> arg3 0)) (<= (- arg1 2) arg1_old))
+(<= (- arg2P 2) arg1_old))
+(> arg1_old 0))
+(> arg1 2))
 (> arg2P 2))
 (= arg2 arg4P))
 (= 1 arg5P))
@@ -210,4 +210,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5))

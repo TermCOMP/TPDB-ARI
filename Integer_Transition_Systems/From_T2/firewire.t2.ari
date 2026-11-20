@@ -410,7 +410,7 @@ pattern^post
 seqlen^post
 xx^post
 yy^post
-z^post)
+z^0)
 :guard
 (and
 (and
@@ -424,8 +424,8 @@ z^post)
 (= it^post (+ 0 seqlen^post)))
 (= xx^post 0))
 (= yy^post 0))
-(= z^post z^post))
-(<= 1 (+ 0 z^post)))
+(= z^0 z^0))
+(<= 1 (+ 0 z^0)))
 (= buffer^0 buffer^post))
 (= c1^0 c1^post))
 (= c2^0 c2^post))

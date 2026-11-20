@@ -23,4 +23,4 @@
   (f0 H B C D E F G)
   :guard
   (and (>= H 1) (>= C 1)))
-(rule (f3 A B C D E F G) (f2 H B I D E F G))
+(rule (f3 A B C D E F G) (f2 A B C D E F G))

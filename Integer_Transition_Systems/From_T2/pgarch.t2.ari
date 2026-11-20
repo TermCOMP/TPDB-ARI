@@ -79843,7 +79843,7 @@ ct_25^post
 ct_36^post
 ct_39^post
 lt_15^post
-lt_17^post
+lt_17^0
 lt_18^post
 lt_22^post
 lt_24^post
@@ -80417,7 +80417,7 @@ st_41^post)
 (and
 (and
 (and
-(and (= lt_17^post lt_17^post) (= ct_36^1 0))
+(and (= lt_17^0 lt_17^0) (= ct_36^1 0))
 (= a_31^1 (+ 0 ct_36^1)))
 (= nd_12^1 nd_12^1))
 (= st_32^1 (+ 0 nd_12^1)))
@@ -96507,7 +96507,7 @@ ct_20^post
 ct_25^post
 ct_36^post
 ct_39^post
-lt_15^post
+lt_15^0
 lt_17^post
 lt_18^post
 lt_22^post
@@ -97077,8 +97077,8 @@ st_41^post)
 (and
 (and
 (and
-(and (<= 0 (+ 0 lt_15^0)) (<= (+ 0 lt_15^0) 0))
-(= lt_15^post lt_15^post))
+(and (<= 0 (+ 0 lt_15^0_old)) (<= (+ 0 lt_15^0_old) 0))
+(= lt_15^0 lt_15^0))
 (= __const_1000^0 __const_1000^post))
 (= __const_1000000000^0 __const_1000000000^post))
 (= __disjvr_0^0 __disjvr_0^post))
@@ -99277,8 +99277,8 @@ ct_20^post
 ct_25^post
 ct_36^post
 ct_39^post
-lt_15^post
-lt_17^post
+lt_15^0
+lt_17^0
 lt_18^post
 lt_22^post
 lt_24^post
@@ -99881,8 +99881,8 @@ st_41^post)
 (= rt_11^2 rt_11^2))
 (<= 0 (+ 0 rv_40^1)))
 (<= (+ 0 rv_40^1) 0))
-(= lt_15^post lt_15^post))
-(= lt_17^post lt_17^post))
+(= lt_15^0 lt_15^0))
+(= lt_17^0 lt_17^0))
 (= lt_18^post lt_18^post))
 (= ct_19^post ct_19^post))
 (= ct_20^post ct_20^post))
@@ -103462,7 +103462,7 @@ ct_20^post
 ct_25^post
 ct_36^post
 ct_39^post
-lt_15^post
+lt_15^0
 lt_17^post
 lt_18^post
 lt_22^post
@@ -104037,7 +104037,7 @@ st_41^post)
 (and
 (and
 (and
-(and (= lt_15^post lt_15^post) (= ct_39^1 1))
+(and (= lt_15^0 lt_15^0) (= ct_39^1 1))
 (= a_43^1 (+ 0 ct_39^1)))
 (= a_43^post a_43^post))
 (= ct_39^post ct_39^post))

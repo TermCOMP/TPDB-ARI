@@ -261,7 +261,7 @@ servers^post)
 __const_5^post
 __rho_1_^post
 __rho_2_^post
-c^post
+c^0
 curr_serv^post
 resp^post
 servers^post)
@@ -272,8 +272,8 @@ servers^post)
 (and
 (and
 (and
-(and (= __rho_2_^post __rho_2_^post) (= c^post (+ 0 __rho_2_^post)))
-(<= 1 (+ 0 c^post)))
+(and (= __rho_2_^post __rho_2_^post) (= c^0 (+ 0 __rho_2_^post)))
+(<= 1 (+ 0 c^0)))
 (= servers^post 4))
 (= resp^post 0))
 (= curr_serv^post (+ 0 servers^post)))

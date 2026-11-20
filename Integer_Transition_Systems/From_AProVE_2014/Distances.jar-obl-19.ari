@@ -85,21 +85,21 @@ arg9
 arg10
 arg11)
 (f537_0_main_InvokeMethod
-arg1P
+arg1
 arg2P
 arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
+arg4
+arg5
+arg6
+arg7
+arg8
 arg9P
 arg10P
 arg11P)
 :guard
 (and
 (and
-(and (and (and (<= arg1P arg1) (> arg2 0)) (> arg1 0)) (> arg1P 0))
+(and (and (and (<= arg1 arg1_old) (> arg2 0)) (> arg1_old 0)) (> arg1 0))
 (= 1 arg2P))
 (= arg2 arg3P))
 )
@@ -4841,14 +4841,14 @@ arg11P)
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8 arg9 arg10 arg11)
 (f1_0_main_ConstantStackPush
-arg1P
-arg2P
+arg1
+arg2
 arg3P
-arg4P
-arg5P
-arg6P
-arg7P
-arg8P
+arg4
+arg5
+arg6
+arg7
+arg8
 arg9P
 arg10P
 arg11P)

@@ -63,7 +63,7 @@
 )
 (rule
 (l4 N^0 choice^0 i^0 pos^0 seq^0 walker^0 z^0)
-(l3 N^post choice^post i^post pos^post seq^post walker^post z^post)
+(l3 N^post choice^post i^post pos^post seq^post walker^post z^0)
 :guard
 (and
 (and
@@ -72,8 +72,8 @@
 (and
 (and
 (and
-(and (and (= seq^post 1) (= i^post (+ 0 seq^post))) (= z^post z^post))
-(<= 0 (+ 0 z^post)))
+(and (and (= seq^post 1) (= i^post (+ 0 seq^post))) (= z^0 z^0))
+(<= 0 (+ 0 z^0)))
 (= pos^post 0))
 (= N^post N^post))
 (<= (+ 0 N^post) 2))

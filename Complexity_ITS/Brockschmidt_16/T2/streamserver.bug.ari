@@ -605,16 +605,16 @@
   (f78 A B C D E F G H I J K L M N O P Q R S T U V))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V)
-  (f20 Z B C X W F G 0 I J K L M N O P Q R 0 3 1 Y)
+  (f20 Z B C D E F G 0 I J K L M N O P Q R 0 3 1 Y)
   :guard
-  (and (and (>= X 0) (>= Y 1)) (= T 3)))
+  (and (and (>= D 0) (>= Y 1)) (= T 3)))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V)
-  (f20 Z B C X W F G 0 I J K L M N O P Q R 0 T 1 Y)
+  (f20 Z B C D E F G 0 I J K L M N O P Q R 0 T 1 Y)
   :guard
-  (and (and (>= 2 T) (>= X 0)) (>= Y 1)))
+  (and (and (>= 2 T) (>= D 0)) (>= Y 1)))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V)
-  (f20 Z B C X W F G 0 I J K L M N O P Q R 0 T 1 Y)
+  (f20 Z B C D E F G 0 I J K L M N O P Q R 0 T 1 Y)
   :guard
-  (and (and (>= T 4) (>= X 0)) (>= Y 1)))
+  (and (and (>= T 4) (>= D 0)) (>= Y 1)))

@@ -163,8 +163,8 @@ x2^post)
 oldX0^post
 oldX1^post
 oldX2^post
-oldX3^post
-oldX4^post
+oldX3^0
+oldX4^0
 oldX5^post
 x0^post
 x1^post
@@ -179,11 +179,11 @@ x2^post)
 (and
 (and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
 (= oldX2^post (+ 0 x2^0)))
-(= oldX3^post oldX3^post))
-(= oldX4^post oldX4^post))
+(= oldX3^0 oldX3^0))
+(= oldX4^0 oldX4^0))
 (= oldX5^post oldX5^post))
-(= x0^post (+ 0 oldX3^post)))
-(= x1^post (+ 0 oldX4^post)))
+(= x0^post (+ 0 oldX3^0)))
+(= x1^post (+ 0 oldX4^0)))
 (= x2^post (+ 0 oldX5^post)))
 )
 (rule

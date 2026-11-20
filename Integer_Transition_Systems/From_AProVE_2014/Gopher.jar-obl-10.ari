@@ -10,16 +10,16 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f908_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f908_0_main_InvokeMethod arg1 arg2 arg3P arg4 arg5 arg6)
 :guard
 (exists
 ((x7 Int))
 (and
 (and
 (and
-(and (and (and (> x7 (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
+(and (and (and (> x7 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+(> arg2 0))
 (> arg3P (- 1)))
 )
 )
@@ -57,14 +57,14 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f880_0_createTree_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f880_0_createTree_GE arg1 arg2P arg3 arg4P arg5P arg6)
 :guard
 (and
 (and
 (and
 (and
-(and (and (and (> arg6P (- 1)) (> arg2 1)) (> arg3P (- 1))) (> arg1 0))
-(> arg1P 1))
+(and (and (and (> arg6 (- 1)) (> arg2 1)) (> arg3 (- 1))) (> arg1_old 0))
+(> arg1 1))
 (= 0 arg2P))
 (= arg2 arg4P))
 (= 2 arg5P))
@@ -179,7 +179,7 @@
 )
 (rule
 (f908_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f940_0_gopher_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
+(f940_0_gopher_NONNULL arg1P arg2P arg3P arg4 arg5P arg6)
 :guard
 (exists
 ((x58 Int))
@@ -199,7 +199,7 @@
 (> arg3 (- 1)))
 (> arg1P 0))
 (> arg2P (- 1)))
-(<= (+ arg4 2) arg2))
+(<= (+ arg4_old 2) arg2))
 (<= (+ arg5 2) arg2))
 (= arg5 arg3P))
 )
@@ -284,4 +284,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6))

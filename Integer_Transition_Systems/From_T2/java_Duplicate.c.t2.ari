@@ -102,17 +102,17 @@
 )
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 x0^0 x1^0)
-(l4 oldX0^post oldX1^post oldX2^post oldX3^post x0^post x1^post)
+(l4 oldX0^post oldX1^post oldX2^0 oldX3^0 x0^post x1^post)
 :guard
 (and
 (and
 (and
 (and
 (and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
-(= oldX2^post oldX2^post))
-(= oldX3^post oldX3^post))
-(= x0^post (+ 0 oldX2^post)))
-(= x1^post (+ 0 oldX3^post)))
+(= oldX2^0 oldX2^0))
+(= oldX3^0 oldX3^0))
+(= x0^post (+ 0 oldX2^0)))
+(= x1^post (+ 0 oldX3^0)))
 )
 (rule
 (l5 oldX0^0 oldX1^0 oldX2^0 oldX3^0 x0^0 x1^0)

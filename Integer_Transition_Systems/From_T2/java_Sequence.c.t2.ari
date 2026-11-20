@@ -339,8 +339,8 @@ __const_5^post
 __const_99^post
 oldX0^post
 oldX1^post
-oldX2^post
-oldX3^post
+oldX2^0
+oldX3^0
 x0^post
 x1^post)
 :guard
@@ -352,10 +352,10 @@ x1^post)
 (and
 (and
 (and (= oldX0^post (+ 0 x0^0)) (= oldX1^post (+ 0 x1^0)))
-(= oldX2^post oldX2^post))
-(= oldX3^post oldX3^post))
-(= x0^post (+ 0 oldX2^post)))
-(= x1^post (+ 0 oldX3^post)))
+(= oldX2^0 oldX2^0))
+(= oldX3^0 oldX3^0))
+(= x0^post (+ 0 oldX2^0)))
+(= x1^post (+ 0 oldX3^0)))
 (= __const_20^0 __const_20^post))
 (= __const_5^0 __const_5^post))
 (= __const_99^0 __const_99^post))

@@ -6,15 +6,15 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f193_0_count_GE arg1P arg2P arg3P arg4P)
+(f193_0_count_GE arg1 arg2 arg3 arg4)
 :guard
 (and
 (and
 (and
-(and (and (> arg3P (- 1)) (> arg2 (- 1))) (> arg4P (- 1)))
+(and (and (> arg3 (- 1)) (> arg2_old (- 1))) (> arg4 (- 1)))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
+(> arg2 0))
 )
 (rule
 (f193_0_count_GE arg1 arg2 arg3 arg4)
@@ -40,4 +40,4 @@
 (= arg3 arg3P))
 (= (+ arg4 1) arg4P))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

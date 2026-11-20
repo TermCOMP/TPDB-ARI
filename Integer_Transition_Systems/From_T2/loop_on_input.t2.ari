@@ -37,12 +37,12 @@
 (and (= __const_5^0 __const_5^post) (= x^0 x^post)))
 (rule
 (l4 __const_5^0 x^0)
-(l1 __const_5^post x^post)
+(l1 __const_5^post x^0)
 :guard
 (exists
 ((x^1 Int))
 (and
-(and (= x^1 (+ 0 __const_5^0)) (= x^post x^post))
+(and (= x^1 (+ 0 __const_5^0)) (= x^0 x^0))
 (= __const_5^0 __const_5^post))
 )
 )

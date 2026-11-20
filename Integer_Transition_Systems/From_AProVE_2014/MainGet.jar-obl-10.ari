@@ -13,11 +13,11 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f975_0_random_GT arg1P arg2P arg3P arg4P arg5P arg6P)
+(f975_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6P)
 :guard
 (and
-(and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
-(> arg2P (- 1)))
+(and (and (and (<= arg1 arg1_old) (> arg2_old (- 1))) (> arg1_old 0)) (> arg1 0))
+(> arg2 (- 1)))
 )
 (rule
 (f121_0_createList_Return arg1 arg2 arg3 arg4 arg5 arg6)
@@ -36,7 +36,7 @@
 )
 (rule
 (f975_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6)
-(f998_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f998_0_main_InvokeMethod arg1P arg2P arg3 arg4 arg5 arg6P)
 :guard
 (exists
 ((x10 Int))
@@ -45,7 +45,7 @@
 (and
 (and
 (and
-(and (and (<= arg1P arg1) (>= arg3P x10)) (<= (- arg1P 1) arg2))
+(and (and (<= arg1P arg1) (>= arg3 x10)) (<= (- arg1P 1) arg2))
 (<= arg2P arg2))
 (> arg1 0))
 (> arg2 (- 1)))
@@ -55,7 +55,7 @@
 )
 (rule
 (f998_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f1099_0_get_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1099_0_get_InvokeMethod arg1P arg2P arg3P arg4 arg5 arg6P)
 :guard
 (exists
 ((x16 Int))
@@ -72,7 +72,7 @@
 )
 (rule
 (f975_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6)
-(f998_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f998_0_main_InvokeMethod arg1P arg2P arg3 arg4 arg5 arg6P)
 :guard
 (exists
 ((x24 Int) (x23 Int))
@@ -90,12 +90,12 @@
 (> arg2 (- 1)))
 (> arg1P 0))
 (> arg2P (- 1)))
-(= (+ x24 1) arg3P))
+(= (+ x24 1) arg3))
 )
 )
 (rule
 (f1099_0_get_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f983_0_getR_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f983_0_getR_EQ arg1P arg2P arg3P arg4 arg5 arg6P)
 :guard
 (and
 (and
@@ -105,7 +105,7 @@
 )
 (rule
 (f975_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6)
-(f983_0_getR_EQ arg1P arg2P arg3P arg4P arg5P arg6P)
+(f983_0_getR_EQ arg1P arg2P arg3 arg4 arg5 arg6P)
 :guard
 (exists
 ((x35 Int) (x34 Int))
@@ -124,14 +124,14 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1248_0_createList_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1248_0_createList_GE arg1 arg2P arg3P arg4P arg5P arg6P)
 :guard
 (and
 (and
 (and
 (and
 (and
-(and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1)))
+(and (and (<= (+ arg1 1) arg1_old) (> arg1_old 0)) (> arg1 (- 1)))
 (= 0 arg2))
 (= 0 arg2P))
 (= 0 arg3P))
@@ -140,15 +140,15 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1248_0_createList_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1248_0_createList_GE arg1 arg2P arg3P arg4P arg5P arg6P)
 :guard
 (and
 (and
 (and
 (and
 (and
-(and (and (<= (+ arg1P 1) arg1) (> arg2 0)) (> arg1 0))
-(> arg1P (- 1)))
+(and (and (<= (+ arg1 1) arg1_old) (> arg2 0)) (> arg1_old 0))
+(> arg1 (- 1)))
 (= 0 arg2P))
 (= 0 arg3P))
 (= arg2 arg4P))
@@ -156,16 +156,16 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1248_0_createList_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1248_0_createList_GE arg1 arg2P arg3 arg4P arg5P arg6P)
 :guard
 (and
 (and
 (and
 (and
 (and
-(and (and (> arg3P (- 1)) (> arg2 0)) (<= (+ arg1P 1) arg1))
-(> arg1 0))
-(> arg1P (- 1)))
+(and (and (> arg3 (- 1)) (> arg2 0)) (<= (+ arg1 1) arg1_old))
+(> arg1_old 0))
+(> arg1 (- 1)))
 (= 0 arg2P))
 (= arg2 arg4P))
 (= 1 arg5P))
@@ -291,7 +291,7 @@
 )
 (rule
 (f998_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f739_0_getFirst_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
+(f739_0_getFirst_NONNULL arg1P arg2P arg3P arg4 arg5 arg6P)
 :guard
 (exists
 ((x90 Int))
@@ -306,7 +306,7 @@
 )
 (rule
 (f975_0_random_GT arg1 arg2 arg3 arg4 arg5 arg6)
-(f739_0_getFirst_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
+(f739_0_getFirst_NONNULL arg1P arg2P arg3 arg4 arg5 arg6P)
 :guard
 (exists
 ((x98 Int) (x97 Int) (x104 Int))
@@ -324,7 +324,7 @@
 (> arg2 0))
 (> arg1P 0))
 (> arg2P (- 1)))
-(<= (+ arg3P 2) arg2))
+(<= (+ arg3 2) arg2))
 )
 )
 (rule
@@ -345,4 +345,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6P))

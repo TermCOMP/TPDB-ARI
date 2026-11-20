@@ -2852,7 +2852,7 @@ PdoType^post
 Pdoi^post
 Pdolen^post
 ___rho_10_^post
-___rho_1_^post
+___rho_1_^0
 ___rho_9_^post
 a11^post
 a66^post
@@ -2895,7 +2895,7 @@ unset^post)
 (and
 (and
 (and (= unset^post 0) (= set^post (+ 0 unset^post)))
-(= ___rho_1_^post ___rho_1_^post))
+(= ___rho_1_^0 ___rho_1_^0))
 (= DName^0 DName^post))
 (= PdoType^0 PdoType^post))
 (= Pdoi^0 Pdoi^post))

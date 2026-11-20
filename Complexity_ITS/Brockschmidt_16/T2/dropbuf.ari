@@ -404,14 +404,14 @@
   (>= C R))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X)
-  (f15 A B 0 D E F 0 Z I J K L M N O P 0 Y S T U V W 1))
+  (f15 A B 0 D E F 0 H I J K L M N O P 0 R S T U V W 1))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X)
-  (f36 A B 1 D E F 0 A1 I J K L M N O P 0 Z S T U V W Y)
+  (f36 A B 1 D E F 0 H I J K L M N O P 0 R S T U V W Y)
   :guard
   (>= 0 Y))
 (rule
   (f0 A B C D E F G H I J K L M N O P Q R S T U V W X)
-  (f36 A B 1 D E F 0 A1 I J K L M N O P 0 Z S T U V W Y)
+  (f36 A B 1 D E F 0 H I J K L M N O P 0 R S T U V W Y)
   :guard
   (>= Y 2))

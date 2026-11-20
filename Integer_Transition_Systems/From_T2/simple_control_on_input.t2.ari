@@ -52,11 +52,11 @@
 (and (= __const_20^0 __const_20^post) (= i^0 i^post)))
 (rule
 (l5 __const_20^0 i^0)
-(l4 __const_20^post i^post)
+(l4 __const_20^post i^0)
 :guard
 (exists
 ((i^1 Int))
-(and (and (= i^1 0) (= i^post i^post)) (= __const_20^0 __const_20^post)))
+(and (and (= i^1 0) (= i^0 i^0)) (= __const_20^0 __const_20^post)))
 )
 (rule
 (l6 __const_20^0 i^0)

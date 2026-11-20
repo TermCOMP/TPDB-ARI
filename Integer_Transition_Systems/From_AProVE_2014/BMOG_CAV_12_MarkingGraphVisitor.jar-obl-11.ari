@@ -16,21 +16,21 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f543_0_createTree_GT arg1P arg2P arg3P arg4P arg5P arg6P)
+(f543_0_createTree_GT arg1 arg2P arg3P arg4 arg5 arg6P)
 :guard
 (and
-(and (and (and (> arg2 0) (> arg1P (- 1))) (> arg1 0)) (= arg2 arg2P))
+(and (and (and (> arg2 0) (> arg1 (- 1))) (> arg1_old 0)) (= arg2 arg2P))
 (= 1 arg3P))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f1156_0_random_ArrayAccess arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1156_0_random_ArrayAccess arg1 arg2P arg3P arg4 arg5 arg6P)
 :guard
 (exists
 ((x8 Int))
 (and
 (and
-(and (and (and (> arg2 0) (> x8 (- 1))) (> arg1 0)) (> arg1P 1))
+(and (and (and (> arg2 0) (> x8 (- 1))) (> arg1_old 0)) (> arg1 1))
 (= arg2 arg2P))
 (= 0 arg3P))
 )
@@ -51,7 +51,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f3334_0_main_LE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f3334_0_main_LE arg1 arg2 arg3P arg4 arg5P arg6P)
 :guard
 (and
 (and
@@ -59,17 +59,17 @@
 (and
 (and
 (and
-(and (and (> arg2 0) (> arg4P (- 1))) (<= arg1P arg1))
-(<= (+ arg2P 1) arg1))
+(and (and (> arg2_old 0) (> arg4 (- 1))) (<= arg1 arg1_old))
+(<= (+ arg2 1) arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P (- 1)))
-(= (- arg4P 1) arg3P))
+(> arg2 (- 1)))
+(= (- arg4 1) arg3P))
 (= 2 arg5P))
 )
 (rule
 (f1156_0_random_ArrayAccess arg1 arg2 arg3 arg4 arg5 arg6)
-(f3334_0_main_LE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f3334_0_main_LE arg1P arg2P arg3P arg4 arg5 arg6P)
 :guard
 (exists
 ((x150 Int))
@@ -81,15 +81,15 @@
 (and
 (and
 (and
-(and (and (> x150 0) (> arg4P (- 1))) (<= (+ arg1P 1) arg1))
+(and (and (> x150 0) (> arg4 (- 1))) (<= (+ arg1P 1) arg1))
 (<= arg2P arg1))
 (> arg1 1))
 (> arg1P 0))
 (> arg2P 1))
-(<= (+ arg4 2) arg1))
+(<= (+ arg4_old 2) arg1))
 (= 0 arg3))
-(= (- arg4P 1) arg3P))
-(= (+ x150 1) arg5P))
+(= (- arg4 1) arg3P))
+(= (+ x150 1) arg5))
 )
 )
 (rule
@@ -374,4 +374,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3P arg4 arg5 arg6P))

@@ -153,14 +153,14 @@
 )
 (rule
 (l12 WItemsNum^0 ___rho_1_^0 ___rho_2_^0)
-(l0 WItemsNum^post ___rho_1_^post ___rho_2_^post)
+(l0 WItemsNum^0 ___rho_1_^post ___rho_2_^post)
 :guard
 (exists
 ((WItemsNum^1 Int))
 (and
 (and
 (and (= WItemsNum^1 WItemsNum^1) (= ___rho_1_^post ___rho_1_^post))
-(= WItemsNum^post (+ 0 ___rho_1_^post)))
+(= WItemsNum^0 (+ 0 ___rho_1_^post)))
 (= ___rho_2_^0 ___rho_2_^post))
 )
 )

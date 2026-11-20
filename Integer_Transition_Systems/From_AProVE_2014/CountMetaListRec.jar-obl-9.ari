@@ -24,12 +24,12 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f462_0_main_InvokeMethod arg1P arg2P arg3P arg4P)
+(f462_0_main_InvokeMethod arg1 arg2 arg3 arg4)
 :guard
-(and (and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)) (> arg2P (- 1))))
+(and (and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)) (> arg2 (- 1))))
 (rule
 (f462_0_main_InvokeMethod arg1 arg2 arg3 arg4)
-(f479_0_countMetaList_NONNULL arg1P arg2P arg3P arg4P)
+(f479_0_countMetaList_NONNULL arg1P arg2P arg3 arg4)
 :guard
 (exists
 ((x9 Int) (x13 Int))
@@ -42,10 +42,10 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f703_0_createMetaList_GE arg1P arg2P arg3P arg4P)
+(f703_0_createMetaList_GE arg1P arg2 arg3P arg4)
 :guard
 (and
-(and (and (and (> arg2 (- 1)) (> arg2P (- 1))) (> arg1 0)) (= 0 arg1P))
+(and (and (and (> arg2_old (- 1)) (> arg2 (- 1))) (> arg1 0)) (= 0 arg1P))
 (= 1 arg3P))
 )
 (rule
@@ -108,4 +108,4 @@
 ((x39 Int))
 (and (and (and (<= arg1P arg1) (> x39 0)) (> arg1 2)) (> arg1P 0)))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

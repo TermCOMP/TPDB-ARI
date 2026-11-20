@@ -7,9 +7,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_New arg1 arg2 arg3)
-(f160_0_main_LE arg1P arg2P arg3P)
+(f160_0_main_LE arg1 arg2P arg3P)
 :guard
-(and (and (> arg1P 0) (= 27 arg2P)) (= 28 arg3P)))
+(and (and (> arg1 0) (= 27 arg2P)) (= 28 arg3P)))
 (rule
 (f160_0_main_LE arg1 arg2 arg3)
 (f160_0_main_LE arg1P arg2P arg3P)
@@ -35,4 +35,4 @@
 (f167_0_length_InvokeMethod arg1P arg2P arg3P)
 :guard
 (and (and (>= arg1 (+ arg1P 1)) (> arg1 0)) (> arg1P (- 1))))
-(rule (__init arg1 arg2 arg3) (f1_0_main_New arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_New arg1 arg2P arg3P))

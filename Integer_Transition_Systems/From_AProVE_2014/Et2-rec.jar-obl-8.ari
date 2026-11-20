@@ -16,21 +16,21 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f577_0_loop_LE arg1P arg2P arg3P arg4P)
+(f577_0_loop_LE arg1 arg2P arg3P arg4P)
 :guard
 (and
 (and
-(and (and (and (> arg1 0) (> arg1P (- 1))) (= 1 arg2)) (= 0 arg2P))
+(and (and (and (> arg1_old 0) (> arg1 (- 1))) (= 1 arg2)) (= 0 arg2P))
 (= 1 arg3P))
 (= 1 arg4P))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f577_0_loop_LE arg1P arg2P arg3P arg4P)
+(f577_0_loop_LE arg1 arg2P arg3P arg4P)
 :guard
 (and
 (and
-(and (and (and (> arg2P (- 1)) (> arg2 1)) (> arg1P (- 1))) (> arg1 0))
+(and (and (and (> arg2P (- 1)) (> arg2 1)) (> arg1 (- 1))) (> arg1_old 0))
 (= arg2 arg3P))
 (= 2 arg4P))
 )
@@ -71,4 +71,4 @@
 (= (+ arg4 1) arg4P))
 )
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3P arg4P))

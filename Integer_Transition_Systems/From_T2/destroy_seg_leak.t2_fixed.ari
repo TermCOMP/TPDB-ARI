@@ -15187,7 +15187,7 @@ head_SLAM_f_28^post
 i_110^post
 i_120^post
 i_29^post
-length_27^post
+length_27^0
 lt_17^post
 lt_20^post
 nondet_12^post
@@ -15280,7 +15280,7 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_13^post)
 (= nondet_12^1 nondet_12^1))
 (= result_dot_nondet_sdv_special_RETURN_VALUE_14^post (+ 0 nondet_12^1)))
 (= nondet_12^post nondet_12^post))
-(= length_27^post (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_14^post)))
+(= length_27^0 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_14^post)))
 (= head_SLAM_f_28^post (+ 0 tail_15^post)))
 (= head_31^post (+ 0 head_SLAM_f_28^post)))
 (= i_29^post 0))
@@ -15312,10 +15312,10 @@ result_dot_SLAyer_malloc_sdv_special_RETURN_VALUE_13^post)
 )
 (<=
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_14^post)
-(+ 0 length_27^post))
+(+ 0 length_27^0))
 )
 (<=
-(+ 0 length_27^post)
+(+ 0 length_27^0)
 (+ 0 result_dot_nondet_sdv_special_RETURN_VALUE_14^post))
 )
 (<= (+ 0 tail_15^post) (+ 0 head_SLAM_f_28^post)))

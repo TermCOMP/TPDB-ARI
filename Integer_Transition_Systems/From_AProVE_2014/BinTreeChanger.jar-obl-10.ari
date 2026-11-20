@@ -11,7 +11,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f997_0_main_InvokeMethod arg1P arg2P arg3P arg4P arg5P arg6P)
+(f997_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
 :guard
 (exists
 ((x7 Int))
@@ -19,11 +19,11 @@
 (and
 (and
 (and
-(and (and (and (> x7 (- 1)) (> arg2 0)) (<= arg1P arg1)) (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
-(> arg3P (- 1)))
-(> arg4P (- 1)))
+(and (and (and (> x7 (- 1)) (> arg2_old 0)) (<= arg1 arg1_old)) (> arg1_old 0))
+(> arg1 0))
+(> arg2 0))
+(> arg3 (- 1)))
+(> arg4 (- 1)))
 )
 )
 (rule
@@ -66,14 +66,14 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6)
-(f933_0_createTree_GE arg1P arg2P arg3P arg4P arg5P arg6P)
+(f933_0_createTree_GE arg1 arg2P arg3 arg4P arg5P arg6)
 :guard
 (and
 (and
 (and
 (and
-(and (and (and (> arg6P (- 1)) (> arg2 1)) (> arg3P (- 1))) (> arg1 0))
-(> arg1P 1))
+(and (and (and (> arg6 (- 1)) (> arg2 1)) (> arg3 (- 1))) (> arg1_old 0))
+(> arg1 1))
 (= 0 arg2P))
 (= arg2 arg4P))
 (= 2 arg5P))
@@ -188,7 +188,7 @@
 )
 (rule
 (f997_0_main_InvokeMethod arg1 arg2 arg3 arg4 arg5 arg6)
-(f1288_0_applyTreeChanger_NULL arg1P arg2P arg3P arg4P arg5P arg6P)
+(f1288_0_applyTreeChanger_NULL arg1P arg2P arg3P arg4P arg5 arg6)
 :guard
 (exists
 ((x59 Int))
@@ -210,7 +210,7 @@
 (> arg4 (- 1)))
 (> arg1P (- 1)))
 (> arg2P (- 1)))
-(<= (+ arg5 2) arg2))
+(<= (+ arg5_old 2) arg2))
 )
 )
 (rule
@@ -311,4 +311,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6))

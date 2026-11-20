@@ -9,10 +9,10 @@
 (rule (f25 A B C D E F G H I J) (f16 A B C D E F G H I J) :guard (>= 0 A))
 (rule
   (f0 A B C D E F G H I J)
-  (f16 A 1 0 1 N 0 M L K J)
+  (f16 A 1 0 1 E 0 M H I J)
   :guard
   (and
-    (and (and (and (and (>= K 0) (>= L K)) (>= L 0)) (>= M L)) (>= N 0))
+    (and (and (and (and (>= I 0) (>= H I)) (>= H 0)) (>= M H)) (>= E 0))
     (>= M 0))
   )
 (rule

@@ -20,4 +20,4 @@
 (rule (f12 A B) (f9 (+ A 1) B) :guard (>= 5 A))
 (rule (f9 A B) (f20 A 0) :guard (>= 5 A))
 (rule (f9 A B) (f20 A B) :guard (>= A 6))
-(rule (f0 A B) (f9 C B))
+(rule (f0 A B) (f9 A B))

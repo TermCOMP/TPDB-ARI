@@ -2089,17 +2089,17 @@ x4^0
 x5^0)
 (l7
 oldX0^post
-oldX10^post
+oldX10^0
 oldX11^post
 oldX1^post
 oldX2^post
 oldX3^post
 oldX4^post
 oldX5^post
-oldX6^post
-oldX7^post
-oldX8^post
-oldX9^post
+oldX6^0
+oldX7^0
+oldX8^0
+oldX9^0
 x0^post
 x1^post
 x2^post
@@ -2128,17 +2128,17 @@ x5^post)
 (= oldX3^post (+ 0 x3^0)))
 (= oldX4^post (+ 0 x4^0)))
 (= oldX5^post (+ 0 x5^0)))
-(= oldX6^post oldX6^post))
-(= oldX7^post oldX7^post))
-(= oldX8^post oldX8^post))
-(= oldX9^post oldX9^post))
-(= oldX10^post oldX10^post))
+(= oldX6^0 oldX6^0))
+(= oldX7^0 oldX7^0))
+(= oldX8^0 oldX8^0))
+(= oldX9^0 oldX9^0))
+(= oldX10^0 oldX10^0))
 (= x0^post (+ 0 oldX0^post)))
-(= x1^post (+ 0 oldX6^post)))
-(= x2^post (+ 0 oldX7^post)))
-(= x3^post (+ 0 oldX8^post)))
-(= x4^post (+ 0 oldX9^post)))
-(= x5^post (+ 0 oldX10^post)))
+(= x1^post (+ 0 oldX6^0)))
+(= x2^post (+ 0 oldX7^0)))
+(= x3^post (+ 0 oldX8^0)))
+(= x4^post (+ 0 oldX9^0)))
+(= x5^post (+ 0 oldX10^0)))
 (= oldX11^0 oldX11^post))
 )
 (rule

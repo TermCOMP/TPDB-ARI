@@ -441,7 +441,7 @@
 )
 (rule
 (l14 K^0 N^0 next^0 pos^0 xx^0 yy^0 z^0)
-(l1 K^post N^post next^post pos^post xx^post yy^post z^post)
+(l1 K^0 N^post next^post pos^post xx^post yy^post z^0)
 :guard
 (and
 (and
@@ -449,11 +449,11 @@
 (and
 (and
 (and
-(and (and (= z^post z^post) (<= 0 (+ 0 z^post))) (= pos^post 0))
+(and (and (= z^0 z^0) (<= 0 (+ 0 z^0))) (= pos^post 0))
 (= next^post 1))
 (= N^post N^post))
 (<= 1 (+ 0 N^post)))
-(= K^post (+ 0 N^post)))
+(= K^0 (+ 0 N^post)))
 (= xx^post 0))
 (= yy^post 0))
 )

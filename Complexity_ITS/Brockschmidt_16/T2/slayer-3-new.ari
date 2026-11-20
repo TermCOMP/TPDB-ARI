@@ -374867,8 +374867,8 @@
     L1
     M1
     (+ 1 E4)
-    F4
-    F4
+    P1
+    P1
     R1
     I4
     R1
@@ -374937,7 +374937,7 @@
   :guard
   (exists
     ((J4 Int))
-    (and (and (>= F4 (+ E4 1)) (>= F4 (+ J4 1))) (= V 1)))
+    (and (and (>= P1 (+ E4 1)) (>= P1 (+ J4 1))) (= V 1)))
   )
 (rule
   (f25
@@ -375088,11 +375088,11 @@
     K1
     L1
     M1
-    H4
+    N1
     F4
-    E4
-    G4
-    K4
+    P1
+    Q1
+    R1
     I4
     J4
     U1
@@ -375157,4 +375157,4 @@
     B4
     C4)
   :guard
-  (exists ((N4 Int) (O4 Int)) (and (and (>= H4 F4) (>= N4 O4)) (= V 0))))
+  (exists ((N4 Int) (O4 Int)) (and (and (>= N1 F4) (>= N4 O4)) (= V 0))))

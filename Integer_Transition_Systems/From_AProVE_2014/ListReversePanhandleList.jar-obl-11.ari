@@ -10,7 +10,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f231_0_createList_LE arg1P arg2P arg3P arg4P)
+(f231_0_createList_LE arg1 arg2 arg3 arg4)
 :guard
 (exists
 ((x5 Int))
@@ -20,13 +20,13 @@
 (and
 (and
 (and
-(and (and (> arg1P (- 1)) (> arg2 1)) (> x5 (- 1)))
-(<= (- arg2P 1) arg1))
-(<= (- arg3P 1) arg1))
-(> arg1 0))
-(> arg2P 1))
-(> arg3P 1))
-(= (- x5 2) arg4P))
+(and (and (> arg1 (- 1)) (> arg2_old 1)) (> x5 (- 1)))
+(<= (- arg2 1) arg1_old))
+(<= (- arg3 1) arg1_old))
+(> arg1_old 0))
+(> arg2 1))
+(> arg3 1))
+(= (- x5 2) arg4))
 )
 )
 (rule
@@ -254,4 +254,4 @@
 (> arg2P 0))
 )
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

@@ -10921,7 +10921,7 @@ bCols^post
 bDomain^post
 bRows^post
 bSquares^post
-n2^post
+n2^0
 n^post
 ni1^post
 ni2^post
@@ -10961,7 +10961,7 @@ tmp___5^post)
 (and
 (and
 (and
-(and (and (= n^post 3) (= n2^post n2^post)) (= bDomain^post 1))
+(and (and (= n^post 3) (= n2^0 n2^0)) (= bDomain^post 1))
 (= bRows^post 1))
 (= bCols^post 1))
 (= bSquares^post 1))

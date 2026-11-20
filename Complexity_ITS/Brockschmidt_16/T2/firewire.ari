@@ -6,7 +6,7 @@
 (fun f38 (-> Int Int Int Int Int Int Int Int Int Int))
 (fun f9 (-> Int Int Int Int Int Int Int Int Int Int))
 (entrypoint f0)
-(rule (f0 A B C D E F G H I) (f9 0 1 1 0 0 J G H I) :guard (>= J 1))
+(rule (f0 A B C D E F G H I) (f9 0 1 1 0 0 F G H I) :guard (>= F 1))
 (rule
   (f9 A B C D E F G H I)
   (f20 A B (- C 1) D D 0 (- A 2) 1 (- A 2))

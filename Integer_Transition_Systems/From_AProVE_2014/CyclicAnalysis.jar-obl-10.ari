@@ -9,7 +9,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5)
-(f165_0_appendNewList_LE arg1P arg2P arg3P arg4P arg5P)
+(f165_0_appendNewList_LE arg1 arg2 arg3 arg4 arg5P)
 :guard
 (and
 (and
@@ -18,13 +18,13 @@
 (and
 (and
 (and
-(and (and (> arg2 0) (> arg4P (- 1))) (<= arg1P arg1))
-(<= (- arg2P 5) arg1))
-(<= (- arg3P 3) arg1))
+(and (and (> arg2_old 0) (> arg4 (- 1))) (<= arg1 arg1_old))
+(<= (- arg2 5) arg1_old))
+(<= (- arg3 3) arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 5))
-(> arg3P 3))
+(> arg2 5))
+(> arg3 3))
 (= 0 arg5P))
 )
 (rule
@@ -169,4 +169,4 @@
 (and (and (<= (+ arg1P 1) arg1) (> arg1 0)) (> arg1P (- 1))))
 (rule
 (__init arg1 arg2 arg3 arg4 arg5)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5P))

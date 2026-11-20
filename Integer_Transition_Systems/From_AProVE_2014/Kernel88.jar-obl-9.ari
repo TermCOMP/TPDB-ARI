@@ -9,26 +9,26 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f234_0_slide88_FieldAccess arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f234_0_slide88_FieldAccess arg1 arg2 arg3P arg4P arg5P arg6P arg7P)
 :guard
 (exists
 ((x4 Int) (x5 Int))
 (and
 (and
-(and (and (and (> x4 (- 1)) (> arg2 1)) (> arg1P (- 1))) (> x5 arg2P))
+(and (and (and (> x4 (- 1)) (> arg2_old 1)) (> arg1 (- 1))) (> x5 arg2))
 (> x5 (- 1)))
-(> arg1 0))
+(> arg1_old 0))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f234_0_slide88_FieldAccess arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f234_0_slide88_FieldAccess arg1 arg2 arg3P arg4P arg5P arg6P arg7P)
 :guard
 (exists
 ((x10 Int))
 (and
-(and (and (and (> x10 (- 1)) (> arg2 1)) (< arg2P 1)) (> arg1P (- 1)))
-(> arg1 0))
+(and (and (and (> x10 (- 1)) (> arg2_old 1)) (< arg2 1)) (> arg1 (- 1)))
+(> arg1_old 0))
 )
 )
 (rule
@@ -237,13 +237,13 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f196_0_create_LE arg1P arg2P arg3P arg4P arg5P arg6P arg7P)
+(f196_0_create_LE arg1 arg2 arg3 arg4 arg5 arg6 arg7)
 :guard
 (exists
 ((x41 Int) (x40 Int))
 (and
-(and (and (and (> x41 (- 1)) (> arg2 1)) (> x40 (- 1))) (> arg1 0))
-(= (- x40 1) arg1P))
+(and (and (and (> x41 (- 1)) (> arg2_old 1)) (> x40 (- 1))) (> arg1_old 0))
+(= (- x40 1) arg1))
 )
 )
 (rule
@@ -253,4 +253,4 @@
 (and (> arg1 0) (= (- arg1 1) arg1P)))
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P))
+(f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7))

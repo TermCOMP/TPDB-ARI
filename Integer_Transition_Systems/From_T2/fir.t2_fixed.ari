@@ -480,7 +480,7 @@ j9^0
 scale7^0)
 (l3
 acc12^post
-acc_length11^post
+acc_length11^0
 coef_len210^post
 coef_len6^post
 i8^post
@@ -495,7 +495,7 @@ scale7^post)
 (and
 (and (and (= in_len4^post 10) (= coef_len6^post 35)) (= scale7^post 285))
 (= coef_len210^post coef_len210^post))
-(= acc_length11^post (+ 0 coef_len210^post)))
+(= acc_length11^0 (+ 0 coef_len210^post)))
 (= i8^post 0))
 (= acc12^0 acc12^post))
 (= j9^0 j9^post))

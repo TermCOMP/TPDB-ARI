@@ -30,6 +30,6 @@
   (>= 0 (+ C 1)))
 (rule
   (f1 A B C D E F)
-  (f0 G H K I J (+ (+ (+ (+ G H) I) J) K))
+  (f0 A B C D E (+ (+ (+ (+ A B) D) E) C))
   :guard
-  (>= (+ (+ (+ (+ G H) I) J) K) 1))
+  (>= (+ (+ (+ (+ A B) D) E) C) 1))

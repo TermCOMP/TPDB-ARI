@@ -96,13 +96,13 @@
 )
 (rule
 (l5 __disjvr_0^0 __disjvr_1^0 __disjvr_2^0 x^0 y^0)
-(l1 __disjvr_0^post __disjvr_1^post __disjvr_2^post x^post y^post)
+(l1 __disjvr_0^post __disjvr_1^post __disjvr_2^post x^0 y^post)
 :guard
 (and
 (and
 (and
 (and
-(and (= x^post x^post) (<= 1 (+ 0 x^post)))
+(and (= x^0 x^0) (<= 1 (+ 0 x^0)))
 (= __disjvr_0^0 __disjvr_0^post))
 (= __disjvr_1^0 __disjvr_1^post))
 (= __disjvr_2^0 __disjvr_2^post))

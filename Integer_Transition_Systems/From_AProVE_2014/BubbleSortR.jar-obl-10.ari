@@ -9,7 +9,7 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
-(f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+(f795_0_main_GE arg1 arg2 arg3P arg4P arg5P arg6P arg7P arg8P)
 :guard
 (and
 (and
@@ -19,9 +19,9 @@
 (and
 (and
 (and
-(and (and (and (<= arg1P arg1) (<= arg2P arg1)) (> arg1 0)) (> arg1P 0))
-(> arg2P 0))
-(= 0 arg2))
+(and (and (and (<= arg1 arg1_old) (<= arg2 arg1_old)) (> arg1_old 0)) (> arg1 0))
+(> arg2 0))
+(= 0 arg2_old))
 (= 0 arg3P))
 (= 0 arg4P))
 (= 0 arg5P))
@@ -31,7 +31,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
-(f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+(f795_0_main_GE arg1 arg2 arg3P arg4P arg5P arg6P arg7P arg8P)
 :guard
 (exists
 ((x6 Int))
@@ -45,11 +45,11 @@
 (and
 (and
 (and
-(and (and (<= arg1P arg1) (> x6 (- 1))) (<= arg2P arg1))
+(and (and (<= arg1 arg1_old) (> x6 (- 1))) (<= arg2 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
-(= 1 arg2))
+(> arg2 0))
+(= 1 arg2_old))
 (= 0 arg3P))
 (= 0 arg4P))
 (= 1 arg5P))
@@ -60,7 +60,7 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
-(f795_0_main_GE arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
+(f795_0_main_GE arg1 arg2P arg3P arg4P arg5P arg6P arg7P arg8P)
 :guard
 (exists
 ((x11 Int) (x12 Int))
@@ -78,10 +78,10 @@
 (and
 (and (and (> x11 (- 1)) (> arg2 1)) (>= (* x11 x12) 0))
 (> x12 (- 1)))
-(<= arg1P arg1))
-(>= arg1 arg2P))
+(<= arg1 arg1_old))
+(>= arg1_old arg2P))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
 (> arg2P 0))
 (= 0 arg3P))
 (= (* x11 x12) arg4P))
@@ -367,4 +367,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6 arg7 arg8)
-(f1_0_main_Load arg1P arg2P arg3P arg4P arg5P arg6P arg7P arg8P))
+(f1_0_main_Load arg1 arg2 arg3P arg4P arg5P arg6P arg7P arg8P))

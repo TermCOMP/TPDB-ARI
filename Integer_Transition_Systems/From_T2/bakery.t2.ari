@@ -596,15 +596,15 @@ CRITICAL^post
 INCREASE^post
 MAX^post
 MAX_MIN^post
-MIN^post
+MIN^0
 NONCRITICAL^post
 NUM_MIN^post
 P^post
 Q^post
 conditional^post
-j_min^post
+j_min^0
 num^post
-pid^post)
+pid^0)
 :guard
 (and
 (and
@@ -620,14 +620,14 @@ pid^post)
 (and
 (and
 (and
-(and (and (= P^post 0) (= Q^post 0)) (= pid^post pid^post))
-(<= 1 (+ 0 pid^post)))
-(= j_min^post j_min^post))
-(<= 1 (+ 0 j_min^post)))
-(= MIN^post MIN^post))
-(<= 1 (+ 0 MIN^post)))
+(and (and (= P^post 0) (= Q^post 0)) (= pid^0 pid^0))
+(<= 1 (+ 0 pid^0)))
+(= j_min^0 j_min^0))
+(<= 1 (+ 0 j_min^0)))
+(= MIN^0 MIN^0))
+(<= 1 (+ 0 MIN^0)))
 (= MAX^post MAX^post))
-(<= (+ 0 MIN^post) (+ 0 MAX^post)))
+(<= (+ 0 MIN^0) (+ 0 MAX^post)))
 (= NONCRITICAL^post 1))
 (= CRITICAL^post 0))
 (= INCREASE^0 INCREASE^post))

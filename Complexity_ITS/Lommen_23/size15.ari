@@ -6,7 +6,7 @@
 (fun l3 (-> Int Int Int Int Int Int))
 (fun l4 (-> Int Int Int Int Int Int))
 (entrypoint l0)
-(rule (l0 X Y A B C) (l1 U Y A B C))
+(rule (l0 X Y A B C) (l1 X Y A B C))
 (rule
   (l1 X Y A B C)
   (l1 (+ X 1) Y A B C)

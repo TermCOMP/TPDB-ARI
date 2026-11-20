@@ -3228,7 +3228,7 @@ rrep^0
 s_ab^0
 z^0)
 (l0
-N^post
+N^0
 br^post
 bs^post
 c1^post
@@ -3244,7 +3244,7 @@ r_ab^post
 recv^post
 rrep^post
 s_ab^post
-z^post)
+z^0)
 :guard
 (and
 (and
@@ -3262,10 +3262,10 @@ z^post)
 (and
 (and
 (and
-(and (and (= N^post N^post) (= z^post z^post)) (<= 0 (+ 0 z^post)))
+(and (and (= N^0 N^0) (= z^0 z^0)) (<= 0 (+ 0 z^0)))
 (= pos^post 0))
 (= next^post 1))
-(<= 1 (+ 0 N^post)))
+(<= 1 (+ 0 N^0)))
 (= i^post 0))
 (= br^0 br^post))
 (= bs^0 bs^post))

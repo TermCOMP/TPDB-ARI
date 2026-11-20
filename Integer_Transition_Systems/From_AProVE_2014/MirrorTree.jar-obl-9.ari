@@ -13,9 +13,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f1317_0_mirror_NULL arg1P arg2P arg3P arg4P)
+(f1317_0_mirror_NULL arg1 arg2 arg3P arg4)
 :guard
-(and (> arg1 0) (> arg1P (- 1))))
+(and (> arg1_old 0) (> arg1 (- 1))))
 (rule
 (f322_0_createTree_Return arg1 arg2 arg3 arg4)
 (f1317_0_mirror_NULL arg1P arg2P arg3P arg4P)
@@ -33,9 +33,9 @@
 (> arg1P 0))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f731_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f731_0_random_ArrayAccess arg1 arg2 arg3P arg4)
 :guard
-(and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
+(and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)))
 (rule
 (f512_0_createNode_Return arg1 arg2 arg3 arg4)
 (f750_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
@@ -43,37 +43,37 @@
 (> arg1P 0))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f750_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f750_0_random_ArrayAccess arg1 arg2 arg3P arg4)
 :guard
-(and (and (<= arg1P arg1) (> arg1 0)) (> arg1P 0)))
+(and (and (<= arg1 arg1_old) (> arg1_old 0)) (> arg1 0)))
 (rule
 (f750_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
+(f1551_0_createTree_LE arg1P arg2 arg3P arg4)
 :guard
 (exists
 ((x22 Int))
 (and
 (and
 (and
-(and (and (> x22 0) (> arg2P (- 1))) (<= (- arg1P 3) arg1))
+(and (and (> x22 0) (> arg2 (- 1))) (<= (- arg1P 3) arg1))
 (> arg1 0))
 (> arg1P 3))
-(= (+ x22 1) arg4P))
+(= (+ x22 1) arg4))
 )
 )
 (rule
 (f731_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f1551_0_createTree_LE arg1P arg2P arg3P arg4P)
+(f1551_0_createTree_LE arg1P arg2 arg3P arg4)
 :guard
 (exists
 ((x27 Int))
 (and
 (and
 (and
-(and (and (> x27 0) (> arg2P (- 1))) (<= (- arg1P 1) arg1))
+(and (and (> x27 0) (> arg2 (- 1))) (<= (- arg1P 1) arg1))
 (> arg1 0))
 (> arg1P 1))
-(= (+ x27 1) arg4P))
+(= (+ x27 1) arg4))
 )
 )
 (rule
@@ -160,16 +160,16 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f973_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f973_0_random_ArrayAccess arg1 arg2 arg3P arg4)
 :guard
 (and
 (and
 (and
 (and
-(and (and (<= arg1P arg1) (> arg2 (- 1))) (<= arg2P arg1))
+(and (and (<= arg1 arg1_old) (> arg2_old (- 1))) (<= arg2 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 0))
+(> arg2 0))
 (= 0 arg3P))
 )
 (rule
@@ -198,4 +198,4 @@
 (> arg1 2))
 (> arg2P 0))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3P arg4))

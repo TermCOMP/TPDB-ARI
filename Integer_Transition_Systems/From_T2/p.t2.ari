@@ -707,28 +707,28 @@ nondet!13^0
 result!12^0
 temp0!19^0)
 (l4
-a!14^post
+a!14^0
 a!32^post
 a!36^post
 a!43^post
 a!52^post
-b!15^post
+b!15^0
 b!33^post
 b!35^post
 b!39^post
 b!45^post
-c!16^post
+c!16^0
 c!37^post
 c!38^post
 c!44^post
 c!48^post
-d!17^post
+d!17^0
 d!40^post
 d!42^post
 d!46^post
 d!47^post
 d!51^post
-e!18^post
+e!18^0
 e!34^post
 e!41^post
 e!49^post
@@ -783,19 +783,19 @@ temp0!19^post)
 (and
 (and
 (and
-(and (= nondet!13^1 nondet!13^1) (= a!14^post (+ 0 nondet!13^1)))
+(and (= nondet!13^1 nondet!13^1) (= a!14^0 (+ 0 nondet!13^1)))
 (= nondet!13^2 nondet!13^2))
 (= nondet!13^3 nondet!13^3))
-(= b!15^post (+ 0 nondet!13^3)))
+(= b!15^0 (+ 0 nondet!13^3)))
 (= nondet!13^4 nondet!13^4))
 (= nondet!13^5 nondet!13^5))
-(= c!16^post (+ 0 nondet!13^5)))
+(= c!16^0 (+ 0 nondet!13^5)))
 (= nondet!13^6 nondet!13^6))
 (= nondet!13^7 nondet!13^7))
-(= d!17^post (+ 0 nondet!13^7)))
+(= d!17^0 (+ 0 nondet!13^7)))
 (= nondet!13^8 nondet!13^8))
 (= nondet!13^9 nondet!13^9))
-(= e!18^post (+ 0 nondet!13^9)))
+(= e!18^0 (+ 0 nondet!13^9)))
 (= nondet!13^post nondet!13^post))
 (= a!32^0 a!32^post))
 (= a!36^0 a!36^post))

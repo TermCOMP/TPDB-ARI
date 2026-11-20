@@ -20,7 +20,7 @@
 (rule (l3 i^0) (l2 i^post) :guard (= i^0 i^post))
 (rule
 (l5 i^0)
-(l4 i^post)
+(l4 i^0)
 :guard
-(exists ((i^1 Int)) (and (= i^1 0) (= i^post i^post))))
+(exists ((i^1 Int)) (and (= i^1 0) (= i^0 i^0))))
 (rule (l6 i^0) (l5 i^post) :guard (= i^0 i^post))

@@ -4797,7 +4797,7 @@ current_conn___08584^post
 die_now^post
 do_ACCEPT^post
 first_server_limit^post
-i^post
+i^0
 last_poll_idx^post
 lr^post
 mpm_state^post
@@ -4972,7 +4972,7 @@ z5554^post)
 (= num_listensocks^post num_listensocks^post))
 (<= 1 (+ 0 num_listensocks^post)))
 (= lr^post (+ 0 ap_listeners^0)))
-(= i^post (+ 0 num_listensocks^post)))
+(= i^0 (+ 0 num_listensocks^post)))
 (= NL2423^0 NL2423^post))
 (= NL3332^0 NL3332^post))
 (= NL6261^0 NL6261^post))

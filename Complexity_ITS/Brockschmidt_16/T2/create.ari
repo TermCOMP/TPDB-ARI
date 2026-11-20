@@ -16,12 +16,12 @@
   (and (and (and (>= B A) (>= B 0)) (>= Q O)) (>= O 2)))
 (rule
   (f3 A B C D E F G H I J K L M N)
-  (f4 R S Q V U F G P T W Y 0 O N)
+  (f4 A S Q V U F G P T W Y 0 O N)
   :guard
   (exists ((X Int)) (and (>= 0 P) (>= 0 X))))
 (rule
   (f3 A B C D E F G H I J K L M N)
-  (f1 P 2 R Q R F G P R J K L O S)
+  (f1 A 2 R Q R F G A R J K L O S)
   :guard
-  (>= P 2))
-(rule (f3 A B C D E F G H I J K L M N) (f4 P Q R U T F G 1 S V W D O N))
+  (>= A 2))
+(rule (f3 A B C D E F G H I J K L M N) (f4 A Q R U T F G 1 S V W D O N))

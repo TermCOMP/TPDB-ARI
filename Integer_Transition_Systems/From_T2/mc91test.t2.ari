@@ -277,7 +277,7 @@ __const_10^post
 __const_11^post
 copied^post
 e^post
-n^post
+n^0
 olde^post
 oldn^post)
 :guard
@@ -286,7 +286,7 @@ oldn^post)
 (and
 (and
 (and
-(and (and (= n^post n^post) (= e^post 1)) (= copied^post 0))
+(and (and (= n^0 n^0) (= e^post 1)) (= copied^post 0))
 (= __const_10^0 __const_10^post))
 (= __const_100^0 __const_100^post))
 (= __const_11^0 __const_11^post))

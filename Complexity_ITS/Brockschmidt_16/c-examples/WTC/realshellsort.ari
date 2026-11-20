@@ -23,19 +23,19 @@
   (= A 0))
 (rule
   (evalrealshellsortentryin A B C D E)
-  (evalrealshellsortbb8in A F C D E)
+  (evalrealshellsortbb8in A B C D E)
   :guard
   (and
-    (and (and (>= A 1) (>= F 0)) (>= A (* 2 F)))
-    (>= (+ 1 (* 2 F)) A))
+    (and (and (>= A 1) (>= B 0)) (>= A (* 2 B)))
+    (>= (+ 1 (* 2 B)) A))
   )
 (rule
   (evalrealshellsortentryin A B C D E)
-  (evalrealshellsortbb8in A F C D E)
+  (evalrealshellsortbb8in A B C D E)
   :guard
   (and
-    (and (and (>= 0 (+ A 1)) (>= 0 F)) (>= (* 2 F) A))
-    (>= (+ 1 A) (* 2 F)))
+    (and (and (>= 0 (+ A 1)) (>= 0 B)) (>= (* 2 B) A))
+    (>= (+ 1 A) (* 2 B)))
   )
 (rule
   (evalrealshellsortbb8in A B C D E)

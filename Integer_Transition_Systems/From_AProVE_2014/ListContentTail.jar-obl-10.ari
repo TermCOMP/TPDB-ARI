@@ -16,12 +16,12 @@
 (and (and (<= arg1P arg1) (> arg1 (- 1))) (> arg1P (- 1))))
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f517_0_random_ArrayAccess arg1P arg2P arg3P arg4P)
+(f517_0_random_ArrayAccess arg1 arg2 arg3 arg4)
 :guard
-(and (> arg1 0) (> arg1P (- 1))))
+(and (> arg1_old 0) (> arg1 (- 1))))
 (rule
 (f517_0_random_ArrayAccess arg1 arg2 arg3 arg4)
-(f704_0_nth_LE arg1P arg2P arg3P arg4P)
+(f704_0_nth_LE arg1P arg2 arg3 arg4)
 :guard
 (exists
 ((x7 Int))
@@ -30,12 +30,12 @@
 (and
 (and
 (and
-(and (and (> x7 0) (> arg3P (- 1))) (<= arg1P arg1))
-(>= arg1 arg2P))
+(and (and (> x7 0) (> arg3 (- 1))) (<= arg1P arg1))
+(>= arg1 arg2))
 (> arg1 (- 1)))
 (> arg1P (- 1)))
-(> arg2P (- 1)))
-(= (+ x7 1) arg4P))
+(> arg2 (- 1)))
+(= (+ x7 1) arg4))
 )
 )
 (rule
@@ -146,9 +146,9 @@
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3 arg4)
-(f673_0_createIntList_LE arg1P arg2P arg3P arg4P)
+(f673_0_createIntList_LE arg1 arg2P arg3 arg4)
 :guard
-(and (and (and (> arg2 (- 1)) (> arg1P (- 1))) (> arg1 0)) (= 1 arg2P)))
+(and (and (and (> arg2 (- 1)) (> arg1 (- 1))) (> arg1_old 0)) (= 1 arg2P)))
 (rule
 (f673_0_createIntList_LE arg1 arg2 arg3 arg4)
 (f673_0_createIntList_LE arg1P arg2P arg3P arg4P)
@@ -157,4 +157,4 @@
 (and (and (> arg1 0) (> arg2 0)) (= (- arg1 1) arg1P))
 (= (+ arg2 1) arg2P))
 )
-(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1P arg2P arg3P arg4P))
+(rule (__init arg1 arg2 arg3 arg4) (f1_0_main_Load arg1 arg2 arg3 arg4))

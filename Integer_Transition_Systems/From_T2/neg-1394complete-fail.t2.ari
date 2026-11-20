@@ -10561,7 +10561,7 @@ i___04747^post
 i___099^post
 ioA^post
 ioR^post
-k1^post
+k1^0
 k2^post
 k3^post
 k4^post
@@ -10654,7 +10654,7 @@ ret_t1394_SubmitIrpSynch3636^post)
 (= keA^1 1))
 (= keA^post 0))
 (= __rho_5_^post __rho_5_^post))
-(= k1^post (+ 0 __rho_5_^post)))
+(= k1^0 (+ 0 __rho_5_^post)))
 (= AsyncAddressData^0 AsyncAddressData^post))
 (= BusResetIrp^0 BusResetIrp^post))
 (= CromData^0 CromData^post))

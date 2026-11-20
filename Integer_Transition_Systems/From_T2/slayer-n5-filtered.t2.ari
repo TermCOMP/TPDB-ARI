@@ -4432,7 +4432,7 @@ l_157^post
 l_219^post
 l_230^post
 l_243^post
-l_28^post
+l_28^0
 l_324^post
 l_351^post
 l_365^post
@@ -4546,7 +4546,7 @@ y_20^post)
 (and
 (and (= nd_12^1 nd_12^1) (= rv_13^post (+ 0 nd_12^1)))
 (= nd_12^post nd_12^post))
-(= l_28^post (+ 0 rv_13^post)))
+(= l_28^0 (+ 0 rv_13^post)))
 (= h_31^post 0))
 (= i_29^post 0))
 (= a_134^0 a_134^post))

@@ -24,4 +24,4 @@
 (f49_0_loop_LE arg1P arg2P)
 :guard
 (and (> arg1 5) (= (- arg1 1) arg1P)))
-(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2P))
+(rule (__init arg1 arg2) (f1_0_main_Load arg1P arg2))

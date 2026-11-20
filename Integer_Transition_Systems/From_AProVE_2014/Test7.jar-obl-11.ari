@@ -20,7 +20,7 @@
 )
 (rule
 (f1_0_main_ConstantStackPush arg1 arg2 arg3)
-(f148_0_main_InvokeMethod arg1P arg2P arg3P)
+(f148_0_main_InvokeMethod arg1P arg2P arg3)
 :guard
 (and
 (and (and (and (<= arg1P arg1) (> arg2 (- 1))) (> arg1 0)) (> arg1P 0))
@@ -28,7 +28,7 @@
 )
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
-(f341_0_main_GE arg1P arg2P arg3P)
+(f341_0_main_GE arg1P arg2P arg3)
 :guard
 (and (and (> arg1 0) (> arg2 (- 1))) (= 0 arg1P)))
 (rule
@@ -53,7 +53,7 @@
 )
 (rule
 (f1_0_main_ConstantStackPush arg1 arg2 arg3)
-(f165_0_mk_LE arg1P arg2P arg3P)
+(f165_0_mk_LE arg1P arg2P arg3)
 :guard
 (and
 (and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
@@ -61,12 +61,12 @@
 )
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
-(f165_0_mk_LE arg1P arg2P arg3P)
+(f165_0_mk_LE arg1P arg2P arg3)
 :guard
 (and (and (> arg1 0) (= (- arg2 1) arg1P)) (= arg2 arg2P)))
 (rule
 (f148_0_main_InvokeMethod arg1 arg2 arg3)
-(f165_0_mk_LE arg1P arg2P arg3P)
+(f165_0_mk_LE arg1P arg2P arg3)
 :guard
 (and
 (and (and (> arg1 0) (> arg2 (- 1))) (= (- arg2 1) arg1P))
@@ -152,4 +152,4 @@
 )
 (rule
 (__init arg1 arg2 arg3)
-(f1_0_main_ConstantStackPush arg1P arg2P arg3P))
+(f1_0_main_ConstantStackPush arg1P arg2 arg3))

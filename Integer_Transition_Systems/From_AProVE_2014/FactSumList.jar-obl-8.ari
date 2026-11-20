@@ -7,9 +7,9 @@
 (entrypoint __init)
 (rule
 (f1_0_main_New arg1 arg2 arg3 arg4 arg5 arg6)
-(f83_0_doSum_NONNULL arg1P arg2P arg3P arg4P arg5P arg6P)
+(f83_0_doSum_NONNULL arg1 arg2P arg3P arg4P arg5 arg6)
 :guard
-(> arg1P 3))
+(> arg1 3))
 (rule
 (f83_0_doSum_NONNULL arg1 arg2 arg3 arg4 arg5 arg6)
 (f160_0_factorial_GT arg1P arg2P arg3P arg4P arg5P arg6P)
@@ -78,4 +78,4 @@
 )
 (rule
 (__init arg1 arg2 arg3 arg4 arg5 arg6)
-(f1_0_main_New arg1P arg2P arg3P arg4P arg5P arg6P))
+(f1_0_main_New arg1 arg2P arg3P arg4P arg5 arg6))

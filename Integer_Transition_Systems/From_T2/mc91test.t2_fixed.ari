@@ -135,11 +135,11 @@
 )
 (rule
 (l6 copied^0 e^0 n^0 olde^0 oldn^0)
-(l0 copied^post e^post n^post olde^post oldn^post)
+(l0 copied^post e^post n^0 olde^post oldn^post)
 :guard
 (and
 (and
-(and (and (= n^post n^post) (= e^post 1)) (= copied^post 0))
+(and (and (= n^0 n^0) (= e^post 1)) (= copied^post 0))
 (= olde^0 olde^post))
 (= oldn^0 oldn^post))
 )

@@ -11,41 +11,41 @@
 (entrypoint __init)
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f480_0_main_InvokeMethod arg1P arg2P arg3P)
+(f480_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
-(and (and (> arg1 0) (> arg1P 2)) (= 0 arg2)))
+(and (and (> arg1_old 0) (> arg1 2)) (= 0 arg2_old)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f480_0_main_InvokeMethod arg1P arg2P arg3P)
+(f480_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
 (and
-(and (and (<= (- arg1P 1) arg1) (> arg1 0)) (> arg1P 1))
-(= 0 arg2))
+(and (and (<= (- arg1 1) arg1_old) (> arg1_old 0)) (> arg1 1))
+(= 0 arg2_old))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f481_0_main_InvokeMethod arg1P arg2P arg3P)
+(f481_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
 (exists
 ((x6 Int))
-(and (and (and (> arg1 0) (> x6 (- 1))) (> arg1P 2)) (= 1 arg2)))
+(and (and (and (> arg1_old 0) (> x6 (- 1))) (> arg1 2)) (= 1 arg2_old)))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f481_0_main_InvokeMethod arg1P arg2P arg3P)
+(f481_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
 (exists
 ((x64 Int))
 (and
 (and
-(and (and (<= (- arg1P 1) arg1) (> x64 (- 1))) (> arg1 0))
-(> arg1P 1))
-(= 1 arg2))
+(and (and (<= (- arg1 1) arg1_old) (> x64 (- 1))) (> arg1_old 0))
+(> arg1 1))
+(= 1 arg2_old))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f482_0_main_InvokeMethod arg1P arg2P arg3P)
+(f482_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
 (exists
 ((x14 Int) (x15 Int))
@@ -54,17 +54,17 @@
 (and
 (and
 (and
-(and (and (>= (* x14 x15) 0) (> arg2 1)) (> x15 (- 1)))
+(and (and (>= (* x14 x15) 0) (> arg2_old 1)) (> x15 (- 1)))
 (> x14 (- 1)))
-(<= arg1P arg1))
+(<= arg1 arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 2))
+(> arg2 2))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f482_0_main_InvokeMethod arg1P arg2P arg3P)
+(f482_0_main_InvokeMethod arg1 arg2 arg3P)
 :guard
 (exists
 ((x20 Int) (x21 Int))
@@ -74,38 +74,38 @@
 (and
 (and
 (and
-(and (and (>= (* x20 x21) 0) (> arg2 1)) (> x21 (- 1)))
+(and (and (>= (* x20 x21) 0) (> arg2_old 1)) (> x21 (- 1)))
 (> x20 (- 1)))
-(<= arg1P arg1))
-(<= (- arg2P 1) arg1))
+(<= arg1 arg1_old))
+(<= (- arg2 1) arg1_old))
+(> arg1_old 0))
 (> arg1 0))
-(> arg1P 0))
-(> arg2P 1))
+(> arg2 1))
 )
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f193_0__init__LE arg1P arg2P arg3P)
+(f193_0__init__LE arg1P arg2 arg3P)
 :guard
-(and (and (> arg1 0) (= 0 arg2)) (= 10 arg1P)))
+(and (and (> arg1 0) (= 0 arg2_old)) (= 10 arg1P)))
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f193_0__init__LE arg1P arg2P arg3P)
+(f193_0__init__LE arg1P arg2 arg3P)
 :guard
 (exists
 ((x69 Int))
-(and (and (and (> arg1 0) (> x69 (- 1))) (= 1 arg2)) (= 10 arg1P)))
+(and (and (and (> arg1 0) (> x69 (- 1))) (= 1 arg2_old)) (= 10 arg1P)))
 )
 (rule
 (f1_0_main_Load arg1 arg2 arg3)
-(f193_0__init__LE arg1P arg2P arg3P)
+(f193_0__init__LE arg1P arg2 arg3P)
 :guard
 (exists
 ((x27 Int) (x28 Int))
 (and
 (and
 (and
-(and (and (>= (* x27 x28) 0) (> arg2 1)) (> x28 (- 1)))
+(and (and (>= (* x27 x28) 0) (> arg2_old 1)) (> x28 (- 1)))
 (> x27 (- 1)))
 (> arg1 0))
 (= (+ (* x27 x28) 10) arg1P))
@@ -139,23 +139,23 @@
 (and (and (> arg1 2) (> arg2 0)) (= arg2 arg1P)))
 (rule
 (f480_0_main_InvokeMethod arg1 arg2 arg3)
-(f388_0_height_NONNULL arg1P arg2P arg3P)
+(f388_0_height_NONNULL arg1P arg2 arg3P)
 :guard
 (and
 (and
-(and (and (<= arg1P arg1) (<= (+ arg2P 1) arg1)) (> arg1 0))
+(and (and (<= arg1P arg1) (<= (+ arg2 1) arg1)) (> arg1 0))
 (> arg1P 0))
-(> arg2P (- 1)))
+(> arg2 (- 1)))
 )
 (rule
 (f481_0_main_InvokeMethod arg1 arg2 arg3)
-(f388_0_height_NONNULL arg1P arg2P arg3P)
+(f388_0_height_NONNULL arg1P arg2 arg3P)
 :guard
 (and
 (and
-(and (and (<= arg1P arg1) (<= (+ arg2P 1) arg1)) (> arg1 0))
+(and (and (<= arg1P arg1) (<= (+ arg2 1) arg1)) (> arg1 0))
 (> arg1P 0))
-(> arg2P (- 1)))
+(> arg2 (- 1)))
 )
 (rule
 (f482_0_main_InvokeMethod arg1 arg2 arg3)
@@ -202,4 +202,4 @@
 (> arg1P 0))
 (> arg2P (- 1)))
 )
-(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1P arg2P arg3P))
+(rule (__init arg1 arg2 arg3) (f1_0_main_Load arg1 arg2 arg3P))
