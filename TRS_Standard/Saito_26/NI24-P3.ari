@@ -1,0 +1,4 @@
+(format TRS)
+(fun @ 2)
+(fun p3 0)
+(rule (@ (@ (@ p3 X) Y) Z) (@ Y (@ (@ X Z) Y)))

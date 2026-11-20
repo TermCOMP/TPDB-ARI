@@ -1,3 +1,4 @@
+* secret problems for TermCOMP 2026
 AProVE_08_id_inc_p: variant of AProVE_08_id_inc
 JI: J combinator and I combinator (which forms a basis for lambda-I calculus)
 HSTY26_fffgf: an example from the IJCAR 2026 paper by Hirokawa, Saito, Tanaka, and Yachi
@@ -7,3 +8,6 @@ SK90_4.55_collapsing: a variant of SK90_4.55
 a1: a variant of Transformed_CSR_04_Ex3_12_Luc96a_GM
 a2: another variant of Transformed_CSR_04_Ex3_12_Luc96a_GM
 
+* others
+S-completion-partial{1,2}: first four rules generated when completing S x y z = x z (y z), oriented differently
+NI24-*: single combinator rules from Nakano & Iwami (2024)
