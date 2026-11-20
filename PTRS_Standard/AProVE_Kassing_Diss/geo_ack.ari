@@ -1,0 +1,14 @@
+; PTRS P_ag (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 7)
+; the geometric rule combined with the Ackermann function
+
+(format PTRS)
+
+(fun geo 1)
+(fun s 1)
+(fun ack 2)
+(fun |0| 0)
+
+(prule (geo x) (((geo (s x)) :prob 1 ) (x :prob 1 )))
+(prule (ack |0| y) (((s y) :prob 1 )))
+(prule (ack (s x) |0|) (((ack x (s |0|)) :prob 1 )))
+(prule (ack (s x) (s y)) (((ack x (ack (s x) y)) :prob 1 )))

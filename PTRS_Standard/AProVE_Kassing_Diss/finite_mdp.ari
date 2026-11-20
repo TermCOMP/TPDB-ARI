@@ -1,0 +1,12 @@
+; PTRS P_mdp (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 6)
+; a PTRS whose underlying Markov decision process is finite
+
+(format PTRS)
+
+(fun a 0)
+(fun b 0)
+(fun c 0)
+
+(prule a ((a :prob 1 ) (b :prob 1 )))
+(prule a ((c :prob 1 )))
+(prule b ((a :prob 1 ) (c :prob 1 )))

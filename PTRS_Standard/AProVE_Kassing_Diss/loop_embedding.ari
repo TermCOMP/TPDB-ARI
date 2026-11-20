@@ -1,0 +1,8 @@
+; introductory example for embedding random walks via loops (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 9)
+
+(format PTRS)
+
+(fun f 1)
+(fun g 1)
+
+(prule (f (g x)) (((g (f (g x))) :prob 2 ) ((f (g (f x))) :prob 1 )))

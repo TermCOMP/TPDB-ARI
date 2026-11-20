@@ -1,0 +1,8 @@
+; PTRS P_coin (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 3)
+; a coin flip that either repeats or stops
+
+(format PTRS)
+
+(fun g 1)
+
+(prule (g x) (((g x) :prob 1 ) (x :prob 1 )))

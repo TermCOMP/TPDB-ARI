@@ -1,0 +1,16 @@
+; Count down a natural number and start a process in every step whose state is a counter modulo 3,
+; represented as a unary number z, s(z), s(s(z)). The core is critical with Perron vector
+; (z, s(z), s(s(z))) = (1, 2, 1), which is not monotonic in the size of the state, so no polynomial
+; interpretation of s can realize it.
+; Expected: WORST_CASE(Non-SAST,AST). Class: not RNT, decided via the RNT backend of the ADP framework.
+
+(format PTRS)
+
+(fun loop 1) (fun zero 0) (fun succ 1) (fun stop 0) (fun par 2) (fun par3 3)
+(fun proc 1) (fun z 0) (fun s 1) (fun e 0)
+
+(prule (loop zero) ((stop :prob 1)))
+(prule (loop (succ n)) (((par (proc z) (loop n)) :prob 1)))
+(prule (proc z) ((e :prob 1) ((proc (s z)) :prob 1)))
+(prule (proc (s z)) ((e :prob 1) ((par3 (proc (s z)) (proc z) (proc (s (s z)))) :prob 1)))
+(prule (proc (s (s z))) ((e :prob 1) ((par (proc z) (proc (s (s z)))) :prob 1)))

@@ -1,0 +1,15 @@
+; Mirror a binary tree and start a process for every node label, where the label is a list and the
+; behavior of the process depends on the length of the list (0, 1, or 2). The core is critical with
+; Perron vector (nil, [a], [a,a]) = (1, 2, 1), which is not monotonic in the length of the list.
+; Expected: WORST_CASE(Non-SAST,AST). Class: not RNT, decided via the RNT backend of the ADP framework.
+
+(format PTRS)
+
+(fun mirror 1) (fun leaf 0) (fun node 3) (fun proc 1) (fun nil 0) (fun cons 2) (fun a 0)
+(fun e 0) (fun par 2) (fun par3 3)
+
+(prule (mirror leaf) ((leaf :prob 1)))
+(prule (mirror (node l x r)) (((node (mirror r) (proc x) (mirror l)) :prob 1)))
+(prule (proc nil) ((e :prob 1) ((proc (cons a nil)) :prob 1)))
+(prule (proc (cons a nil)) ((e :prob 1) ((par3 (proc (cons a nil)) (proc nil) (proc (cons a (cons a nil)))) :prob 1)))
+(prule (proc (cons a (cons a nil))) ((e :prob 1) ((par (proc nil) (proc (cons a (cons a nil)))) :prob 1)))

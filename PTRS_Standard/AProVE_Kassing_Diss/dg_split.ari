@@ -1,0 +1,16 @@
+; AST, but not terminating (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 7).
+; Witness for the dependency graph processor for full rewriting: without the split into SCCs,
+; the usable terms and reduction pair processors do not suffice to prove AST.
+(format PTRS)
+(fun f 1)
+(fun c1 1)
+(fun c2 1)
+(fun b 0)
+(fun k 2)
+(fun d 1)
+(fun a2 0)
+(fun p 1)
+(prule (f (c1 b)) (((k (f (c1 b)) (f (c2 a2))) :prob 1) ((k (f (c2 a2)) (f (c2 a2))) :prob 1)))
+(prule (f (c2 (c1 b))) (((k (f (c2 (c1 b))) (f (c2 (c1 b)))) :prob 1) ((d b) :prob 1)))
+(prule a2 (((p (c2 (c1 b))) :prob 1)))
+(prule (p (c2 x)) ((x :prob 1)))

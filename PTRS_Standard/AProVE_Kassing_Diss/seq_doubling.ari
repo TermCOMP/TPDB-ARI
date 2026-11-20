@@ -1,0 +1,14 @@
+; sequential execution of two loops, where the first loop stores doublings with the constructor double (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 5)
+
+(format PTRS)
+
+(fun loop1 2)
+(fun s 1)
+(fun double 1)
+(fun |0| 0)
+(fun loop2 1)
+(fun c 2)
+
+(prule (loop1 (s x) y) (((loop1 |0| (double y)) :prob 1 ) ((loop1 (s x) (double y)) :prob 1 )))
+(prule (loop1 |0| y) (((loop2 y) :prob 1 )))
+(prule (loop2 (double y)) (((c (loop2 y) (loop2 y)) :prob 1 )))

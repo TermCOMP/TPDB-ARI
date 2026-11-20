@@ -1,0 +1,9 @@
+; PTRS P_21 (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 9)
+
+(format PTRS)
+
+(fun f 2)
+(fun g 2)
+(fun c 2)
+
+(prule (f (g y y) x) (((c (f y x) y) :prob 2 ) ((f (g (g y y) (g y y)) (f (g y y) x)) :prob 1 )))

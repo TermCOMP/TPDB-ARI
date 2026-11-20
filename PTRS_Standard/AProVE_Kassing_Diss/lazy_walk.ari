@@ -1,0 +1,8 @@
+; PTRS P_lazy (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 6)
+; a lazy symmetric random walk
+
+(format PTRS)
+
+(fun g 1)
+
+(prule (g x) (((g (g x)) :prob 1 ) ((g x) :prob 1 ) (x :prob 1 )))

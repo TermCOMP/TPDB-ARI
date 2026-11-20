@@ -1,0 +1,10 @@
+; PTRS P_17'' (J.-C. Kassing, dissertation, RWTH Aachen University, Chapter 9)
+
+(format PTRS)
+
+(fun f 2)
+(fun a 1)
+(fun b 1)
+(fun c 2)
+
+(prule (f x x) (((a x) :prob 1 ) ((b x) :prob 1 ) ((c (f x x) (f x x)) :prob 2 )))

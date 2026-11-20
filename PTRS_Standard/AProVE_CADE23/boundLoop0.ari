@@ -1,7 +1,0 @@
-(format PTRS)
-(fun loop 1)
-(fun 0 0)
-(fun stop 0)
-(fun s 1)
-(prule (loop 0) ((stop :prob 1 )))
-(prule (loop (s x)) (((loop x) :prob 1 ) ((loop (s (s 0))) :prob 1 )))

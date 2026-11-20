@@ -1,8 +1,0 @@
-(format PTRS)
-(fun len 1)
-(fun cons 2)
-(fun s 1)
-(fun nil 0)
-(fun 0 0)
-(prule (len (cons x y)) (((s (len y)) :prob 1 ) ((len (cons x y)) :prob 1 )))
-(prule (len nil) ((0 :prob 1 ) ((len nil) :prob 1 )))

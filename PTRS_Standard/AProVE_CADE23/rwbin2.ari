@@ -1,7 +1,0 @@
-(format PTRS)
-(fun rw 2)
-(fun 0 0)
-(fun s 1)
-(prule (rw x 0) ((0 :prob 1 )))
-(prule (rw 0 y) ((0 :prob 1 )))
-(prule (rw (s x) (s y)) (((rw x (s y)) :prob 1 ) ((rw (s x) y) :prob 1 ) ((rw (s (s x)) (s y)) :prob 3 ) ((rw (s x) (s (s y))) :prob 1 )))
